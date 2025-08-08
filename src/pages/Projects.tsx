@@ -112,6 +112,40 @@ const Projects = () => {
                   <div className="flex items-start gap-4 flex-1">
                     <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
                       <img 
+                        src="/assets/logo-tradelingo.png" 
+                        alt="Tradelingo logo" 
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          e.currentTarget.style.display = 'none';
+                          const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
+                          if (nextSibling) {
+                            nextSibling.style.display = 'flex';
+                            nextSibling.classList.remove('hidden');
+                          }
+                        }}
+                      />
+                      <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">AI</div>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-primary mb-1">Tradelingo</h3>
+                      <p className="text-sm text-muted-foreground mb-3"><b>NEA Project:</b> Tradelingo, Duolingo for Trading. In Alpha.</p>
+                      <div className="flex gap-2">
+                        <Button size="sm" asChild>
+                          <a href="https://tradelingo.samuelforrest.me" target="_blank" rel="noopener noreferrer">
+                            <ExternalLink className="w-4 h-4 mr-1" />
+                            View Site
+                          </a>
+                        </Button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li className="bg-card border-2 rounded-lg p-4 hover:shadow-md transition-all duration-200">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+                  <div className="flex items-start gap-4 flex-1">
+                    <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
+                      <img 
                         src="/assets/logo-samuelforrestwebsite.png" 
                         alt="samuelforrest.me logo" 
                         className="w-full h-full object-cover"
@@ -281,18 +315,6 @@ const Projects = () => {
                 View Blog
               </a>
             </Button>
-          </div>
-
-          <div className="mt-16 text-center">
-            <h2 className="text-2xl font-bold mb-6 font-serif">Live Coding Activity</h2>
-            <div className="bg-card border-2 rounded-lg p-6">
-              <figure className="w-full">
-                <embed 
-                  src="https://wakatime.com/share/@samuelforrest/26f47afe-455f-4b84-bdd5-b1b7822f3c57.svg"
-                  className="w-full h-auto"
-                />
-              </figure>
-            </div>
           </div>
         </div>
       </main>
