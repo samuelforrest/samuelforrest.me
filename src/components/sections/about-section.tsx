@@ -108,40 +108,55 @@ export function AboutSection() {
                 <div className="space-y-6">
                   <div className="border-l-2 border-primary/20 pl-4 hover:border-primary/40 transition-colors duration-200">
                     <div className="flex justify-between items-start mb-2">
-                      <h5 className="font-medium">Private Tutor – Computer Science</h5>
+                      <h5 className="font-medium">Freelance Private Tutor</h5>
                       <span className="text-sm text-muted-foreground">Oct 2024-Present</span>
                     </div>
-                    <p className="text-sm">Tutoring GCSE Computer Science students, providing structured lessons and resources. 45+ hours taught.</p>
+                      <ul className="text-sm">
+                        <li>•	Delivering one-to-one tutoring to Computer Science students from diverse backgrounds, including those with special educational needs (SEND). Over 45 hours of lessons given to date.</li><br></br>
+                        <li>•	Strengthened key interpersonal skills such as clear communication, structured lesson planning, time management and the ability to provide empathetic and tailored constructive feedback.</li>
+                      </ul>
                   </div>
                                     <div className="border-l-2 border-primary/20 pl-4 hover:border-primary/40 transition-colors duration-200">
                     <div className="flex justify-between items-start mb-2">
                       <h5 className="font-medium">Freelance Web Developer</h5>
                       <span className="text-sm text-muted-foreground">May 2025-Present</span>
                     </div>
-                    <p className="text-sm">Delivering full-stack responsive websites to clients, providing maintenance and improving SEO. 3 paid projects delivered.{" "}
-                      <a href="/hire" className="text-primary hover:underline font-medium">Hire Me</a>
-                    </p>
+                    <ul className="text-sm">
+                      <li>•	Designed, coded and deployed responsive websites for 3 paying clients, using TailwindCSS, React, Next.js, Supabase, Gemini API, Google Analytics, and integrating features such as authentication, admin dashboards, blogs and AI summaries.
+                      <a href="/hire" className="text-primary hover:underline font-medium"> Hire Me</a>
+                    </li> <br></br>
+                    <li>•	Communicated directly with clients to gather requirements and to provide progress updates throughout the development process and support to maintain the websites, strengthening client communication, active listening, and problem-solving skills.</li>
+                    </ul>
                   </div>
                   <div className="border-l-2 border-primary/20 pl-4 hover:border-primary/40 transition-colors duration-200">
                     <div className="flex justify-between items-start mb-2">
                       <h5 className="font-medium">App Development Shadowing – HUDJO</h5>
                       <span className="text-sm text-muted-foreground">Aug-Sept 2024</span>
                     </div>
-                    <p className="text-sm">Improved application development skills with a bike app startup recently funded by Deliveroo.</p>
+                    <ul className="text-sm">
+                      <li>•	Shadowed development team at a bike app startup recently funded by Deliveroo, gaining insights into agile development methodologies and startup culture.</li><br></br>
+                      <li>•	Observed real-world application development processes, strengthening understanding of collaborative software engineering and project management practices.</li>
+                    </ul>
                   </div>
                   <div className="border-l-2 border-primary/20 pl-4 hover:border-primary/40 transition-colors duration-200">
                     <div className="flex justify-between items-start mb-2">
                       <h5 className="font-medium">3-Day Aerospace Course</h5>
                       <span className="text-sm text-muted-foreground">Aug-Sept 2024</span>
                     </div>
-                    <p className="text-sm">Attended aerospace course at Kingston University hosted by Virgin Atlantic. Won team competition, improving communication and leadership skills.</p>
+                    <ul className="text-sm">
+                      <li>•	Attended intensive aerospace course at Kingston University hosted by Virgin Atlantic, covering aircraft design principles and aviation industry insights.</li><br></br>
+                      <li>•	Won team competition through effective collaboration and innovative problem-solving, improving communication and leadership skills in high-pressure environments.</li>
+                    </ul>
                   </div>
                   <div className="border-l-2 border-primary/20 pl-4 hover:border-primary/40 transition-colors duration-200">
                     <div className="flex justify-between items-start mb-2">
                       <h5 className="font-medium">Air Accident Investigation Branch (AAIB)</h5>
                       <span className="text-sm text-muted-foreground">April 2025</span>
                     </div>
-                    <p className="text-sm">Visited the AAIB and connected with professionals including engineering inspectors and flight data extraction inspectors.</p>
+                    <ul className="text-sm">
+                      <li>•	Visited the AAIB headquarters and engaged with aviation safety professionals including engineering inspectors and flight data extraction specialists.</li><br></br>
+                      <li>•	Gained valuable insights into aviation safety protocols and investigation processes, strengthening understanding of aerospace engineering applications in real-world scenarios.</li>
+                    </ul>
                   </div>
                 </div>
               </CardContent>
