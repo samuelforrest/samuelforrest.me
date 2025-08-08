@@ -1,7 +1,7 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Linkedin } from "lucide-react";
 import { SEO } from "@/components/SEO";
 
 const Projects = () => {
@@ -134,6 +134,12 @@ const Projects = () => {
                           <a href="https://tradelingo.samuelforrest.me" target="_blank" rel="noopener noreferrer">
                             <ExternalLink className="w-4 h-4 mr-1" />
                             View Site
+                          </a>
+                        </Button>
+                        <Button size="sm" variant="outline" asChild>
+                          <a href="https://www.linkedin.com/company/tradelingo" target="_blank" rel="noopener noreferrer">
+                            <Linkedin className="w-4 h-4 mr-1" />
+                            LinkedIn
                           </a>
                         </Button>
                       </div>
