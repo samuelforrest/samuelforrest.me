@@ -25,291 +25,281 @@ const Projects = () => {
             </p>
           </div>
           
-          <div className="max-w-4xl mx-auto">
-            <ul className="space-y-4">
-              <li className="bg-card border-2 rounded-lg p-4 hover:shadow-md transition-all duration-200">
-                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
-                  <div className="flex items-start gap-4 flex-1">
-                    <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
-                      <img 
-                        src="/assets/logo-bionewsweekly.png" 
-                        alt="bionewsweekly.com logo" 
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          e.currentTarget.style.display = 'none';
-                          const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
-                          if (nextSibling) {
-                            nextSibling.style.display = 'flex';
-                            nextSibling.classList.remove('hidden');
-                          }
-                        }}
-                      />
-                      <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">BN</div>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-semibold text-primary mb-1">bionewsweekly.com</h3>
-                      <p className="text-sm text-muted-foreground mb-3"><b>Client: </b>A biology news website with admin portal. Featured in Blog.</p>
-                      <div className="flex gap-2">
-                        <Button size="sm" asChild>
-                          <a href="https://www.bionewsweekly.com" target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="w-4 h-4 mr-1" />
-                            View Site
-                          </a>
-                        </Button>
-                        <Button size="sm" variant="outline" asChild>
-                          <a href="https://github.com/samuelforrest/bionewsweekly.com" target="_blank" rel="noopener noreferrer">
-                            <Github className="w-4 h-4 mr-1" />
-                            GitHub
-                          </a>
-                        </Button>
-                      </div>
+                    <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-card border-2 rounded-lg p-6 hover:shadow-md transition-all duration-200">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
+                    <img 
+                      src="/assets/logo-bionewsweekly.png" 
+                      alt="bionewsweekly.com logo" 
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextSibling) {
+                          nextSibling.style.display = 'flex';
+                          nextSibling.classList.remove('hidden');
+                        }
+                      }}
+                    />
+                    <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">BN</div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-primary mb-2">bionewsweekly.com</h3>
+                    <p className="text-sm text-muted-foreground mb-4"><b>Client: </b>A biology news website with admin portal. Featured in Blog.</p>
+                    <div className="flex gap-2 flex-wrap">
+                      <Button size="sm" asChild>
+                        <a href="https://www.bionewsweekly.com" target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-1" />
+                          View Site
+                        </a>
+                      </Button>
+                      <Button size="sm" variant="outline" asChild>
+                        <a href="https://github.com/samuelforrest/bionewsweekly.com" target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4 mr-1" />
+                          GitHub
+                        </a>
+                      </Button>
                     </div>
                   </div>
                 </div>
-              </li>
-              <li className="bg-card border-2 rounded-lg p-4 hover:shadow-md transition-all duration-200">
-                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
-                  <div className="flex items-start gap-4 flex-1">
-                    <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
-                      <img 
-                        src="/assets/logo-zoecc.png" 
-                        alt="ZoeCC.co.uk logo" 
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          e.currentTarget.style.display = 'none';
-                          const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
-                          if (nextSibling) {
-                            nextSibling.style.display = 'flex';
-                            nextSibling.classList.remove('hidden');
-                          }
-                        }}
-                      />
-                      <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">AI</div>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-semibold text-primary mb-1">zoecc.co.uk</h3>
-                      <p className="text-sm text-muted-foreground mb-3"><b>Client:</b> Zoe's Cat Care Website</p>
-                      <div className="flex gap-2">
-                        <Button size="sm" asChild>
-                          <a href="https://zoecc.co.uk" target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="w-4 h-4 mr-1" />
-                            View Site
-                          </a>
-                        </Button>
-                        <Button size="sm" variant="outline" asChild>
-                          <a href="https://github.com/samuelforrest/ZoeCC.co.uk" target="_blank" rel="noopener noreferrer">
-                            <Github className="w-4 h-4 mr-1" />
-                            GitHub
-                          </a>
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="bg-card border-2 rounded-lg p-4 hover:shadow-md transition-all duration-200">
-                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
-                  <div className="flex items-start gap-4 flex-1">
-                    <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
-                      <img 
-                        src="/assets/logo-tradelingo.png" 
-                        alt="Tradelingo logo" 
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          e.currentTarget.style.display = 'none';
-                          const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
-                          if (nextSibling) {
-                            nextSibling.style.display = 'flex';
-                            nextSibling.classList.remove('hidden');
-                          }
-                        }}
-                      />
-                      <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">AI</div>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-semibold text-primary mb-1">Tradelingo</h3>
-                      <p className="text-sm text-muted-foreground mb-3"><b>NEA Project:</b> Tradelingo, Duolingo for Trading. In Alpha.</p>
-                      <div className="flex gap-2">
-                        <Button size="sm" asChild>
-                          <a href="https://tradelingo.samuelforrest.me" target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="w-4 h-4 mr-1" />
-                            View Site
-                          </a>
-                        </Button>
-                        <Button size="sm" variant="outline" asChild>
-                          <a href="https://www.linkedin.com/company/tradelingo" target="_blank" rel="noopener noreferrer">
-                            <Linkedin className="w-4 h-4 mr-1" />
-                            LinkedIn
-                          </a>
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="bg-card border-2 rounded-lg p-4 hover:shadow-md transition-all duration-200">
-                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
-                  <div className="flex items-start gap-4 flex-1">
-                    <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
-                      <img 
-                        src="/assets/logo-samuelforrestwebsite.png" 
-                        alt="samuelforrest.me logo" 
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          e.currentTarget.style.display = 'none';
-                          const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
-                          if (nextSibling) {
-                            nextSibling.style.display = 'flex';
-                            nextSibling.classList.remove('hidden');
-                          }
-                        }}
-                      />
-                      <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">PW</div>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-semibold text-primary mb-1">samuelforrest.me</h3>
-                      <p className="text-sm text-muted-foreground mb-3"><b>Personal: </b>A website to introduce myself online and share my blog</p>
-                      <div className="flex gap-2">
-                        <Button size="sm" asChild>
-                          <a href="https://samuelforrest.me" target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="w-4 h-4 mr-1" />
-                            View Site
-                          </a>
-                        </Button>
-                        <Button size="sm" variant="outline" asChild>
-                          <a href="https://github.com/samuelforrest/samuelforrest.me" target="_blank" rel="noopener noreferrer">
-                            <Github className="w-4 h-4 mr-1" />
-                            GitHub
-                          </a>
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="bg-card border-2 rounded-lg p-4 hover:shadow-md transition-all duration-200">
-                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
-                  <div className="flex items-start gap-4 flex-1">
-                    <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
-                      <img 
-                        src="/assets/logo-qrcodegenerator.png" 
-                        alt="qr.samuelforrest.me logo" 
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          e.currentTarget.style.display = 'none';
-                          const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
-                          if (nextSibling) {
-                            nextSibling.style.display = 'flex';
-                            nextSibling.classList.remove('hidden');
-                          }
-                        }}
-                      />
-                      <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">QR</div>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-semibold text-primary mb-1">qr.samuelforrest.me</h3>
-                      <p className="text-sm text-muted-foreground mb-3"><b>Personal: </b>A QR code generator project</p>
-                      <div className="flex gap-2">
-                        <Button size="sm" asChild>
-                          <a href="https://qr.samuelforrest.me" target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="w-4 h-4 mr-1" />
-                            View Site
-                          </a>
-                        </Button>
-                        <Button size="sm" variant="outline" asChild>
-                          <a href="https://github.com/samuelforrest/qr.samuelforrest.me" target="_blank" rel="noopener noreferrer">
-                            <Github className="w-4 h-4 mr-1" />
-                            GitHub
-                          </a>
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="bg-card border-2 rounded-lg p-4 hover:shadow-md transition-all duration-200">
-                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
-                  <div className="flex items-start gap-4 flex-1">
-                    <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
-                      <img 
-                        src="/assets/logo-verdapp.png" 
-                        alt="verdapp.xyz logo" 
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          e.currentTarget.style.display = 'none';
-                          const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
-                          if (nextSibling) {
-                            nextSibling.style.display = 'flex';
-                            nextSibling.classList.remove('hidden');
-                          }
-                        }}
-                      />
-                      <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">PMT</div>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-semibold text-primary mb-1">verdapp.xyz</h3>
-                      <p className="text-sm text-muted-foreground mb-3"><b>Hackathon Winner: </b>Environmental app for KTHack25. Read blog.</p>
-                      <div className="flex gap-2">
-                        <Button size="sm" asChild>
-                          <a href="https://verdapp.xyz" target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="w-4 h-4 mr-1" />
-                            View Site
-                          </a>
-                        </Button>
-                        <Button size="sm" variant="outline" asChild>
-                          <a href="https://github.com/samuelforrest/verdapp.xyz" target="_blank" rel="noopener noreferrer">
-                            <Github className="w-4 h-4 mr-1" />
-                            GitHub
-                          </a>
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
+              </div>
 
-              <li className="bg-card border-2 rounded-lg p-4 hover:shadow-md transition-all duration-200">
-                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
-                  <div className="flex items-start gap-4 flex-1">
-                    <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
-                      <img 
-                        src="/" 
-                        alt="verdapp.xyz logo" 
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          e.currentTarget.style.display = 'none';
-                          const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
-                          if (nextSibling) {
-                            nextSibling.style.display = 'flex';
-                            nextSibling.classList.remove('hidden');
-                          }
-                        }}
-                      />
-                      <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">SF</div>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-semibold text-primary mb-1">ScreenFine</h3>
-                      <p className="text-sm text-muted-foreground mb-3"><b>Conceptual app idea: </b>Real financial concequences if you go over screen time limits.</p>
-                      <div className="flex gap-2">
-                        <Button size="sm" asChild>
-                          <a href="https://screenfine.netlify.app" target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="w-4 h-4 mr-1" />
-                            View Site
-                          </a>
-                        </Button>
-                        <Button size="sm" variant="outline" asChild>
-                          <a href="https://github.com/samuelforrest/screenfine.netlify.app" target="_blank" rel="noopener noreferrer">
-                            <Github className="w-4 h-4 mr-1" />
-                            GitHub
-                          </a>
-                        </Button>
-                      </div>
+              <div className="bg-card border-2 rounded-lg p-6 hover:shadow-md transition-all duration-200">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
+                    <img 
+                      src="/assets/logo-zoecc.png" 
+                      alt="ZoeCC.co.uk logo" 
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextSibling) {
+                          nextSibling.style.display = 'flex';
+                          nextSibling.classList.remove('hidden');
+                        }
+                      }}
+                    />
+                    <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">ZC</div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-primary mb-2">zoecc.co.uk</h3>
+                    <p className="text-sm text-muted-foreground mb-4"><b>Client:</b> Zoe's Cat Care Website</p>
+                    <div className="flex gap-2 flex-wrap">
+                      <Button size="sm" asChild>
+                        <a href="https://zoecc.co.uk" target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-1" />
+                          View Site
+                        </a>
+                      </Button>
+                      <Button size="sm" variant="outline" asChild>
+                        <a href="https://github.com/samuelforrest/ZoeCC.co.uk" target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4 mr-1" />
+                          GitHub
+                        </a>
+                      </Button>
                     </div>
                   </div>
                 </div>
-              </li>
+              </div>
 
-            </ul>
+              <div className="bg-card border-2 rounded-lg p-6 hover:shadow-md transition-all duration-200">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
+                    <img 
+                      src="/assets/logo-tradelingo.png" 
+                      alt="Tradelingo logo" 
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextSibling) {
+                          nextSibling.style.display = 'flex';
+                          nextSibling.classList.remove('hidden');
+                        }
+                      }}
+                    />
+                    <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">TL</div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-primary mb-2">Tradelingo</h3>
+                    <p className="text-sm text-muted-foreground mb-4"><b>NEA Project:</b> Tradelingo, Duolingo for Trading. In Alpha.</p>
+                    <div className="flex gap-2 flex-wrap">
+                      <Button size="sm" asChild>
+                        <a href="https://tradelingo.samuelforrest.me" target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-1" />
+                          View Site
+                        </a>
+                      </Button>
+                      <Button size="sm" variant="outline" asChild>
+                        <a href="https://www.linkedin.com/posts/samuelforrest_tradelingo-duolingo-for-trading-activity-7271175473070956544-YhPp" target="_blank" rel="noopener noreferrer">
+                          <Linkedin className="w-4 h-4 mr-1" />
+                          LinkedIn
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-card border-2 rounded-lg p-6 hover:shadow-md transition-all duration-200">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
+                    <img 
+                      src="/assets/logo-samuelforrestwebsite.png" 
+                      alt="samuelforrest.me logo" 
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextSibling) {
+                          nextSibling.style.display = 'flex';
+                          nextSibling.classList.remove('hidden');
+                        }
+                      }}
+                    />
+                    <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">SF</div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-primary mb-2">samuelforrest.me</h3>
+                    <p className="text-sm text-muted-foreground mb-4"><b>Personal: </b>A website to introduce myself online and share my blog</p>
+                    <div className="flex gap-2 flex-wrap">
+                      <Button size="sm" asChild>
+                        <a href="https://samuelforrest.me" target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-1" />
+                          View Site
+                        </a>
+                      </Button>
+                      <Button size="sm" variant="outline" asChild>
+                        <a href="https://github.com/samuelforrest/samuelforrest.me" target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4 mr-1" />
+                          GitHub
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-card border-2 rounded-lg p-6 hover:shadow-md transition-all duration-200">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
+                    <img 
+                      src="/assets/logo-qrcodegenerator.png" 
+                      alt="qr.samuelforrest.me logo" 
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextSibling) {
+                          nextSibling.style.display = 'flex';
+                          nextSibling.classList.remove('hidden');
+                        }
+                      }}
+                    />
+                    <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">QR</div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-primary mb-2">qr.samuelforrest.me</h3>
+                    <p className="text-sm text-muted-foreground mb-4"><b>Personal: </b>A QR code generator project</p>
+                    <div className="flex gap-2 flex-wrap">
+                      <Button size="sm" asChild>
+                        <a href="https://qr.samuelforrest.me" target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-1" />
+                          View Site
+                        </a>
+                      </Button>
+                      <Button size="sm" variant="outline" asChild>
+                        <a href="https://github.com/samuelforrest/qr.samuelforrest.me" target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4 mr-1" />
+                          GitHub
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-card border-2 rounded-lg p-6 hover:shadow-md transition-all duration-200">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
+                    <img 
+                      src="/assets/logo-verdapp.png" 
+                      alt="verdapp.xyz logo" 
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextSibling) {
+                          nextSibling.style.display = 'flex';
+                          nextSibling.classList.remove('hidden');
+                        }
+                      }}
+                    />
+                    <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">VD</div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-primary mb-2">verdapp.xyz</h3>
+                    <p className="text-sm text-muted-foreground mb-4"><b>Hackathon Winner: </b>Environmental app for KTHack25. Read blog.</p>
+                    <div className="flex gap-2 flex-wrap">
+                      <Button size="sm" asChild>
+                        <a href="https://verdapp.xyz" target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-1" />
+                          View Site
+                        </a>
+                      </Button>
+                      <Button size="sm" variant="outline" asChild>
+                        <a href="https://github.com/samuelforrest/verdapp.xyz" target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4 mr-1" />
+                          GitHub
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-card border-2 rounded-lg p-6 hover:shadow-md transition-all duration-200">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-lg overflow-hidden border-2 border-border flex-shrink-0">
+                    <img 
+                      src="/" 
+                      alt="ScreenFine logo" 
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        const nextSibling = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextSibling) {
+                          nextSibling.style.display = 'flex';
+                          nextSibling.classList.remove('hidden');
+                        }
+                      }}
+                    />
+                    <div className="w-full h-full bg-muted rounded-lg items-center justify-center text-xs text-muted-foreground hidden">SF</div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-primary mb-2">ScreenFine</h3>
+                    <p className="text-sm text-muted-foreground mb-4"><b>Conceptual app idea: </b>Real financial consequences if you go over screen time limits.</p>
+                    <div className="flex gap-2 flex-wrap">
+                      <Button size="sm" asChild>
+                        <a href="https://screenfine.netlify.app" target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-1" />
+                          View Site
+                        </a>
+                      </Button>
+                      <Button size="sm" variant="outline" asChild>
+                        <a href="https://github.com/samuelforrest/screenfine.netlify.app" target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4 mr-1" />
+                          GitHub
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div className="mt-12 text-center">
