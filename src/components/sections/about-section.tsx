@@ -68,7 +68,7 @@ export function AboutSection() {
                   <h5 className="font-semibold mb-2">St George's College, Weybridge (2021-Present)</h5>
                   
                   <div className="mb-4">
-                    <h6 className="font-medium mb-2">A levels</h6>
+                    <h6 className="font-medium mb-2 text-xl">A levels</h6>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-2 text-sm">
                       <div>Mathematics <b>B</b></div>
                       <div>Computer Science <b>A*</b></div>
@@ -77,12 +77,12 @@ export function AboutSection() {
                   </div>
                   
                   <div className="mb-4">
-                    <h6 className="font-medium mb-2">EPQ</h6>
+                    <h6 className="font-medium mb-2 text-xl">EPQ</h6>
                     <p className="text-sm">"To what extent is it feasible to reintroduce commercial supersonic aviation by the year 2040?" <strong>A*</strong></p>
                   </div>
                   
                   <div>
-                    <h6 className="font-medium mb-3">GCSEs</h6>
+                    <h6 className="font-medium mb-3 text-xl">GCSEs</h6>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-2 text-sm">
                       <div>English Literature <strong>9</strong></div>
                       <div>Biology <strong>9</strong></div>
