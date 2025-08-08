@@ -45,7 +45,7 @@ export function AboutSection() {
         {/* CV Section */}
         <div className="mb-20 animate-fade-in opacity-0 [animation-delay:1200ms] [animation-fill-mode:forwards]">
           <div className="text-left mb-12">
-            <h3 className="section-heading animate-fade-in opacity-0 [animation-fill-mode:forwards]">Web CV</h3>
+            <h3 className="section-heading animate-fade-in opacity-0 [animation-fill-mode:forwards]">CV</h3>
             
             {/* Contact Information */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm max-w-4xl mx-auto mb-8">
