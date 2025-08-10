@@ -232,7 +232,7 @@ export function AboutSection() {
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p>Flight simulation enthusiast, an active member of VATSIM as a pilot and air traffic controller, developing strong multitasking, quick decision-making and stress management as I coordinate aircraft in the Swiss airspace.</p>
+                  <p>Flight simulation enthusiast, an active member of VATSIM as a pilot and trainee air traffic controller, developing strong multitasking, quick decision-making and stress management.</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
