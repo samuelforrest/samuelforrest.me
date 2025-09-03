@@ -533,10 +533,10 @@ export const DATA = {
       ],
     },
     {
-      title: "Bebras Challenge",
+      title: "Bebras Challenge - Gold Award",
       location: "Online",
       description:
-        "Yearly participation of Bebras Challenge in-school  ",
+        "Yearly participation of Bebras Challenge (run by Raspberry Pi) in-school. Achieved Gold in 2022.  ",
       icon: "public",
       image:
         "/bebras.webp",
