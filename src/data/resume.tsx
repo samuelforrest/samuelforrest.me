@@ -244,7 +244,7 @@ export const DATA = {
     {
       school: "Newland House School, Teddington",
       href: "https://www.newlandhouse.net/",
-      degree: "KS3 | Awards in Achievement, Mathematics, Geography, Computer Science, French.",
+      degree: "KS3 | Awards in Achievement, Mathematics, Geography, Computer Science, French. Prefect and Music Captain.",
       logoUrl: "/nhs.webp",
       start: "2012",
       end: "2021",
