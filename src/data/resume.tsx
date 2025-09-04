@@ -236,7 +236,7 @@ export const DATA = {
     {
       school: "St George's College, Weybridge",
       href: "https://www.stgeorgesweybridge.com/",
-      degree: "GCSE Grades: 9999999987 | A Levels: Computing (A*), Physics (A), Maths (B), EPQ (A) predicted",
+      degree: "GCSE Grades: 9999999987 | A Levels: Computing (A*), Physics (A), Mathematics (A), EPQ (A) predicted",
       logoUrl: "/sgc.webp",
       start: "2024",
       end: "2026",
