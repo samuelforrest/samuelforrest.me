@@ -36,6 +36,7 @@ A modern portfolio website built with Next.js, featuring a blog management syste
 ## Credit to: [Tobilobasalwu](https://github.com/tobilobasalawu)
 
 - Repo cloned under MIT Open Source Licence
-- Website modified
+- Website homepage UI credit to Tobilobasalwu
+- Blog features by Samuel Forrest
 
 
