@@ -1,4 +1,4 @@
-import { ExtracurricularsCard } from "@/components/hackathon-card";
+import { ExtracurricularsCard } from "@/components/extracurriculars-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
