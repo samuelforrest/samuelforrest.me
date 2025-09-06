@@ -32,3 +32,9 @@ A modern portfolio website built with Next.js, featuring a blog management syste
 - [Lucide React](https://lucide.dev/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
 
+Credit to: [Tobilobasalwu](https://github.com/tobilobasalawu)
+
+- Repo cloned under MIT Open Source Licence
+- Website modified heavily since
+
+
