@@ -22,7 +22,7 @@ export function ExtracurricularsCard({
   image,
   links,
 }: Props) {
-  // First link (if present) used as primary action for whole card (still keep individual link badges)
+
   const primaryHref = links?.[0]?.href;
 
   const CardWrapper = primaryHref ? (Link as any) : ("div" as any);
@@ -38,10 +38,8 @@ export function ExtracurricularsCard({
           primaryHref && "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         )}
       >
-        {/* Accent bar */}
         <span className="pointer-events-none absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-primary/70 via-primary/40 to-primary/10 opacity-70 transition group-hover:opacity-100" />
 
-        {/* Avatar / Icon */}
         <div className="relative mt-1 shrink-0">
           <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/40 via-primary/10 to-secondary/40 blur-sm opacity-70 group-hover:opacity-100 transition" />
           <Avatar className="relative z-10 h-14 w-14 border shadow-sm">
@@ -52,7 +50,6 @@ export function ExtracurricularsCard({
           </Avatar>
         </div>
 
-        {/* Content */}
         <div className="flex min-w-0 flex-1 flex-col">
           <div className="flex items-start justify-between gap-2">
             <h3 className="text-sm font-semibold leading-snug tracking-tight md:text-base">
@@ -99,7 +96,6 @@ export function ExtracurricularsCard({
           )}
         </div>
 
-        {/* Hover overlay if whole card is a link */}
         {primaryHref && (
           <span className="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-br from-foreground/0 via-foreground/0 to-foreground/5 opacity-0 transition group-hover:opacity-100" />
         )}
