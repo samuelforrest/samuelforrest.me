@@ -50,7 +50,7 @@ const Blog = () => {
           <div className="mb-12 text-center animate-fade-in">
             <h1 className="text-5xl font-extrabold mb-4 font-serif bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Blog</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Thoughts, ideas, and insights on technology, aviation, and more. All posts are Free from AI garbadge!
+              Thoughts, ideas, and insights on technology, aviation, and more. Posts are written without AI.
             </p>
           </div>
           
