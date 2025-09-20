@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio V5
 
-## Getting Started
+> **The fifth iteration of my personal portfolio website — [www.samuelforrest.me](https://www.samuelforrest.me)**
 
-First, run the development server:
+A modern portfolio website built with Next.js, featuring a blog management system, animated UI components, and a clean, professional design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##  Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Modern Design:** Clean, responsive UI with dark/light theme support.
+- **Blog System:** Backend-powered blog using Supabase.
+- **Animations:** Smooth transitions powered by Framer Motion.
+- **Responsive:** Mobile-first design for all devices.
+- **Performance:** Optimized for speed and SEO — all images use `.webp`, reducing load time by 50%.
+- **Theme Toggle:** Easily switch between dark and light mode.
+- **Analytics:** Integrated with Google Analytics.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##  Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Frontend Framework**
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-## Deploy on Vercel
+**Styling & UI**
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide React](https://lucide.dev/)
+- [next-themes](https://github.com/pacocoursey/next-themes)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Credit to: [Tobilobasalwu](https://github.com/tobilobasalawu)
+
+- Repo cloned under MIT Open Source Licence
+- Website homepage UI credit to Tobilobasalwu
+- Blog features by Samuel Forrest
+
+
