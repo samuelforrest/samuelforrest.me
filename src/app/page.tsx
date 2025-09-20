@@ -10,7 +10,7 @@ import ProjectCarousel from "@/components/ProjectCarousel";
 
 export default function Home() {
   return (
-    <main className="m-8 md:mt-20 sm:ml-12 md:ml-25 lg:ml-45 xl:ml-50 2xl:ml-120 sm:mr-12 md:mr-25 lg:mr-45 xl:mr-50 2xl:mr-120">
+    <main className="m-8 md:mt-20 sm:ml-12 md:ml-25 lg:ml-45 xl:ml-60 2xl:ml-100 sm:mr-12 md:mr-25 lg:mr-45 xl:mr-60 2xl:mr-100">
 
       <section id="hero">
         <div className="flex items-center gap-15">
