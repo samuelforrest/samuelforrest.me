@@ -165,7 +165,8 @@ export default function Extracurriculars() {
   return (
     <div className="w-full space-y-3">
 
-      <h1 className="text-2xl font-bold pt-10 pb-10">Extracurricular Journey</h1>
+      <h1 className="text-2xl font-bold pt-10 pb-2">Extracurriculars</h1>
+      <p className="pb-10">I&apos;m always learning new skills and exploring new hobbies</p>
 
       {experiences.map((experience, index) => (
         <motion.div
