@@ -38,7 +38,7 @@ export default function Links() {
 
     return(
         <div>
-            <h1 className="text-2xl font-bold pt-10 pb-6">Quick Links</h1>
+            <h1 className="text-2xl font-bold pt-10 pb-6">Top Links</h1>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
                 {links.map((link, index) => {
                     const Icon = link.icon;
@@ -50,7 +50,7 @@ export default function Links() {
                             key={index}
                             href={link.href}
                             {...(link.external && { target: "_blank", rel: "noopener noreferrer" })}
-                            className={`group ${hiddenOnMobile} flex-col items-center p-4 rounded-lg border border-border/40 bg-card/30 hover:bg-card/60 hover:border-border/60 transition-all duration-200 hover:scale-105 hover:shadow-md`}
+                            className={`group ${hiddenOnMobile} flex-col items-center p-3 rounded-lg border border-border/40 bg-card/30 hover:bg-card/60 hover:border-border/60 transition-all duration-200 hover:scale-103 hover:shadow-md`}
                         >
                             <Icon className="w-6 h-6 mb-2 text-primary group-hover:text-primary/80 transition-colors" />
                             <span className="text-sm font-medium text-center group-hover:text-primary transition-colors">
