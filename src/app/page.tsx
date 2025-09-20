@@ -38,7 +38,8 @@ export default function Home() {
           <Link href="https://www.google.com" className="underline">Curriculum Vitae (CV)</Link> <br></br>
           <Link href="https://www.google.com" className="underline">💻 1-2-1 Computer Science Tutoring</Link><br></br>
           <Link href="https://www.google.com" className="underline">🌐 Web Development Request Form</Link><br></br>
-          <Link href="https://www.google.com" className="underline">✍️ Computer Science Blog</Link>
+          <Link href="https://www.google.com" className="underline">✍️ Computer Science Blog</Link><br></br>
+          <Link href="#projects" className="underline">🚀 View My Projects</Link>
         </p>
       </section>
       <section>
@@ -56,7 +57,7 @@ export default function Home() {
               <EducationCard />
             </section>
 
-      <section className="mb-8">
+      <section className="mb-8" id="projects">
 
         <h1 className="text-2xl font-bold pt-10 pb-10">Latest Projects</h1>
 

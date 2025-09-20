@@ -38,6 +38,16 @@ const experiences: Experience[] = [
     logo: "/webdeveloper.webp",
   },
   {
+    company: "Apprentadream",
+    role: "Apprentadream - incoming position",
+    duration: "August 2025 - Present",
+    location: "Hybrid",
+    description:
+      "TBC",
+    skills: [""],
+    logo: "/apprentadream.jpeg",
+  },
+  {
     company: "Springpod",
     role: "13x Springpods WEX",
     duration: "June 2025 - Present",

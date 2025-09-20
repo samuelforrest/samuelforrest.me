@@ -128,7 +128,7 @@ const experiences: Experience[] = [
     logo: "/sgc.webp",
   },
   {
-    company: "UKMT (UK Maths Trust)",
+    company: "Samuel Forrest",
     role: "Computer Science, AI & Aviation Blog",
     duration: "Awarded December 2022",
     location: "Hybrid",
@@ -138,12 +138,12 @@ const experiences: Experience[] = [
     logo: "/sf.png",
   },
   {
-    company: "UKMT (UK Maths Trust)",
-    role: "Senior UKMT - Bronze Award",
-    duration: "Awarded December 2022",
+    company: "Apprentice Nation",
+    role: "Apprentice Nation Mentee",
+    duration: "Present",
     location: "Hybrid",
     description:
-      "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
+      "Apprentice Nation is an award-winning platform that unites major brands, top UK talent and the power of music to inspire and engage youth into careers they love.",
     skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/apprenticenation_logo.webp",
   },
