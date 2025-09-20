@@ -1,15 +1,64 @@
 import Link from "next/link";
+import { FileText, GraduationCap, Code, FolderOpen, Book } from "lucide-react";
 
 export default function Links() {
+    const links = [
+        {
+            href: "/documents/cv.pdf",
+            title: "CV Download",
+            icon: FileText,
+            external: false
+        },
+        {
+            href: "https://samueljforrest.substack.com",
+            title: "Substack Blog",
+            icon: Book,
+            external: true
+        },
+        {
+            href: "https://www.superprof.co.uk/gcse-igcse-computer-science-and-programming-tutor-taught-sixth-form-student-with-tutoring-experience-all-abilities-welcome.html",
+            title: "Request Tutoring",
+            description: "Computer Science lessons",
+            icon: GraduationCap,
+            external: true
+        },
+        {
+            href: "https://form.typeform.com/to/yihbaIu7",
+            title: "Request Web Development",
+            icon: Code,
+            external: true
+        },
+        {
+            href: "#projects",
+            title: "Projects",
+            icon: FolderOpen,
+            external: false
+        }
+    ];
+
     return(
         <div>
-            <h1 className="text-2xl font-bold pt-10">Quick Links</h1>
-            <div className="pt-5 pl-4 sm:pl-0 space-y-2">
-                <div><Link href="/documents/cv.pdf" className="text-blue-600 dark:text-blue-400 underline underline-offset-3 transition-colors">Curriculum Vitae (CV)</Link></div>
-                <div><Link href="https://samueljforrest.substack.com" className="text-blue-600 dark:text-blue-400 underline underline-offset-3 transition-colors">Blog (Substack)</Link></div>
-                <div><Link href="https://www.superprof.co.uk/gcse-igcse-computer-science-and-programming-tutor-taught-sixth-form-student-with-tutoring-experience-all-abilities-welcome.html" className="text-blue-600 dark:text-blue-400 underline underline-offset-3 transition-colors">Computer Science Tutoring</Link></div>
-                <div><Link href="https://form.typeform.com/to/yihbaIu7" className="text-blue-600 dark:text-blue-400 underline underline-offset-3 transition-colors">Web/App Development Request Form</Link></div>
-                <div><Link href="#projects" className="text-blue-600 dark:text-blue-400 transition-colors underline underline-offset-3">Projects</Link></div>
+            <h1 className="text-2xl font-bold pt-10 pb-6">Quick Links</h1>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+                {links.map((link, index) => {
+                    const Icon = link.icon;
+                    const isProjectsLink = link.href === "#projects";
+                    const hiddenOnMobile = isProjectsLink ? "hidden sm:flex" : "flex";
+                    
+                    return (
+                        <Link
+                            key={index}
+                            href={link.href}
+                            {...(link.external && { target: "_blank", rel: "noopener noreferrer" })}
+                            className={`group ${hiddenOnMobile} flex-col items-center p-4 rounded-lg border border-border/40 bg-card/30 hover:bg-card/60 hover:border-border/60 transition-all duration-200 hover:scale-105 hover:shadow-md`}
+                        >
+                            <Icon className="w-6 h-6 mb-2 text-primary group-hover:text-primary/80 transition-colors" />
+                            <span className="text-sm font-medium text-center group-hover:text-primary transition-colors">
+                                {link.title}
+                            </span>
+                        </Link>
+                    );
+                })}
             </div>
         </div>
     )

@@ -15,7 +15,6 @@ export default function Hero() {
                     className="rounded-full object-cover"
                 />
             </div>
-            <p>📍 London  🎂 17</p>
             <p className="pt-10 md:text-xl">An aspiring <b>Software Engineer</b> and Entrepreneur, studying Maths, Physics, Computer Science, and EPQ at A Level. <b>Private Tutor & Web Developer.</b> Applying to Degree Apprenticeships & University.</p>
         </div>
     )
