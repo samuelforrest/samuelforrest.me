@@ -19,34 +19,54 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "Personal Portfolio Website",
+    name: "Client: Cat Care Website",
+    dates: "2024-2025",
+    skills: ["Vite + React", "Vite", "TailwindCSS", "Shadcn UI", "SEO"],
+    description:
+      "I designed and built a website for a Cat Carer, constantly providing updates to the client and ensuring the website met their expectations. Notebaly, the SEO was greatly improved, ranking the website #2 for 'cat care' in my client's area.",
+    github_docs_link: "https://github.com/your-repo",
+    open_link: ["https://yourportfolio.com"],     
+    image: "/zoecc.webp",
+},
+{
+  name: "Client: BioNewsWeekly",
+  dates: "2024-2025",
+  skills: ["React", "Vite", "TypeScript", "TailwindCSS", "OpenAi API"],
+  description:
+    "I built a website for a client needing a site to display biology news. The website included AI article summaries, an admin CMS system and user accessibility features.",
+  github_docs_link: "https://github.com/your-repo",
+  open_link: ["https://yourportfolio.com"],     
+  image: "/bionewsweekly.png",
+},
+  {
+    name: "Tradelingo: Trading App",
     dates: "2024-2025",
     skills: ["React", "Node.js", "TypeScript", "AWS", "Docker"],
     description:
-      "Delivering one-to-one computer science tutoring to students from diverse backgrounds, including those with special educational needs (SEND). Over 40 hours of lessons given to date, strengthening my communication, lesson planning, time management skills as well as developing empathy.",
+      "Tradelingo is an educational trading app for Gen Z. It is currently in a private Alpha. It is being developed for my Computer Science NEA.",
     github_docs_link: "https://github.com/your-repo",
     open_link: ["https://yourportfolio.com"],     
-    image: "/superprof.webp",
+    image: "/tradelingo.webp",
   },
   {
-    name: "Personal Portfolio Website",
+    name: "Hackathon Winner: Verda",
     dates: "2024-2025",
     skills: ["React", "Node.js", "TypeScript", "AWS", "Docker"],
     description:
-      "Delivering one-to-one computer science tutoring to students from diverse backgrounds, including those with special educational needs (SEND). Over 40 hours of lessons given to date, strengthening my communication, lesson planning, time management skills as well as developing empathy.",
+      "We won KTHack25 with this.",
     github_docs_link: "https://github.com/your-repo",
     open_link: ["https://yourportfolio.com"],     
-    image: "/superprof.webp",
+    image: "/verda.png",
   },
   {
-    name: "Personal Portfolio Website",
+    name: "EPQ: Supersonic Aviation",
     dates: "2024-2025",
     skills: ["React", "Node.js", "TypeScript", "AWS", "Docker"],
     description:
       "Delivering one-to-one computer science tutoring to students from diverse backgrounds, including those with special educational needs (SEND). Over 40 hours of lessons given to date, strengthening my communication, lesson planning, time management skills as well as developing empathy.",
     github_docs_link: "https://github.com/your-repo",
     open_link: ["https://yourportfolio.com"],     
-    image: "/superprof.webp",
+    image: "/boom.webp",
   },
 ];
 
@@ -56,7 +76,7 @@ export default function ProjectCarousel() {
       className="relative"
       plugins={[
         Autoplay({
-          delay: 2500,
+          delay: 3000,
           stopOnInteraction: true,
           stopOnMouseEnter: false,
           stopOnFocusIn: false,
@@ -70,10 +90,10 @@ export default function ProjectCarousel() {
         {projects.map((project, idx) => (
           <CarouselItem key={idx} className="md:basis-1/2 lg:basis-1/3">
             <motion.div
-              whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="h-full"
             >
+
               <Card className="h-full flex flex-col hover:shadow-lg transition-shadow">
 
                 <CardHeader>
@@ -109,7 +129,6 @@ export default function ProjectCarousel() {
                     ))}
                   </div>
 
-                  {/* Buttons */}
                   <div className="flex gap-2 w-full">
                     {project.github_docs_link && (
                       <Button
@@ -124,7 +143,7 @@ export default function ProjectCarousel() {
                           rel="noopener noreferrer"
                         >
                           <Github className="w-4 h-4 mr-2" />
-                          GitHub
+                          Docs
                         </a>
                       </Button>
                     )}
@@ -152,8 +171,8 @@ export default function ProjectCarousel() {
         ))}
       </CarouselContent>
 
-      <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 z-10" />
-      <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 z-10" />
+      <CarouselPrevious className="absolute -left-4 top-1/2 -translate-y-1/2 z-10 bg-black text-white !opacity-100" />
+      <CarouselNext className="absolute -right-4 top-1/2 -translate-y-1/2 z-10 bg-black text-white !opacity-100" />
     </Carousel>
   );
 }
