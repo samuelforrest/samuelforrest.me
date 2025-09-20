@@ -12,15 +12,15 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Samuel Forrest | Software Engineer & A-Level Student",
-    template: "%s | Samuel Forrest"
+    default: "Samuel Forrest | CV",
+    template: "Samuel Forrest"
   },
   description: "Samuel Forrest is a 17-year-old aspiring Software Engineer studying Computer Science, Physics & Mathematics A-Levels in London. Private tutor, web developer, and entrepreneur building Tradelingo.",
   authors: [{ name: 'Samuel Forrest', url: 'https://www.samuelforrest.me' }],
   creator: 'Samuel Forrest',
   publisher: 'Samuel Forrest',
   keywords: [
-    'Samuel Forrest', 'Software Engineer', 'Computer Science Student', 'A-Level Student London',
+    'Samuel Forrest', 'samuelforrest.me', 'Software Engineer', 'Computer Science Student', 'A-Level Student London',
     'Web Developer', 'Private Tutor', 'Entrepreneur', 'Tradelingo', 'Portfolio',
     'Software Development', 'Programming', 'Mathematics', 'Physics', 'Degree Apprenticeships',
     'St Georges College Weybridge', 'Work Experience', 'British Airways', 'Amazon', 'Virgin Atlantic'
