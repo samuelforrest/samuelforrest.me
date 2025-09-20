@@ -9,7 +9,6 @@ interface Experience {
   company: string;
   role: string;
   duration: string;
-  location: string;
   description: string;
   logo?: string;
 }
@@ -19,7 +18,6 @@ const experiences: Experience[] = [
     company: "St Geeorge's College Weybridge",
     role: "Academic Scholarship Program",
     duration: "Present",
-    location: "Remote",
     description:
       "A Levels: Computing (A*), Physics (A), Mathematics (A), EPQ (A) predicted. Achieved GCSE Grades: 9999999987",
     logo: "/sgc.webp",
@@ -28,16 +26,14 @@ const experiences: Experience[] = [
     company: "MTB (Music Teachers Board)",
     role: "Grade 7 Saxophone",
     duration: "Awarded April 2024",
-    location: "Hybrid",
     description:
-      "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
+      "I was awarded Grade 7 Saxophone by MTB in April 2024.",
     logo: "/mtb.webp",
   },
   {
     company: "ABRSM",
     role: "Grade 4 Piano",
     duration: "Awarded March 2020",
-    location: "Hybrid",
     description:
       "I was awarded Grade 4 Piano by ABRSM, in March 2020.",
     logo: "/abrsm.webp",
@@ -46,61 +42,54 @@ const experiences: Experience[] = [
     company: "DofE (Duke of Edinburugh)",
     role: "DofE Silver & Bronze",
     duration: "Awarded March 2020",
-    location: "Hybrid",
     description:
       "Completed 40 hours of volunteering and around 40 hours of skills (coding).",
     logo: "/dofe.webp",
   },
   {
-    company: "MTB (Music Teachers Board)",
+    company: "MonkeyType",
     role: "Touch typing 100WPM + 95% accuracy",
     duration: "Verified September 2025",
-    location: "Hybrid",
     description:
-      "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
+      "After touch typing courses, I can type at a speed of 100 WPM (Words per minute), with 95% accuracy.",
     logo: "/monkeytype.webp",
   },
   {
-    company: "MTB (Music Teachers Board)",
+    company: "Bebras / RaspberryPi",
     role: "Bebras Challenge - Gold Award",
     duration: "Awarded December 2022",
-    location: "Hybrid",
     description:
-      "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
+      "I was awarded Gold Award in the Bebras Challenge (by Cambdrige / RaspberryPi) in December 2022.",
     logo: "/bebras.webp",
   },
   {
     company: "UKMT (UK Maths Trust)",
     role: "Senior UKMT - Bronze Award",
     duration: "Awarded December 2022",
-    location: "Hybrid",
     description:
-      "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
+      "I was awarded Bronze in the Senior UKMT in December 2022. I compete in this challenge every year.",
     logo: "/ukmt.webp",
   },
   {
     company: "DOAC",
     role: "Listening to podcasts",
     duration: "Present",
-    location: "Hybrid",
     description:
       "I listen to podcasts daily, my favourites including the Diary of a CEO, Lightcone Podcast (Y-Combinator) and Mentour Pilot.",
     logo: "/doac.webp",
   },
   {
     company: "",
-    role: "Bike Rides",
+    role: "Bike Rides & Fundraising",
     duration: "Last 7 Years",
-    location: "Hybrid",
     description:
       "I cycled London to Brighton (£500 raised), London to Paris (£500 raised), London to Bath, and Vienna to Budapest via Bratislava (Danube River).",
-    logo: "/bike.webp",
+    logo: "/bikeride.jpg",
   },
   {
     company: "",
-    role: "PC building",
+    role: "Custom PC Building",
     duration: "Present",
-    location: "In-person",
     description:
       "I've built PCs for myself, friends and family from scratch.",
     logo: "/pc.webp",
@@ -109,7 +98,6 @@ const experiences: Experience[] = [
     company: "UKMT (UK Maths Trust)",
     role: "SGCBC Rowing Club",
     duration: "2021-Early2025",
-    location: "Hybrid",
     description:
       "Dedicated 8 hours a week to the Rowing Club from 2021-Early2025.",
     logo: "/sgc.webp",
@@ -118,16 +106,14 @@ const experiences: Experience[] = [
     company: "Samuel Forrest",
     role: "Computer Science, AI & Aviation Blog",
     duration: "Awarded December 2022",
-    location: "Hybrid",
     description:
-      "Writing my opinions on the latest news in these fields of my interest.",
+      "Writing my opinions on the latest news in these fields of my interest. Now hosted on Substack.",
     logo: "/sf.png",
   },
   {
     company: "Apprentice Nation",
     role: "Apprentice Nation Mentee",
     duration: "Present",
-    location: "Hybrid",
     description:
       "Apprentice Nation is an award-winning platform that unites major brands, top UK talent and the power of music to inspire and engage youth into careers they love.",
     logo: "/apprenticenation_logo.webp",
@@ -136,9 +122,8 @@ const experiences: Experience[] = [
     company: "BCS",
     role: "British Computing Society Member",
     duration: "Present",
-    location: "Remote",
     description:
-      "Apprentice Nation is an award-winning platform that unites major brands, top UK talent and the power of music to inspire and engage youth into careers they love.",
+      "I'm a student member of the British Computer Society (BCS), demonstrating commitment to professional development and engagement with the wider computing community",
     logo: "/bcs.png",
   },
 ];
@@ -160,7 +145,7 @@ export default function Extracurriculars() {
     <div className="w-full space-y-3">
 
       <h1 className="text-2xl font-bold pt-10 pb-2">Extracurriculars</h1>
-      <p className="pb-10">I&apos;m always learning new skills and exploring new hobbies</p>
+      <p className="pb-10">I&apos;m always learning new skills and exploring new hobbies. Certificates for certain activities can be found on my LinkedIn.</p>
 
       {experiences.map((experience, index) => (
         <motion.div
