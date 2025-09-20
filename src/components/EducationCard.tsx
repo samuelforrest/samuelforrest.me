@@ -58,7 +58,7 @@ export default function EducationCard() {
         <motion.div
           key={index}
           layout
-          className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 px-6 pt-4 pb-0 cursor-pointer hover:shadow-lg transition-shadow"
+          className="bg-card text-card-foreground rounded-lg border px-6 pt-4 pb-0 cursor-pointer hover:shadow-lg transition-shadow"
           onClick={() => toggleCard(index)}
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}

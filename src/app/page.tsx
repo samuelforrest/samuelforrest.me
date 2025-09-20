@@ -6,7 +6,6 @@ import ResumeCard from "@/components/ResumeCard";
 import EducationCard from "@/components/EducationCard";
 import ExtracurricularCard from "@/components/ExtracurricularCard";
 import ProjectCarousel from "@/components/ProjectCarousel";
-import { Button } from "@/components/ui/button";
 
 
 export default function Home() {
@@ -44,7 +43,7 @@ export default function Home() {
         <p className="pt-4">I started coding when I was 10, adventuring into HTML, CSS and Javascript. Fast forward to now I&apos;m 17, studying A Levels at St George&apos;s College, Weybridge, while building Tradelingo, an educational trading app for Gen Z. Along the way, I&apos;ve completed work experience with British Airways, the AIIB, Amazon, HUDJO and Virgin Atlantic, while building my skills in teaching and communication as a tutor and developer. I have also participated in Hackathons, worked on projects and enjoyed my extracurriculars.</p>
       </section>
 
-            <section className="mb-8">
+            <section className="mb-8" id="experience">
               <h1 className="text-2xl font-bold pt-10 pb-10">Experience</h1>
               <ResumeCard />
             </section>
@@ -99,6 +98,32 @@ export default function Home() {
             </div>
           
           
+        </div>
+      </section>
+
+      <section className="mb-8" id="contact">
+        <h1 className="text-2xl font-bold pt-10 pb-6">Get In Touch</h1>
+        <div className="text-center space-y-4">
+          <p className="text-lg text-muted-foreground">
+            Interested in working together or have a question?
+          </p>
+          <div className="flex justify-center gap-4">
+            <a
+              href="mailto:samuel@example.com"
+              className="text-blue-600 dark:text-blue-400 hover:underline transition-colors"
+            >
+              Send an Email
+            </a>
+            <span className="text-muted-foreground">•</span>
+            <a
+              href="https://linkedin.com/in/samuel-forrest"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline transition-colors"
+            >
+              Connect on LinkedIn
+            </a>
+          </div>
         </div>
       </section>
 

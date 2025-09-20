@@ -105,7 +105,7 @@ const experiences: Experience[] = [
     description:
       "Gained first-hand insight into how air crashes are investigated in the UK, by examining black box data, aircraft systems data and inspecting recovered aircraft in the AAIB hangar. Strengthened attention to detail, technical observation, and professional communication skills in such a serious and sensitive safety-critical work environment.",
     skills: ["JavaScript", "SCSS", "Webpack", "Figma", "Git"],
-    logo: "/aaib-logo-2.png",
+    logo: "/aaib.png",
   },
   {
     company: "HUDJO",
@@ -158,7 +158,7 @@ export default function ResumeCard() {
         <motion.div
           key={index}
           layout
-          className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 px-6 pt-4 pb-0 cursor-pointer hover:shadow-lg transition-shadow"
+          className="bg-card text-card-foreground rounded-lg border px-6 pt-4 pb-0 cursor-pointer hover:shadow-lg transition-shadow"
           onClick={() => toggleCard(index)}
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}

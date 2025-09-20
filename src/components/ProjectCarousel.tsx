@@ -91,7 +91,7 @@ export default function ProjectCarousel() {
     })
   );
   
-  const [api, setApi] = useState<any>();
+  const [api, setApi] = useState<any>(null);
 
   const scrollPrev = () => {
     autoplay.current.stop();
