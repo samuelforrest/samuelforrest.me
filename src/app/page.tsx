@@ -18,6 +18,9 @@ export default function Home() {
 
       <section>
         <div className="flex items-center gap-15">
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+            Hi, I'm Samuel Forrest
+          </h1>
           <Image
             src="/samuel-forrest-april-2025.webp"
             alt="Samuel Forrest"
@@ -25,22 +28,19 @@ export default function Home() {
             height={100}
             className="rounded-full object-cover"
           />
-          <h1 className="text-4xl font-bold">
-            Hi, I'm Samuel Forrest
-          </h1>
         </div>
-<p className="pt-10 text-lg">An aspiring Software Engineer and Entrepreneur, studying Maths, Physics, Computer Science, and EPQ at A Level. Private Tutor & Web Developer. Applying to Degree Apprenticeships & University.</p>
+<p className="pt-10 md:text-xl">An aspiring Software Engineer and Entrepreneur, studying Maths, Physics, Computer Science, and EPQ at A Level. Private Tutor & Web Developer. Applying to Degree Apprenticeships & University.</p>
       </section>
 
       <section>
         <h1 className="text-2xl font-bold pt-10">Quick Links</h1>
-        <p className="pt-5 pl-4 sm:pl-0">
-          <Link href="https://www.google.com" className="underline">Curriculum Vitae (CV)</Link> <br></br>
-          <Link href="https://www.google.com" className="underline">💻 1-2-1 Computer Science Tutoring</Link><br></br>
-          <Link href="https://www.google.com" className="underline">🌐 Web Development Request Form</Link><br></br>
-          <Link href="https://www.google.com" className="underline">✍️ Computer Science Blog</Link><br></br>
-          <Link href="#projects" className="underline">🚀 View My Projects</Link>
-        </p>
+        <div className="pt-5 pl-4 sm:pl-0 space-y-2">
+          <div><Link href="https://www.google.com" className="text-blue-600 dark:text-blue-400 hover:underline transition-colors">Curriculum Vitae (CV)</Link></div>
+          <div><Link href="https://www.google.com" className="text-blue-600 dark:text-blue-400 hover:underline transition-colors">Computer Science Tutoring</Link></div>
+          <div><Link href="https://www.google.com" className="text-blue-600 dark:text-blue-400 hover:underline transition-colors">Web Development Services</Link></div>
+          <div><Link href="https://www.google.com" className="text-blue-600 dark:text-blue-400 hover:underline transition-colors">Technical Blog</Link></div>
+          <div><Link href="#projects" className="text-blue-600 dark:text-blue-400 hover:underline transition-colors">View Portfolio</Link></div>
+        </div>
       </section>
       <section>
         <h1 className="text-2xl font-bold pt-10">Context</h1>
@@ -233,6 +233,46 @@ export default function Home() {
       <section className="mb-8">
               <h1 className="text-2xl font-bold pt-10 pb-10">Extracurricular Journey</h1>
               <ExtracurricularCard />
+      </section>
+
+      <section id="references">
+        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+          
+            <div className="space-y-3">
+              <div className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                References
+              </div>
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed">
+                If you would like references from previous employers or teachers, please get in touch and I will be happy to provide them.
+              </p>
+            </div>
+          
+        </div>
+      </section>
+      <section id="contact">
+        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+          
+            <div className="space-y-3">
+              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                Contact
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                Get in Touch
+              </h2>
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Want to chat? Just shoot me a dm{" "}
+                <Link
+                  href="https://www.google.com"
+                  className="text-blue-500 hover:underline"
+                >
+                  on LinkedIn
+                </Link>{" "}
+                and I&apos;ll respond whenever I can. Or email me: <Link href="mailto:sam@samuelforrest.me" className="text-blue-500 hover:underline">sam@samuelforrest.me</Link>
+              </p>
+            </div>
+          
+          
+        </div>
       </section>
 
 
