@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 
 import Links from "@/components/Links";
 
-import Context from "@/components/Context";
+import About from "@/components/About";
 
 import Experience from "@/components/Experience";
 
@@ -33,8 +33,8 @@ export default function Home() {
         <Links />
       </section>
 
-      <section id="context">
-        <Context />
+      <section id="about">
+        <About />
       </section>
         
       <section className="mb-8" id="experience">
