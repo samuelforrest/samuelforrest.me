@@ -1,7 +1,6 @@
 "use client";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
 import { Calendar } from "lucide-react";
 import { useState } from "react";
@@ -12,7 +11,6 @@ interface Experience {
   duration: string;
   location: string;
   description: string;
-  skills: string[];
   logo?: string;
 }
 
@@ -24,7 +22,6 @@ const experiences: Experience[] = [
     location: "Remote",
     description:
       "A Levels: Computing (A*), Physics (A), Mathematics (A), EPQ (A) predicted. Achieved GCSE Grades: 9999999987",
-    skills: ["React", "Node.js", "TypeScript", "AWS", "Docker"],
     logo: "/sgc.webp",
   },
   {
@@ -34,7 +31,6 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/mtb.webp",
   },
   {
@@ -44,7 +40,6 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "I was awarded Grade 4 Piano by ABRSM, in March 2020.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/abrsm.webp",
   },
   {
@@ -54,7 +49,6 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "Completed 40 hours of volunteering and around 40 hours of skills (coding).",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/dofe.webp",
   },
   {
@@ -64,7 +58,6 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/monkeytype.webp",
   },
   {
@@ -74,7 +67,6 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/bebras.webp",
   },
   {
@@ -84,7 +76,6 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/ukmt.webp",
   },
   {
@@ -94,7 +85,6 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "I listen to podcasts daily, my favourites including the Diary of a CEO, Lightcone Podcast (Y-Combinator) and Mentour Pilot.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/doac.webp",
   },
   {
@@ -104,7 +94,6 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "I cycled London to Brighton (£500 raised), London to Paris (£500 raised), London to Bath, and Vienna to Budapest via Bratislava (Danube River).",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/bike.webp",
   },
   {
@@ -114,7 +103,6 @@ const experiences: Experience[] = [
     location: "In-person",
     description:
       "I've built PCs for myself, friends and family from scratch.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/pc.webp",
   },
   {
@@ -124,7 +112,6 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "Dedicated 8 hours a week to the Rowing Club from 2021-Early2025.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/sgc.webp",
   },
   {
@@ -134,7 +121,6 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "Writing my opinions on the latest news in these fields of my interest.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/sf.png",
   },
   {
@@ -144,7 +130,6 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "Apprentice Nation is an award-winning platform that unites major brands, top UK talent and the power of music to inspire and engage youth into careers they love.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/apprenticenation_logo.webp",
   },
   {
@@ -154,7 +139,6 @@ const experiences: Experience[] = [
     location: "Remote",
     description:
       "Apprentice Nation is an award-winning platform that unites major brands, top UK talent and the power of music to inspire and engage youth into careers they love.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/bcs.png",
   },
 ];
@@ -249,17 +233,7 @@ export default function Extracurriculars() {
               <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
                 {experience.description}
               </p>
-              <div className="flex flex-wrap gap-2">
-                {experience.skills.map((skill, skillIndex) => (
-                  <Badge
-                    key={skillIndex}
-                    variant="secondary"
-                    className="text-xs"
-                  >
-                    {skill}
-                  </Badge>
-                ))}
-              </div>
+              
             </div>
           </motion.div>
         </motion.div>
