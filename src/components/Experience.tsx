@@ -154,6 +154,9 @@ export default function ResumeCard() {
 
   return (
     <div className="w-full space-y-3">
+
+      <h1 className="text-2xl font-bold pt-10 pb-10">Experience</h1>
+      
       {experiences.map((experience, index) => (
         <motion.div
           key={index}
