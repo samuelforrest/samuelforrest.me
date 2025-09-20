@@ -6,6 +6,7 @@ import ResumeCard from "@/components/ResumeCard";
 import EducationCard from "@/components/EducationCard";
 import ExtracurricularCard from "@/components/ExtracurricularCard";
 import ProjectCarousel from "@/components/ProjectCarousel";
+import { Button } from "@/components/ui/button";
 
 
 export default function Home() {
@@ -54,7 +55,7 @@ export default function Home() {
             </section>
 
       <section className="mb-8" id="projects">
-        <h1 className="text-2xl font-bold pt-10 pb-10">Latest Projects</h1>
+        <h1 className="text-2xl font-bold pt-10 pb-10">Top Projects</h1>
         <ProjectCarousel/>
       </section>
 
@@ -67,7 +68,7 @@ export default function Home() {
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           
             <div className="space-y-3">
-              <div className="text-3xl font-bold tracking-tighter sm:text-5xl">
+              <div className="text-3xl font-bold sm:text-5xl">
                 References
               </div>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed">
@@ -81,10 +82,8 @@ export default function Home() {
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Contact
-              </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+              
+              <h2 className="text-3xl font-bold sm:text-5xl">
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -101,6 +100,16 @@ export default function Home() {
           
           
         </div>
+      </section>
+
+      <section>
+        <footer>
+          <div className="text-center pt-10">
+          
+          <p className="text-sm text-muted-foreground md:text-sm/relaxed lg:text-base/relaxed xl:text-sm/relaxed">&copy; Samuel Forrest - All rights reserved</p>
+          <p className="text-sm text-muted-foreground md:text-sm/relaxed lg:text-base/relaxed xl:text-sm/relaxed">Information is up to date, as to best knowledge</p>
+          </div>
+        </footer>
       </section>
 
 

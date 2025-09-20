@@ -3,9 +3,10 @@ import { Carousel, CarouselContent } from "./ui/carousel";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { ExternalLink, Github } from "lucide-react";
+import { CarouselItem } from "@/components/ui/carousel";
+import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
+import { useRef, useState } from "react";
 
 interface Project {
   name: string;
@@ -68,24 +69,50 @@ const projects: Project[] = [
     open_link: ["https://yourportfolio.com"],     
     image: "/boom.webp",
   },
+  {
+    name: "Sitro.io",
+    dates: "2024-2025",
+    skills: ["React", "Node.js", "TypeScript", "AWS", "Docker"],
+    description:
+      "An AI Landing Page generator, to be released.",
+    github_docs_link: "https://github.com/your-repo",
+    open_link: ["https://yourportfolio.com"],     
+    image: "/sitrologo.png",
+  },
 ];
 
+
 export default function ProjectCarousel() {
+  const autoplay = useRef(
+    Autoplay({
+      delay: 3000,
+      stopOnMouseEnter: false,
+      stopOnFocusIn: false,
+    })
+  );
+  
+  const [api, setApi] = useState<any>();
+
+  const scrollPrev = () => {
+    autoplay.current.stop();
+    api?.scrollPrev();
+  };
+
+  const scrollNext = () => {
+    autoplay.current.stop();
+    api?.scrollNext();
+  };
+
   return (
-    <Carousel
-      className="relative"
-      plugins={[
-        Autoplay({
-          delay: 3000,
-          stopOnInteraction: true,
-          stopOnMouseEnter: false,
-          stopOnFocusIn: false,
-        }),
-      ]}
-      opts={{
-        loop: true,
-      }}
-    >
+    <div className="relative">
+      <Carousel
+        className="relative"
+        plugins={[autoplay.current]}
+        opts={{
+          loop: true,
+        }}
+        setApi={setApi}
+      >
       <CarouselContent>
         {projects.map((project, idx) => (
           <CarouselItem key={idx} className="md:basis-1/2 lg:basis-1/3">
@@ -170,9 +197,25 @@ export default function ProjectCarousel() {
           </CarouselItem>
         ))}
       </CarouselContent>
+      
+      <Button
+        variant="outline"
+        size="icon"
+        className="absolute -left-4 top-1/2 -translate-y-1/2 z-10 h-8 w-8 rounded-full bg-black text-white backdrop-blur-sm border shadow-md"
+        onClick={scrollPrev}
+      >
+        <ChevronLeft className="h-4 w-4" />
+      </Button>
 
-      <CarouselPrevious className="absolute -left-4 top-1/2 -translate-y-1/2 z-10 bg-black text-white !opacity-100" />
-      <CarouselNext className="absolute -right-4 top-1/2 -translate-y-1/2 z-10 bg-black text-white !opacity-100" />
+      <Button
+        variant="outline"
+        size="icon"
+        className="absolute -right-4 top-1/2 -translate-y-1/2 z-10 h-8 w-8 rounded-full bg-black text-white backdrop-blur-sm border shadow-md"
+        onClick={scrollNext}
+      >
+        <ChevronRight className="h-4 w-4" />
+      </Button>
     </Carousel>
+    </div>
   );
 }
