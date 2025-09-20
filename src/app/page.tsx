@@ -10,9 +10,9 @@ import ProjectCarousel from "@/components/ProjectCarousel";
 
 export default function Home() {
   return (
-    <main className="m-8 md:mt-20 sm:ml-12 md:ml-25 lg:ml-55 xl:ml-50 2xl:ml-100 sm:mr-12 md:mr-25 lg:mr-55 xl:mr-50 2xl:mr-100">
+    <main className="m-8 md:mt-20 sm:ml-12 md:ml-25 lg:ml-45 xl:ml-50 2xl:ml-120 sm:mr-12 md:mr-25 lg:mr-45 xl:mr-50 2xl:mr-120">
 
-      <section>
+      <section id="hero">
         <div className="flex items-center gap-15">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
             Hi, I&apos;m Samuel Forrest
@@ -25,40 +25,41 @@ export default function Home() {
             className="rounded-full object-cover"
           />
         </div>
-<p className="pt-10 md:text-xl">An aspiring Software Engineer and Entrepreneur, studying Maths, Physics, Computer Science, and EPQ at A Level. Private Tutor & Web Developer. Applying to Degree Apprenticeships & University.</p>
+        <p>📍 London  🎂 17</p>
+<p className="pt-10 md:text-xl">An aspiring <b>Software Engineer</b> and Entrepreneur, studying Maths, Physics, Computer Science, and EPQ at A Level. <b>Private Tutor & Web Developer.</b> Applying to Degree Apprenticeships & University.</p>
       </section>
 
-      <section>
+      <section id="quick-links">
         <h1 className="text-2xl font-bold pt-10">Quick Links</h1>
         <div className="pt-5 pl-4 sm:pl-0 space-y-2">
-          <div><Link href="https://www.google.com" className="text-blue-600 dark:text-blue-400 hover:underline transition-colors">Curriculum Vitae (CV)</Link></div>
-          <div><Link href="https://www.google.com" className="text-blue-600 dark:text-blue-400 hover:underline transition-colors">Computer Science Tutoring</Link></div>
-          <div><Link href="https://www.google.com" className="text-blue-600 dark:text-blue-400 hover:underline transition-colors">Web Development Services</Link></div>
-          <div><Link href="https://www.google.com" className="text-blue-600 dark:text-blue-400 hover:underline transition-colors">Latest Projects</Link></div>
-          <div><Link href="#projects" className="text-blue-600 dark:text-blue-400 hover:underline transition-colors">View Portfolio</Link></div>
+          <div><Link href="https://www.google.com" className="text-blue-600 dark:text-blue-400 underline underline-offset-3 transition-colors">Curriculum Vitae (CV)</Link></div>
+          <div><Link href="https://www.google.com" className="text-blue-600 dark:text-blue-400 underline underline-offset-3 transition-colors">Computer Science Tutoring</Link></div>
+          <div><Link href="https://www.google.com" className="text-blue-600 dark:text-blue-400 underline underline-offset-3 transition-colors">Web Development Services</Link></div>
+          <div><Link href="#projects" className="text-blue-600 dark:text-blue-400 transition-colors underline underline-offset-3">Top Projects</Link></div>
         </div>
       </section>
+
       <section>
         <h1 className="text-2xl font-bold pt-10">Context</h1>
-        <p className="pt-4">I started coding when I was 10, adventuring into HTML, CSS and Javascript. Fast forward to now I&apos;m 17, studying A Levels at St George&apos;s College, Weybridge, while building Tradelingo, an educational trading app for Gen Z. Along the way, I&apos;ve completed work experience with British Airways, the AIIB, Amazon, HUDJO and Virgin Atlantic, while building my skills in teaching and communication as a tutor and developer. I have also participated in Hackathons, worked on projects and enjoyed my extracurriculars.</p>
+        <p className="pt-4">I started coding when I was 10, adventuring into HTML, CSS and Javascript. Fast forward to now I&apos;m 17, studying A Levels at St George&apos;s College, Weybridge, while building Tradelingo, an educational trading app for Gen Z. Along the way, I&apos;ve completed <Link href="#experience" className="underline underline-offset-4">work experience</Link> with British Airways, the AIIB, Amazon, HUDJO and Virgin Atlantic, while building my skills in teaching and communication as a tutor and developer. I have also participated in Hackathons, worked on <Link href="#projects" className="underline underline-offset-5">projects</Link> and enjoyed my <Link href="#extracurriculars" className="underline underline-offset-5">extracurriculars.</Link></p>
       </section>
 
-            <section className="mb-8" id="experience">
-              <h1 className="text-2xl font-bold pt-10 pb-10">Experience</h1>
-              <ResumeCard />
-            </section>
+      <section className="mb-8" id="experience">
+        <h1 className="text-2xl font-bold pt-10 pb-10">Experience</h1>
+        <ResumeCard />
+      </section>
 
-            <section className="mb-8">
-              <h1 className="text-2xl font-bold pt-10 pb-10">Education</h1>
-              <EducationCard />
-            </section>
+      <section className="mb-8">
+        <h1 className="text-2xl font-bold pt-10 pb-10">Education</h1>
+        <EducationCard />
+      </section>
 
       <section className="mb-8" id="projects">
         <h1 className="text-2xl font-bold pt-10 pb-10">Top Projects</h1>
         <ProjectCarousel/>
       </section>
 
-      <section className="mb-8">
+      <section id="extracurriculars" className="mb-8">
         <h1 className="text-2xl font-bold pt-10 pb-10">Extracurricular Journey</h1>
         <ExtracurricularCard />
       </section>
@@ -77,6 +78,7 @@ export default function Home() {
           
         </div>
       </section>
+
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           
@@ -101,38 +103,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mb-8" id="contact">
-        <h1 className="text-2xl font-bold pt-10 pb-6">Get In Touch</h1>
-        <div className="text-center space-y-4">
-          <p className="text-lg text-muted-foreground">
-            Interested in working together or have a question?
-          </p>
-          <div className="flex justify-center gap-4">
-            <a
-              href="mailto:samuel@example.com"
-              className="text-blue-600 dark:text-blue-400 hover:underline transition-colors"
-            >
-              Send an Email
-            </a>
-            <span className="text-muted-foreground">•</span>
-            <a
-              href="https://linkedin.com/in/samuel-forrest"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 dark:text-blue-400 hover:underline transition-colors"
-            >
-              Connect on LinkedIn
-            </a>
-          </div>
-        </div>
-      </section>
-
       <section>
         <footer>
-          <div className="text-center pt-10">
+          <div className="text-center pt-10 mb-25">
           
-          <p className="text-sm text-muted-foreground md:text-sm/relaxed lg:text-base/relaxed xl:text-sm/relaxed">&copy; Samuel Forrest - All rights reserved</p>
-          <p className="text-sm text-muted-foreground md:text-sm/relaxed lg:text-base/relaxed xl:text-sm/relaxed">Information is up to date, as to best knowledge</p>
+          <p className="text-sm md:text-sm/relaxed lg:text-base/relaxed xl:text-sm/relaxed">&copy; Samuel Forrest - All rights reserved</p>
+          <p className="text-sm md:text-sm/relaxed lg:text-base/relaxed xl:text-sm/relaxed">Information is true, as to my best knowledge</p>
           </div>
         </footer>
       </section>

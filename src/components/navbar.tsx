@@ -10,22 +10,23 @@ import {
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { HomeIcon, User, FolderOpen, Mail, Github, Linkedin, Sun, Moon } from "lucide-react";
+import { HomeIcon, FolderOpen, Mail, Github, Linkedin, Sun, Moon, Briefcase, Contact, Instagram } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 
 const navItems = [
   { href: "/", icon: HomeIcon, label: "Home" },
+  { href: "#experience", icon: Briefcase, label: "Experience" },
   { href: "#projects", icon: FolderOpen, label: "Projects" },
-  { href: "#experience", icon: User, label: "Experience" },
-  { href: "#contact", icon: Mail, label: "Contact" },
+  { href: "#contact", icon: Contact, label: "Contact" },
 ];
 
 const socialLinks = [
   { href: "https://github.com/samuelforrest", icon: Github, label: "GitHub" },
-  { href: "https://linkedin.com/in/samuel-forrest", icon: Linkedin, label: "LinkedIn" },
-  { href: "mailto:samuel@example.com", icon: Mail, label: "Email" },
+  { href: "https://linkedin.com/in/samueljforrest", icon: Linkedin, label: "LinkedIn" },
+  { href: "https://instagram.com/samueljforrest", icon: Instagram, label: "Instagram" },
+  { href: "mailto:sam@samuelforrest.me", icon: Mail, label: "Email" },
 ];
 
 function ModeToggle() {
@@ -41,6 +42,7 @@ function ModeToggle() {
       <Button
         variant="ghost"
         size="icon"
+        
         className="size-12 md:size-12 min-w-12 min-h-12 touch-manipulation dock-icon"
       >
         <Sun className="h-[1.2rem] w-[1.2rem]" />

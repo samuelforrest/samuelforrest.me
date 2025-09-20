@@ -115,7 +115,7 @@ export default function ProjectCarousel() {
       >
       <CarouselContent>
         {projects.map((project, idx) => (
-          <CarouselItem key={idx} className="md:basis-1/2 lg:basis-1/3">
+          <CarouselItem key={idx} className="sm:basis-1/2 lg:basis-1/3">
             <motion.div
               whileTap={{ scale: 0.98 }}
               className="h-full"

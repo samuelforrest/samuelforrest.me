@@ -105,7 +105,7 @@ const experiences: Experience[] = [
     description:
       "Gained first-hand insight into how air crashes are investigated in the UK, by examining black box data, aircraft systems data and inspecting recovered aircraft in the AAIB hangar. Strengthened attention to detail, technical observation, and professional communication skills in such a serious and sensitive safety-critical work environment.",
     skills: ["JavaScript", "SCSS", "Webpack", "Figma", "Git"],
-    logo: "/aaib.png",
+    logo: "/AAIBlogo.png",
   },
   {
     company: "HUDJO",
