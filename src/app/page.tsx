@@ -8,6 +8,8 @@ import Autoplay from "embla-carousel-autoplay"
 import Link from "next/link";
 import ResumeCard from "@/components/ResumeCard";
 import { motion } from "framer-motion";
+import EducationCard from "@/components/EducationCard";
+import ExtracurricularCard from "@/components/ExtracurricularCard";
 
 
 export default function Home() {
@@ -51,6 +53,7 @@ export default function Home() {
 
             <section className="mb-8">
               <h1 className="text-2xl font-bold pt-10 pb-10">Education</h1>
+              <EducationCard />
             </section>
 
       <section className="mb-8">
@@ -224,6 +227,11 @@ export default function Home() {
           <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 z-10" />
           <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 z-10" />
         </Carousel>
+      </section>
+
+      <section className="mb-8">
+              <h1 className="text-2xl font-bold pt-10 pb-10">Extracurricular Journey</h1>
+              <ExtracurricularCard />
       </section>
 
 
