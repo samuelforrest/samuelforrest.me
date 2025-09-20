@@ -10,9 +10,9 @@ export default function Hero() {
                 <Image
                     src="/samuel-forrest-april-2025.webp"
                     alt="Samuel Forrest"
-                    width={80}
-                    height={80}
-                    className="rounded-full object-cover sm:w-[100px] sm:h-[100px] flex-shrink-0"
+                    width={100}
+                    height={100}
+                    className="rounded-full object-cover sm:w-[120px] sm:h-[120px] flex-shrink-0"
                 />
             </div>
         </div>
