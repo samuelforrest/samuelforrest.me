@@ -21,20 +21,20 @@ const experiences: Experience[] = [
     company: "St Geeorge's College Weybridge",
     role: "Academic Scholar A*AAA 8x Grade 9s at GCSE",
     duration: "September 2024 - June 2026",
-    location: "Remote",
+    location: "In-person",
     description:
       "A Levels: Computing (A*), Physics (A), Mathematics (A), EPQ (A) predicted. Achieved GCSE Grades: 9999999987",
-    skills: ["React", "Node.js", "TypeScript", "AWS", "Docker"],
+    skills: ["Information Technology", "Music", "AI", "Organisation Skills", "Mathematics", "Collaboration"],
     logo: "/sgc.webp",
   },
   {
-    company: "Freelance Web Developer",
+    company: "Newland House School",
     role: "Newland House School Alumni",
     duration: "September 2012 - July 2021",
-    location: "Hybrid",
+    location: "In-person",
     description:
       "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
+    skills: ["Charity Event Organisation", "Hardworing", "Music", "Fundraising", "Leadership"],
     logo: "/nhs.webp",
   },
 ];

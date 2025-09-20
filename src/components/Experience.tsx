@@ -16,16 +16,28 @@ interface Experience {
   logo?: string;
 }
 
+// ALL EXPERIENCES LISTED MUST MIMIC LINKEDIN, INCLUDING SKILLS AND DATES
+
 const experiences: Experience[] = [
   {
     company: "Superprof",
-    role: "Private Tutor Superprof",
+    role: "Private Tutor @ Superprof",
     duration: "September 2024 - Present",
     location: "Remote",
     description:
       "Delivering one-to-one computer science tutoring to students from diverse backgrounds, including those with special educational needs (SEND). Over 40 hours of lessons given to date, strengthening my communication, lesson planning, time management skills as well as developing empathy.",
-    skills: ["React", "Node.js", "TypeScript", "AWS", "Docker"],
+    skills: ["Tutoring", "Adaptability", "Homework Help", "Communication", "Organisation", "Empathy", "Python"],
     logo: "/superprof.webp",
+  },
+  {
+    company: "Tradelingo",
+    role: "Founder @ Tradelingo",
+    duration: "September 2024 - Present",
+    location: "Remote",
+    description:
+      "Duolingo, but for trading. Designed and in the process of coding a cross-platform trading app for my Computer Science NEA, using: React Native, Expo, TypeScript, Nativewind, Polygon.io (financial API), Supabase Functions, Auth & DB, React Native Wagmi Charts and TradingView.",
+    skills: ["TypeScript", "iOS Development", "Databases", "Nativewind", "React Native", "SQL", "Finance", "iOS Testing", "Android Development", "Figma"],
+    logo: "/tradelingo.webp",
   },
   {
     company: "Freelance Web Developer",
@@ -34,16 +46,16 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "Designed, coded and deployed responsive websites for 3 paying clients, using TailwindCSS, React, TypeScript, Next.js, Supabase, Gemini API, Google Analytics, and integrating features such as authentication, admin dashboards, blogs and AI summaries. Most client projects are publicly available here: samuelforrest.me Communicated directly with clients to gather requirements and to provide progress updates throughout the development process and support to maintain the websites, strengthening client communication, active listening, and problem-solving skills.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
+    skills: ["TypeScript", "React", "HTML5", "SEO", "Next.js", "Vite", "Supabase", "SQL"],
     logo: "/webdeveloper.webp",
   },
   {
     company: "Apprentadream",
-    role: "Apprentadream - incoming position",
+    role: "Incoming @ Apprentadream",
     duration: "August 2025 - Present",
     location: "Hybrid",
     description:
-      "TBC",
+      "Position to be confirmed",
     skills: [""],
     logo: "/apprentadream.jpeg",
   },
@@ -54,7 +66,7 @@ const experiences: Experience[] = [
     location: "Virtual",
     description:
       "Completed 13 Springpod work experiences with: Amazon & AWS, JLR, Siemens, Ideagen, Fujitsu and Barclays. Produced projects varying from sustainability ideas for JLR to database design for Barclays, learning about the essential soft & technical skills required in a software engineering career.",
-    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
+    skills: ["Business Research", "Professional Development"],
     logo: "/springpod.png",
   },
   {
@@ -63,9 +75,9 @@ const experiences: Experience[] = [
     duration: "June 2025 - September 2025",
     location: "Waterside Office, London Heathrow Airport",
     description:
-      "Completed an insight day. Completed WEX",
-    skills: ["JavaScript", "SCSS", "Webpack", "Figma", "Git"],
-    logo: "/britishairways.webp",
+      "Completed an insight day, for engineering degree apprenticeships. Researched and presented a proposal for a new aircraft type for the short-haul fleet to a member of the fleet operations team, developing my analytical and presentation skills.",
+    skills: ["Networking", "Researching", "Presentation Skills"],
+    logo: "/ba.png",
   },
   {
     company: "Bath",
@@ -74,7 +86,7 @@ const experiences: Experience[] = [
     location: "Bath University, Onsite",
     description:
       "Selected to attend the competitive Step Into Bath residential summer school for Year 12 students, living in undergraduate accommodation and participating in social and networking events with current students and fellow applicants. Engaged in science-specific taster lectures and received tailored advice from admissions tutors on personal statements and competitive university applications.",
-    skills: ["JavaScript", "SCSS", "Webpack", "Figma", "Git"],
+    skills: ["Networking", "Teamwork"],
     logo: "/bath.webp",
   },
   {
@@ -84,7 +96,7 @@ const experiences: Experience[] = [
     location: "Remote",
     description:
       "This experience provided valuable insight into the wide range of careers available at Amazon and Amazon Web Services, with an optional focused module on AI knowledge validation. I particularly enjoyed the module on Computer Science careers and apprenticeships, which deepened my understanding of the various pathways into the tech industry and the skills in highest demand. The transferrable employability skills module allowed me to evaluate which soft and technical skills I have strengths and weaknesses in, helping me to become more well-rounded.",
-    skills: ["JavaScript", "SCSS", "Webpack", "Figma", "Git"],
+    skills: ["Career Awareness"],
     logo: "/amazon.webp",
   },
   {
@@ -94,17 +106,17 @@ const experiences: Experience[] = [
     location: "Remote",
     description:
       "Created Verda - an AI CO2 emission calculator and ML waste identifier. Environmental Prize £300 winner 🏅 Collaborated effectively with a teammate over the 30-hour hackathon, and an 8+ hour time zone difference. Utilised GitHub and produced thorough project documentation.",
-    skills: ["JavaScript", "SCSS", "Webpack", "Figma", "Git"],
+    skills: ["Next.js", "TypeScript", "TailwindCSS", "Gemini API", "Presentation Skills"],
     logo: "/kthack.webp",
   },
   {
     company: "AAIB",
-    role: "AAIB WEX",
+    role: "Air Accident Investigation Branch (AAIB) WEX",
     duration: "April 2025",
     location: "Farnborough Airport",
     description:
       "Gained first-hand insight into how air crashes are investigated in the UK, by examining black box data, aircraft systems data and inspecting recovered aircraft in the AAIB hangar. Strengthened attention to detail, technical observation, and professional communication skills in such a serious and sensitive safety-critical work environment.",
-    skills: ["JavaScript", "SCSS", "Webpack", "Figma", "Git"],
+    skills: ["Attention to detail"],
     logo: "/AAIBlogo.png",
   },
   {
@@ -114,8 +126,18 @@ const experiences: Experience[] = [
     location: "Remote",
     description:
       "Explored cross-platform mobile development by shadowing a startup developer at HUDJO, an app focused on bike parking solutions at local businesses in London, which recently received funding from Deliveroo. Introduced to Javascript, Typescript and the Expo framework, learning how cross-platform apps are built, from a former Google & Yandex software engineer.",
-    skills: ["JavaScript", "SCSS", "Webpack", "Figma", "Git"],
+    skills: ["Expo", "JavaScript", "TypeScript"],
     logo: "/hudjo.webp",
+  },
+  {
+    company: "Vatsim",
+    role: "Trainee Virtual Air Traffic Controller & Pilot",
+    duration: "July 2023 - Present",
+    location: "Remote",
+    description:
+      "Gained practical and theoretical insight into aerodynamics and aerospace engineering, with hands-on experience with flight simulators and wind tunnel experiments at Kingston University, London. Part of a 4-person team designing and presenting a glider to an audience of 100+ students; won the final competition, showcasing teamwork, leadership, problem-solving and perseverance.",
+    skills: ["Multitasking", "Decision-Making", "Stress Management", "Self Learning"],
+    logo: "/vatsim.webp",
   },
   {
     company: "Virgin Atlantic",
@@ -124,17 +146,17 @@ const experiences: Experience[] = [
     location: "Kingston University",
     description:
       "Gained practical and theoretical insight into aerodynamics and aerospace engineering, with hands-on experience with flight simulators and wind tunnel experiments at Kingston University, London. Part of a 4-person team designing and presenting a glider to an audience of 100+ students; won the final competition, showcasing teamwork, leadership, problem-solving and perseverance.",
-    skills: ["JavaScript", "SCSS", "Webpack", "Figma", "Git"],
+    skills: ["Teamwork", "Presentation Skills", "Problem Solving", "Perseverant", "Leadership"],
     logo: "/virgin.webp",
   },
   {
-    company: "Virgin Atlantic",
+    company: "St Michaels Fulwell",
     role: "Church Sound Engineer - Volunteer",
     duration: "December 2017 - June 2023",
     location: "St Michaels Fulwell",
     description:
       "Volunteered 2 hours every Sunday, managing the audio and visuals at the church, displaying song lyrics in sync with the band and ensuring balanced and clear sound levels of microphones and instruments. Developed technical sound skills in sound mixing, equipment setup, and YouTube live-streaming, alongside developing critical thinking skills and remaining calm under pressure, over 6 years.",
-    skills: ["JavaScript", "SCSS", "Webpack", "Figma", "Git"],
+    skills: ["Calm Under Pressure", "Multitasking", "Teamwork", "Critical Thinking"],
     logo: "/stmichaels.jpg",
   },
 ];

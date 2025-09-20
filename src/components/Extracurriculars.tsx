@@ -147,6 +147,16 @@ const experiences: Experience[] = [
     skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
     logo: "/apprenticenation_logo.webp",
   },
+  {
+    company: "BCS",
+    role: "British Computing Society Member",
+    duration: "Present",
+    location: "Remote",
+    description:
+      "Apprentice Nation is an award-winning platform that unites major brands, top UK talent and the power of music to inspire and engage youth into careers they love.",
+    skills: ["Vue.js", "Python", "PostgreSQL", "Redis", "Kubernetes"],
+    logo: "/bcs.png",
+  },
 ];
 
 export default function Extracurriculars() {
