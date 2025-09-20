@@ -7,6 +7,9 @@ import { CarouselItem } from "@/components/ui/carousel";
 import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useRef, useState } from "react";
+import type { UseEmblaCarouselType } from "embla-carousel-react";
+
+type CarouselApi = UseEmblaCarouselType[1];
 
 interface Project {
   name: string;
@@ -91,7 +94,7 @@ export default function Projects() {
     })
   );
   
-  const [api, setApi] = useState<any>(null);
+  const [api, setApi] = useState<CarouselApi>(undefined);
 
   const scrollPrev = () => {
     autoplay.current.stop();

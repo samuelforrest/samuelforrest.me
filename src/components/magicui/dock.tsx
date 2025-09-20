@@ -39,7 +39,7 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
             mousex,
             magnification,
             distance,
-          } as any);
+          } as Partial<DockIconProps>);
         }
         return child;
       });
