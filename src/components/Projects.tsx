@@ -82,7 +82,7 @@ const projects: Project[] = [
 ];
 
 
-export default function ProjectCarousel() {
+export default function Projects() {
   const autoplay = useRef(
     Autoplay({
       delay: 3000,
@@ -105,6 +105,9 @@ export default function ProjectCarousel() {
 
   return (
     <div className="relative">
+
+      <h1 className="text-2xl font-bold pt-10 pb-10">Projects</h1>
+
       <Carousel
         className="relative"
         plugins={[autoplay.current]}

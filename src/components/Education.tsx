@@ -39,7 +39,7 @@ const experiences: Experience[] = [
   },
 ];
 
-export default function EducationCard() {
+export default function Education() {
   const [expandedCards, setExpandedCards] = useState<Set<number>>(new Set());
 
   const toggleCard = (index: number) => {
@@ -54,6 +54,9 @@ export default function EducationCard() {
 
   return (
     <div className="w-full space-y-3">
+
+      <h1 className="text-2xl font-bold pt-10 pb-10">Education</h1>
+
       {experiences.map((experience, index) => (
         <motion.div
           key={index}

@@ -139,7 +139,7 @@ const experiences: Experience[] = [
   },
 ];
 
-export default function ResumeCard() {
+export default function Experience() {
   const [expandedCards, setExpandedCards] = useState<Set<number>>(new Set());
 
   const toggleCard = (index: number) => {

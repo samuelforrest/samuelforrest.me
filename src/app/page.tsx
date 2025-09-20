@@ -1,13 +1,24 @@
 "use client"
 
-import Link from "next/link";
-import ResumeCard from "@/components/Experience";
-import EducationCard from "@/components/Education";
-import ExtracurricularCard from "@/components/Extracurriculars";
-import ProjectCarousel from "@/components/Projects";
 import Hero from "@/components/Hero";
+
 import Links from "@/components/Links";
+
 import Context from "@/components/Context";
+
+import Experience from "@/components/Experience";
+
+import Education from "@/components/Education";
+
+import Projects from "@/components/Projects";
+
+import Extracurriculars from "@/components/Extracurriculars";
+
+import References from "@/components/References";
+
+import Contact from "@/components/Contact";
+
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -18,7 +29,7 @@ export default function Home() {
         <Hero/>
       </section>
 
-      <section id="quick-links">
+      <section id="links">
         <Links />
       </section>
 
@@ -27,73 +38,32 @@ export default function Home() {
       </section>
         
       <section className="mb-8" id="experience">
-        <ResumeCard />
+        <Experience />
       </section>
 
-      <section className="mb-8">
-        <h1 className="text-2xl font-bold pt-10 pb-10">Education</h1>
-        <EducationCard />
+      <section className="mb-8" id="education">
+        <Education />
       </section>
 
       <section className="mb-8" id="projects">
-        <h1 className="text-2xl font-bold pt-10 pb-10">Top Projects</h1>
-        <ProjectCarousel/>
+        <Projects/>
       </section>
 
       <section id="extracurriculars" className="mb-8">
-        <h1 className="text-2xl font-bold pt-10 pb-10">Extracurricular Journey</h1>
-        <ExtracurricularCard />
+        <Extracurriculars />
       </section>
 
       <section id="references">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
-          
-            <div className="space-y-3">
-              <div className="text-3xl font-bold sm:text-5xl">
-                References
-              </div>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed">
-                If you would like references from previous employers or teachers, please get in touch and I will be happy to provide them.
-              </p>
-            </div>
-          
-        </div>
+        <References />
       </section>
 
       <section id="contact">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
-          
-            <div className="space-y-3">
-              
-              <h2 className="text-3xl font-bold sm:text-5xl">
-                Get in Touch
-              </h2>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
-                <Link
-                  href="https://www.google.com"
-                  className="text-blue-500 hover:underline"
-                >
-                  on LinkedIn
-                </Link>{" "}
-                and I&apos;ll respond whenever I can. Or email me: <Link href="mailto:sam@samuelforrest.me" className="text-blue-500 hover:underline">sam@samuelforrest.me</Link>
-              </p>
-            </div>
-          
-          
-        </div>
+        <Contact />
       </section>
 
-      <section>
-        <footer>
-          <div className="text-center pt-10 mb-25">
-          
-          <p className="text-sm md:text-sm/relaxed lg:text-base/relaxed xl:text-sm/relaxed">&copy; Samuel Forrest - All rights reserved</p>
-          <p className="text-sm md:text-sm/relaxed lg:text-base/relaxed xl:text-sm/relaxed">Information is true, as to my best knowledge</p>
-          </div>
-        </footer>
+      <section id="footer">
+        <Footer />
       </section>
-
 
     </main>
   );
