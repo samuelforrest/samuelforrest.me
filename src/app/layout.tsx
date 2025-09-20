@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Navbar from "@/components/navbar";
 
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
