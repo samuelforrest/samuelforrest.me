@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { HomeIcon, FolderOpen, Mail, Github, Linkedin, Sun, Moon, Briefcase, Contact, Instagram, Book } from "lucide-react";
+import { HomeIcon, FolderOpen, Mail, Github, Linkedin, Sun, Moon, Contact, Instagram, Book } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
@@ -18,7 +18,6 @@ import { useEffect, useState } from "react";
 const navItems = [
   { href: "/", icon: HomeIcon, label: "Home" },
   { href: "https://samueljforrest.substack.com", icon: Book, label: "Substack Blog" },
-  { href: "#experience", icon: Briefcase, label: "Experience" },
   { href: "#projects", icon: FolderOpen, label: "Projects" },
   { href: "#contact", icon: Contact, label: "Contact" },
 ];

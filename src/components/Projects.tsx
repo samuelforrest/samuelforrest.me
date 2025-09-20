@@ -64,7 +64,7 @@ const projects: Project[] = [
     dates: "September 2024 - June 2025",
     skills: ["Researching", "Presentation Skills", "Microsoft Word",],
     description:
-      "Delivering one-to-one computer science tutoring to students from diverse backgrounds, including those with special educational needs (SEND). Over 40 hours of lessons given to date, strengthening my communication, lesson planning, time management skills as well as developing empathy.",
+      "I completed an EPQ with the question, 'To what extent is it feasible to reintroduce commmerical supersonic aviation by the year 2040?'",
     github_docs_link: "/documents/epq_abstract.pdf",
     open_link: ["/documents/epq_abstract.pdf"],     
     image: "/boom.webp",
@@ -77,7 +77,7 @@ const projects: Project[] = [
       "An AI Landing Page generator, to be released.",
     github_docs_link: "https://sitro.io",
     open_link: ["https://sitro.io"],     
-    image: "/sitrologo.png",
+    image: "/sitro.jpeg",
   },
 ];
 
