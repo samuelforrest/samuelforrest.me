@@ -40,7 +40,7 @@ const projects: Project[] = [
     "I built a website for a client needing a site to display biology news. The website included AI article summaries, an admin CMS system and user accessibility features.",
   github_docs_link: "https://github.com/samuelforrest/bionewsweekly.com",
   open_link: ["https://bionewsweekly"],     
-  image: "/bionewsweekly.png",
+  image: "/bionewsweekly.webp",
 },
   {
     name: "Tradelingo: Trading App",
