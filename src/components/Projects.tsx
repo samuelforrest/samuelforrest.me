@@ -68,8 +68,8 @@ const projects: Project[] = [
     skills: ["Researching", "Presentation Skills", "Microsoft Word",],
     description:
       "I completed an EPQ with the question, 'To what extent is it feasible to reintroduce commmerical supersonic aviation by the year 2040?'",
-    github_docs_link: "/documents/epq_abstract.pdf",
-    open_link: ["/documents/epq_abstract.pdf"],     
+    github_docs_link: "/assets/epq_abstract.pdf",
+    open_link: ["/assets/epq_abstract.pdf"],     
     image: "/boom.webp",
   },
   {

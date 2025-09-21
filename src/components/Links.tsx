@@ -4,7 +4,7 @@ import { FileText, GraduationCap, Code, FolderOpen, Book } from "lucide-react";
 export default function Links() {
     const links = [
         {
-            href: "/documents/cv.pdf",
+            href: "/assets/cv.pdf",
             title: "CV Download",
             icon: FileText,
             external: false
