@@ -8,6 +8,12 @@ export default function NotFound() {
       <Link href="/" className="underline text-blue-500">
           Go back home
       </Link>
+      <br></br>
+      <p className="text-sm mb-6">If you were attempting to visit a blog article, they are now available on&nbsp;
+        <Link href="https://samueljforrest.substack.com" className="underline text-blue-500">
+          Substack
+        </Link>
+      </p>
     </div>
   );
 }
