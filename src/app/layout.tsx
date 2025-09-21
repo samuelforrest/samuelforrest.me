@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -110,10 +111,25 @@ export default function RootLayout({
             })
           }}
         />
+
+        {/* Google Analytics */}
+      
       </head>
       <body
         className={`${inter.variable} antialiased`}
       >
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-TBLC7B9NCC"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-TBLC7B9NCC');
+          `}
+        </Script>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
