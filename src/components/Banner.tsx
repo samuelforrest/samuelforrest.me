@@ -9,7 +9,7 @@ export default function TimedBanner() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowBanner(true);
-    }, 16000);
+    }, 30000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -20,7 +20,7 @@ export default function TimedBanner() {
     <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 bg-card text-card-foreground rounded-lg border shadow-lg max-w-md w-[90%] p-6">
       <div className="flex justify-between items-start mb-4">
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-          Enjoying my portfolio?
+          Enjoying my website?
         </h3>
         <button
           onClick={() => setShowBanner(false)}
