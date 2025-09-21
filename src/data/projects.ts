@@ -108,7 +108,17 @@ export const projects: Project[] = [
         open_link: ["/assets/how-can-we-make-the-aviation-industry-more-sustainable.pdf"],     
         image: "/saf.webp",
         featured: false,
-      },
+    },
+    {
+      name: "Tech, AI and aviation blog",
+      dates: "September 2024 - Present",
+      skills: ["Research Skills", "Writing Skills", "Blogging"],
+      description: "I've been maintaining a blog on Substack for the past year, posting once a fortnight.",
+      github_docs_link: "https://samueljforrest.substack.com",
+      open_link: ["https://samueljforrest.substack.com"],
+      image: "/blog.webp",
+      featured: false,
+    },
     {
       name: "Screenfine: A Screen Time App",
       dates: "Spring 2025",
