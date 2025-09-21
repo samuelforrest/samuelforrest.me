@@ -84,7 +84,7 @@ const experiences: Experience[] = [
     duration: "Last 7 Years",
     description:
       "I cycled London to Brighton (£500 raised), London to Paris (£500 raised), London to Bath, and Vienna to Budapest via Bratislava (Danube River).",
-    logo: "/bikeride.jpg",
+    logo: "/bikeride.webp",
   },
   {
     company: "",
@@ -108,7 +108,7 @@ const experiences: Experience[] = [
     duration: "Awarded December 2022",
     description:
       "Writing my opinions on the latest news in these fields of my interest. Now hosted on Substack.",
-    logo: "/sf.png",
+    logo: "/sf.webp",
   },
   {
     company: "Apprentice Nation",
@@ -124,7 +124,7 @@ const experiences: Experience[] = [
     duration: "Present",
     description:
       "I'm a student member of the British Computer Society (BCS), demonstrating commitment to professional development and engagement with the wider computing community",
-    logo: "/bcs.png",
+    logo: "/bcs.webp",
   },
 ];
 

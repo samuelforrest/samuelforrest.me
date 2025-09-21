@@ -60,7 +60,7 @@ const projects: Project[] = [
       "My teammate and I won a £300 environmental prize at KTHack25, a 30-hour hackathon.",
     github_docs_link: "https://github.com/samuelforrest/verdapp.xyz",
     open_link: ["https://devpost.com/software/verda-edo7uq"],     
-    image: "/verda.png",
+    image: "/verda.webp",
   },
   {
     name: "EPQ: Supersonic Aviation",
@@ -80,7 +80,7 @@ const projects: Project[] = [
       "An AI Landing Page generator, to be released.",
     github_docs_link: "https://sitro.io",
     open_link: ["https://sitro.io"],     
-    image: "/sitro.jpeg",
+    image: "/sitro.webp",
   },
 ];
 

@@ -70,7 +70,7 @@ const experiences: Experience[] = [
     description:
       "Completed 13 Springpod work experiences with: Amazon & AWS, JLR, Siemens, Ideagen, Fujitsu and Barclays. Produced projects varying from sustainability ideas for JLR to database design for Barclays, learning about the essential soft & technical skills required in a software engineering career.",
     skills: ["Business Research", "Professional Development"],
-    logo: "/springpod.png",
+    logo: "/springpod.webp",
     companyWebsite: "https://www.springpod.com",
   },
   {
@@ -81,7 +81,7 @@ const experiences: Experience[] = [
     description:
       "Completed an insight day, for engineering degree apprenticeships. Researched and presented a proposal for a new aircraft type for the short-haul fleet to a member of the fleet operations team, developing my analytical and presentation skills.",
     skills: ["Networking", "Researching", "Presentation Skills"],
-    logo: "/ba.png",
+    logo: "/ba.webp",
     companyWebsite: "https://www.britishairways.com",
   },
   {
@@ -125,7 +125,7 @@ const experiences: Experience[] = [
     description:
       "Gained first-hand insight into how air crashes are investigated in the UK, by examining black box data, aircraft systems data and inspecting recovered aircraft in the AAIB hangar. Strengthened attention to detail, technical observation, and professional communication skills in such a serious and sensitive safety-critical work environment.",
     skills: ["Attention to detail"],
-    logo: "/AAIBlogo.png",
+    logo: "/aaib.webp",
     companyWebsite: "https://www.gov.uk/government/organisations/air-accidents-investigation-branch",
   },
   {
@@ -169,7 +169,7 @@ const experiences: Experience[] = [
     description:
       "Volunteered 2 hours every Sunday, managing the audio and visuals at the church, displaying song lyrics in sync with the band and ensuring balanced and clear sound levels of microphones and instruments. Developed technical sound skills in sound mixing, equipment setup, and YouTube live-streaming, alongside developing critical thinking skills and remaining calm under pressure, over 6 years.",
     skills: ["Calm Under Pressure", "Multitasking", "Teamwork", "Critical Thinking"],
-    logo: "/stmichaels.jpg",
+    logo: "/stmichaels.webp",
     companyWebsite: "https://www.stmichaelsfulwell.co.uk",
   },
 ];
