@@ -5,6 +5,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Navbar from "@/components/navbar";
+import TimedBanner from "@/components/Banner";
 
 
 const inter = Inter({
@@ -137,6 +138,7 @@ export default function RootLayout({
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
+            <TimedBanner />
           </TooltipProvider>
         </ThemeProvider>
       </body>
