@@ -86,6 +86,7 @@ export default function RootLayout({
         <meta name="color-scheme" content="light dark" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="9f577f80-feb7-4e39-bbbd-945f9dd00cd1"></script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
