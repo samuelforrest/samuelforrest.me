@@ -14,12 +14,13 @@ import Projects from "@/components/Projects";
 
 import Extracurriculars from "@/components/Extracurriculars";
 
+import Service from "@/components/Services";
+
 import References from "@/components/References";
 
 import Contact from "@/components/Contact";
 
 import Footer from "@/components/Footer";
-import Service from "@/components/Services";
 
 
 export default function Home() {
