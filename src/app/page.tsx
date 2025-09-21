@@ -16,6 +16,8 @@ import Extracurriculars from "@/components/Extracurriculars";
 
 import Service from "@/components/Services";
 
+import Skills from "@/components/Skills";
+
 import References from "@/components/References";
 
 import Contact from "@/components/Contact";
@@ -51,11 +53,15 @@ export default function Home() {
         <Projects/>
       </section>
 
+      <section id="skills" className="mb-8">
+        <Skills />
+      </section>
+
       <section id="extracurriculars" className="mb-8">
         <Extracurriculars />
       </section>
 
-      <section id="services" className="mb-8">
+      <section id="services" className="mb-10">
         <Service />
       </section>
 
