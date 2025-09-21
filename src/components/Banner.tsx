@@ -39,6 +39,7 @@ export default function TimedBanner() {
         href="https://samueljforrest.substack.com"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Substack newsletter (opens in a new tab)"
         className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium transition-colors"
         onClick={(e) => e.stopPropagation()}
       >
