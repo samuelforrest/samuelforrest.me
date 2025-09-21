@@ -3,7 +3,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
-import { Calendar } from "lucide-react";
+import { Calendar, ExternalLink } from "lucide-react";
 import { useState } from "react";
 
 interface Experience {
@@ -14,11 +14,12 @@ interface Experience {
   description: string;
   skills: string[];
   logo?: string;
+  companyWebsite?: string;
 }
 
 const experiences: Experience[] = [
   {
-    company: "St Geeorge's College Weybridge",
+    company: "St George's College Weybridge",
     role: "Academic Scholar A*AAA 8x Grade 9s at GCSE",
     duration: "September 2024 - June 2026",
     location: "In-person",
@@ -26,6 +27,7 @@ const experiences: Experience[] = [
       "A Levels: Computing (A*), Physics (A), Mathematics (A), EPQ (A) predicted. Achieved GCSE Grades: 9999999987",
     skills: ["Information Technology", "Music", "AI", "Organisation Skills", "Mathematics", "Collaboration"],
     logo: "/sgc.webp",
+    companyWebsite: "https://www.stgeorgesweybridge.com",
   },
   {
     company: "Newland House School",
@@ -36,6 +38,7 @@ const experiences: Experience[] = [
       "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
     skills: ["Charity Event Organisation", "Hardworing", "Music", "Fundraising", "Leadership"],
     logo: "/nhs.webp",
+    companyWebsite: "https://newlandhouse.net",
   },
 ];
 
@@ -128,6 +131,18 @@ export default function Education() {
               <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
                 {experience.description}
               </p>
+              {experience.companyWebsite && (
+                <a
+                  href={experience.companyWebsite}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-1 text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 mb-4 text-sm font-medium transition-colors"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  <span>Visit {experience.company}</span>
+                </a>
+              )}
               <div className="flex flex-wrap gap-2">
                 {experience.skills.map((skill, skillIndex) => (
                   <Badge

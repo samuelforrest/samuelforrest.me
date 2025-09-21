@@ -74,8 +74,8 @@ const experiences: Experience[] = [
     companyWebsite: "https://www.springpod.com",
   },
   {
-    company: "British Airways WEX",
-    role: "British Airways",
+    company: "British Airways",
+    role: "British Airways WEX",
     duration: "June 2025 - September 2025",
     location: "Waterside Office, London Heathrow Airport",
     description:
