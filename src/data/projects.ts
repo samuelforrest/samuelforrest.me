@@ -138,7 +138,7 @@ export const projects: Project[] = [
         "Podcast with two AI hosts, give it a listen - it's surprisingly good!",
       github_docs_link: "https://open.spotify.com/show/568FPtKmIlTgWgaDAfap03",
       open_link: ["hhttps://open.spotify.com/show/568FPtKmIlTgWgaDAfap03"],     
-      image: "/screenfine.webp",
+      image: "/therevisionpodcast.webp",
       featured: false,
     },
 ];
