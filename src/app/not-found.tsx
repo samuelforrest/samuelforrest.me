@@ -10,9 +10,14 @@ export default function NotFound() {
       </Link>
       <br></br>
       <p className="text-sm mb-6">If you were attempting to visit a blog article, they are now available on&nbsp;
-        <Link href="https://samueljforrest.substack.com" className="underline text-blue-500">
-          Substack
-        </Link>
+        <a
+            href="https://samueljforrest.substack.com"
+            className="underline text-blue-500"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Substack
+        </a>
       </p>
     </div>
   );
