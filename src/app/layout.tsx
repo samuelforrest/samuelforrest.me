@@ -14,7 +14,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Samuel Forrest | CV",
+    default: "Samuel Forrest",
     template: "Samuel Forrest"
   },
   description: "Samuel Forrest is a 17-year-old aspiring Software Engineer studying Computer Science, Physics & Mathematics A-Levels in London. Private tutor, web developer, and entrepreneur building Tradelingo.",
