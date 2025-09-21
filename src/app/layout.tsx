@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Navbar from "@/components/navbar";
 import TimedBanner from "@/components/Banner";
+import { Analytics } from '@vercel/analytics/next';
 
 
 const inter = Inter({
@@ -86,7 +87,6 @@ export default function RootLayout({
         <meta name="color-scheme" content="light dark" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
-        <script defer src="https://cloud.umami.is/script.js" data-website-id="9f577f80-feb7-4e39-bbbd-945f9dd00cd1"></script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -119,11 +119,6 @@ export default function RootLayout({
         className={`${inter.variable} antialiased`}
       >
         <Script
-          src="https://cloud.umami.is/script.js"
-          data-website-id="9f577f80-feb7-4e39-bbbd-945f9dd00cd1"
-          strategy="afterInteractive"
-        />
-        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-TBLC7B9NCC"
           strategy="afterInteractive"
         />
@@ -147,6 +142,7 @@ export default function RootLayout({
             <TimedBanner />
           </TooltipProvider>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
