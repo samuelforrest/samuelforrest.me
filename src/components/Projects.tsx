@@ -54,6 +54,7 @@ export default function Projects() {
         {featuredProjects.map((project, idx) => (
           <CarouselItem key={idx} className="sm:basis-1/2 lg:basis-1/3">
             <motion.div
+              whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="h-full"
             >

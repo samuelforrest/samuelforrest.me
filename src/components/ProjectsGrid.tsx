@@ -21,7 +21,8 @@ export default function ProjectsGrid({ projects: customProjects }: ProjectsGridP
           key={index}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3, delay: index * 0.1 }}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.98 }}
           className="h-full"
         >
           <Card className="h-full flex flex-col hover:shadow-lg transition-shadow">
