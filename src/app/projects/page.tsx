@@ -1,6 +1,6 @@
 import ProjectsGrid from "@/components/ProjectsGrid";
 import Link from "next/link";
-import { ChevronLeft } from "lucide-react";
+import { ChevronLeft, ChevronUp } from "lucide-react";
 
 export default function ProjectsPage() {
   return (
@@ -12,7 +12,7 @@ export default function ProjectsPage() {
             className="inline-flex items-center text-sm underline underline-offset-4 mb-4"
           >
             <ChevronLeft className="w-4 h-4 mr-2" />
-            Back to Portfolio
+            Home
           </Link>
           
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-7">
@@ -26,11 +26,12 @@ export default function ProjectsPage() {
 
         <ProjectsGrid />
 
-        <div className="mt-13 text-center">
+        <div className="mt-13 mb-15 text-center">
           <Link 
             href="#top"
-            className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+            className="inline-flex items-center text-sm underline underline-offset-4"
           >
+            <ChevronUp className="w-4 h-4 mr-2" />
             Back to top
           </Link>
         </div>
