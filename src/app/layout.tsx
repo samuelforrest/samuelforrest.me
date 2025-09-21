@@ -118,6 +118,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} antialiased`}
       >
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="9f577f80-feb7-4e39-bbbd-945f9dd00cd1"></script>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-TBLC7B9NCC"
           strategy="afterInteractive"
