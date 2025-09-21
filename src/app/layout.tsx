@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     default: "Samuel Forrest",
     template: "Samuel Forrest"
   },
-  description: "Samuel Forrest is a 17-year-old aspiring Software Engineer studying Computer Science, Physics & Mathematics A-Levels in London. Private tutor, web developer, and entrepreneur building Tradelingo.",
+  description: "Samuel Forrest is a 17-year-old aspiring Software Engineer studying Computer Science, Physics & Mathematics A-Levels in London. Private tutor, web developer, and entrepreneur building Tradelingo and Sitro.",
   authors: [{ name: 'Samuel Forrest', url: 'https://www.samuelforrest.me' }],
   creator: 'Samuel Forrest',
   publisher: 'Samuel Forrest',
