@@ -41,7 +41,7 @@ const experiences: Experience[] = [
   {
     company: "DofE (Duke of Edinburugh)",
     role: "DofE Silver & Bronze",
-    duration: "Awarded March 2020",
+    duration: "Awarded September 2021",
     description:
       "Completed 40 hours of volunteering and around 40 hours of skills (coding).",
     logo: "/dofe.webp",
@@ -65,7 +65,7 @@ const experiences: Experience[] = [
   {
     company: "UKMT (UK Maths Trust)",
     role: "Senior UKMT - Bronze Award",
-    duration: "Awarded December 2022",
+    duration: "Awarded September 2024",
     description:
       "I was awarded Bronze in the Senior UKMT in December 2022. I compete in this challenge every year.",
     logo: "/ukmt.webp",
@@ -95,7 +95,7 @@ const experiences: Experience[] = [
     logo: "/pc.webp",
   },
   {
-    company: "UKMT (UK Maths Trust)",
+    company: "SGCBC Rowing Club)",
     role: "SGCBC Rowing Club",
     duration: "2021-Early2025",
     description:
