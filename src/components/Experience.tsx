@@ -59,7 +59,7 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "Position to be confirmed",
-    skills: [""],
+    skills: [],
     logo: "/apprentadream.webp",
   },
   {

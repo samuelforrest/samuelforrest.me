@@ -105,7 +105,7 @@ const experiences: Experience[] = [
   {
     company: "Samuel Forrest",
     role: "Computer Science, AI & Aviation Blog",
-    duration: "Awarded December 2022",
+    duration: "Present",
     description:
       "Writing my opinions on the latest news in these fields of my interest. Now hosted on Substack.",
     logo: "/sf.webp",
