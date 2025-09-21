@@ -19,6 +19,7 @@ import References from "@/components/References";
 import Contact from "@/components/Contact";
 
 import Footer from "@/components/Footer";
+import Service from "@/components/Services";
 
 
 export default function Home() {
@@ -51,6 +52,10 @@ export default function Home() {
 
       <section id="extracurriculars" className="mb-8">
         <Extracurriculars />
+      </section>
+
+      <section id="services" className="mb-8">
+        <Service />
       </section>
 
       <section id="references">
