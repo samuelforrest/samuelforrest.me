@@ -29,7 +29,7 @@ export default function Links() {
             external: true
         },
         {
-            href: "#projects",
+            href: "/projects",
             title: "Projects",
             icon: FolderOpen,
             external: false
@@ -42,7 +42,7 @@ export default function Links() {
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
                 {links.map((link, index) => {
                     const Icon = link.icon;
-                    const isProjectsLink = link.href === "#projects";
+                    const isProjectsLink = link.href === "/projects";
                     const hiddenOnMobile = isProjectsLink ? "hidden sm:flex" : "flex";
                     
                     return (

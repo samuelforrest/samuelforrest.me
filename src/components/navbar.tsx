@@ -18,7 +18,7 @@ import { useEffect, useState } from "react";
 const navItems = [
   { href: "/", icon: HomeIcon, label: "Home" },
   { href: "https://samueljforrest.substack.com", icon: Book, label: "Substack Blog" },
-  { href: "#projects", icon: FolderOpen, label: "Projects" },
+  { href: "/projects", icon: FolderOpen, label: "Projects" },
 ];
 
 const socialLinks = [

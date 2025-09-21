@@ -17,9 +17,9 @@ const experiences: Experience[] = [
   {
     company: "St Geeorge's College Weybridge",
     role: "Academic Scholarship Program",
-    duration: "Present",
+    duration: "2022 - Present",
     description:
-      "A Levels: Computing (A*), Physics (A), Mathematics (A), EPQ (A) predicted. Achieved GCSE Grades: 9999999987",
+      "I was awarded an honorary academic scholarship from my school. As part of the program, we went to lecturers, went on scholars trips and complete various extracurricular projects, including a mini EPQ.",
     logo: "/sgc.webp",
   },
   {

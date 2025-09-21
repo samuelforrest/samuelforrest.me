@@ -8,84 +8,15 @@ import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useRef, useState } from "react";
 import type { UseEmblaCarouselType } from "embla-carousel-react";
+import { getFeaturedProjects } from "@/data/projects";
+import Link from "next/link";
 
 type CarouselApi = UseEmblaCarouselType[1];
 
-interface Project {
-  name: string;
-  dates: string;
-  description: string;
-  skills: string[];
-  github_docs_link: string;
-  open_link: string[];
-  image: string;
-}
-
-const projects: Project[] = [
-  {
-    name: "Client: Cat Care Website",
-    dates: "June 2025 - Present",
-    skills: ["Vite + React", "Vite", "TailwindCSS", "Shadcn UI", "SEO"],
-    description:
-      "I designed and built a website for a Cat Carer, constantly providing updates to the client and ensuring the website met their expectations. Notebaly, the SEO was greatly improved, ranking the website #2 for 'cat care' in my client's area.",
-    github_docs_link: "https://github.com/samuelforrest/zoecc.co.uk",
-    open_link: ["https://zoecc.co.uk"],     
-    image: "/zoecc.webp",
-},
-{
-  name: "Client: BioNewsWeekly",
-  dates: "May 2025 - Present",
-  skills: ["React", "Vite", "TypeScript", "TailwindCSS", "OpenAi API"],
-  description:
-    "I built a website for a client needing a site to display biology news. The website included AI article summaries, an admin CMS system and user accessibility features.",
-  github_docs_link: "https://github.com/samuelforrest/bionewsweekly.com",
-  open_link: ["https://bionewsweekly"],     
-  image: "/bionewsweekly.webp",
-},
-  {
-    name: "Tradelingo: Trading App",
-    dates: "September 2024 - Present",
-    skills: ["React Native", "Figma", "Documentation", "Nativewind", "Polygon.io (Financial APIs)"],
-    description:
-      "Tradelingo is an educational trading app for Gen Z. It is currently in a private Alpha. It is being developed for my Computer Science NEA.",
-    github_docs_link: "https://tradelingo.samuelforrest.me",
-    open_link: ["https://tradelingo.samuelforrest.me"],     
-    image: "/tradelingo.webp",
-  },
-  {
-    name: "Hackathon Winner: Verda",
-    dates: "May 2025",
-    skills: ["Nextjs", "TypeScript", "TailwindCSS", "Gemini API", "Presentation Skills",],
-    description:
-      "My teammate and I won a £300 environmental prize at KTHack25, a 30-hour hackathon.",
-    github_docs_link: "https://github.com/samuelforrest/verdapp.xyz",
-    open_link: ["https://devpost.com/software/verda-edo7uq"],     
-    image: "/verda.webp",
-  },
-  {
-    name: "EPQ: Supersonic Aviation",
-    dates: "September 2024 - June 2025",
-    skills: ["Researching", "Presentation Skills", "Microsoft Word",],
-    description:
-      "I completed an EPQ with the question, 'To what extent is it feasible to reintroduce commmerical supersonic aviation by the year 2040?'",
-    github_docs_link: "/assets/epq_abstract.pdf",
-    open_link: ["/assets/epq_abstract.pdf"],     
-    image: "/boom.webp",
-  },
-  {
-    name: "Sitro.io",
-    dates: "Summer 2025 - Present",
-    skills: ["Nextjs", "Openai API", "Inngest", "Prisma", "Sandboxes", "Clerk"],
-    description:
-      "An AI Landing Page generator, to be released.",
-    github_docs_link: "https://sitro.io",
-    open_link: ["https://sitro.io"],     
-    image: "/sitro.webp",
-  },
-];
-
 
 export default function Projects() {
+  const featuredProjects = getFeaturedProjects();
+  
   const autoplay = useRef(
     Autoplay({
       delay: 3000,
@@ -120,7 +51,7 @@ export default function Projects() {
         setApi={setApi}
       >
       <CarouselContent>
-        {projects.map((project, idx) => (
+        {featuredProjects.map((project, idx) => (
           <CarouselItem key={idx} className="sm:basis-1/2 lg:basis-1/3">
             <motion.div
               whileTap={{ scale: 0.98 }}
@@ -224,6 +155,14 @@ export default function Projects() {
         <ChevronRight className="h-4 w-4" />
       </Button>
     </Carousel>
+
+    <div className="flex justify-center pt-10">
+      <Link href="/projects" className="text-sm underline-offset-4 underline inline-flex items-center gap-1">
+        All projects archive
+        <ChevronRight className="h-4 w-4" />
+      </Link>
     </div>
+  </div>
+  
   );
 }
