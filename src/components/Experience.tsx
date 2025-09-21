@@ -249,7 +249,6 @@ export default function Experience() {
             </div>
           </div>
 
-          {/* Full-width dropdown content on mobile */}
           <motion.div
             initial={false}
             animate={{

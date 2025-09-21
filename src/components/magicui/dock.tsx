@@ -50,7 +50,7 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
         ref={ref}
         onMouseMove={(e) => mousex.set(e.pageX)}
         onMouseLeave={() => mousex.set(Infinity)}
-        onTouchStart={() => mousex.set(Infinity)} // Disable magnification on touch
+        onTouchStart={() => mousex.set(Infinity)}
         {...props}
         className={cn(dockVariants({ className }))}
       >

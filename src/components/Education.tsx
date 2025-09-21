@@ -117,7 +117,6 @@ export default function Education() {
             </div>
           </div>
 
-          {/* Full-width dropdown content on mobile */}
           <motion.div
             initial={false}
             animate={{
