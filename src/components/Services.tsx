@@ -25,7 +25,7 @@ const services: Service[] = [
     price: "£15/hr",
     description:
       "I'm a passionate Computer Science tutor, with over 45 hours of experience. Experience with multiple different pupils, with varying levels of ability, learning styles and additional needs.",
-    logo: "/cs.jpg",
+    logo: "/cs.webp",
   },
 ];
 
