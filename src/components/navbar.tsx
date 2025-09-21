@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { HomeIcon, FolderOpen, Mail, Github, Linkedin, Sun, Moon, Contact, Instagram, Book } from "lucide-react";
+import { HomeIcon, FolderOpen, Mail, Github, Linkedin, Sun, Moon, Instagram, Book, Twitter } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
@@ -19,13 +19,13 @@ const navItems = [
   { href: "/", icon: HomeIcon, label: "Home" },
   { href: "https://samueljforrest.substack.com", icon: Book, label: "Substack Blog" },
   { href: "#projects", icon: FolderOpen, label: "Projects" },
-  { href: "#contact", icon: Contact, label: "Contact" },
 ];
 
 const socialLinks = [
   { href: "https://github.com/samuelforrest", icon: Github, label: "GitHub" },
   { href: "https://linkedin.com/in/samueljforrest", icon: Linkedin, label: "LinkedIn" },
   { href: "https://instagram.com/samueljforrest", icon: Instagram, label: "Instagram" },
+  { href: "https://x.com/samueljforrest", icon: Twitter, label: "X" },
   { href: "mailto:sam@samuelforrest.me", icon: Mail, label: "Email" },
 ];
 
