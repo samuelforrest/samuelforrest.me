@@ -8,7 +8,7 @@ A modern portfolio website built with Next.js, featuring animated UI components,
 
 ##  Features
 
-- **Modern Design:** Clean, responsive UI with dark/light theme support.
+- **Modern Design:** Clean, responsive UI with dark/light theme support, thanks to TailwindCSS.
 - **Animations:** Smooth transitions powered by Framer Motion.
 - **Responsive:** Mobile-first design for all devices.
 - **Performance:** Optimized for speed and SEO — all images use `.webp`, reducing load time by 60%. Largest contentful paint takes only 0.4s, score of 99 on PageSpeed Insights
@@ -25,7 +25,7 @@ A modern portfolio website built with Next.js, featuring animated UI components,
 - [TypeScript](https://www.typescriptlang.org/)
 
 **Styling & UI**
-- [Tailwind CSS](https://tailwindcss.com/)z
+- [TailwindCSS v4](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [Lucide React](https://lucide.dev/)
 
