@@ -25,9 +25,7 @@ A modern portfolio website built with Next.js, featuring animated UI components,
 - [TypeScript](https://www.typescriptlang.org/)
 
 **Styling & UI**
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Radix UI](https://www.radix-ui.com/)
+- [Tailwind CSS](https://tailwindcss.com/)z
 - [Framer Motion](https://www.framer.com/motion/)
 - [Lucide React](https://lucide.dev/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
 
