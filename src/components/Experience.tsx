@@ -57,7 +57,7 @@ const experiences: Experience[] = [
     description:
       "Position to be confirmed",
     skills: [""],
-    logo: "/apprentadream.jpeg",
+    logo: "apprentadream.jpeg",
   },
   {
     company: "Springpod",
