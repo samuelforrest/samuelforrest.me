@@ -79,7 +79,7 @@ const experiences: Experience[] = [
     logo: "/doac.webp",
   },
   {
-    company: "",
+    company: "Samuel Forrest",
     role: "Bike Rides & Fundraising",
     duration: "Last 7 Years",
     description:
@@ -87,7 +87,7 @@ const experiences: Experience[] = [
     logo: "/bikeride.webp",
   },
   {
-    company: "",
+    company: "Samuel Forrest",
     role: "Custom PC Building",
     duration: "Present",
     description:
@@ -116,7 +116,7 @@ const experiences: Experience[] = [
     duration: "Present",
     description:
       "Apprentice Nation is an award-winning platform that unites major brands, top UK talent and the power of music to inspire and engage youth into careers they love.",
-    logo: "/apprenticenation_logo.webp",
+    logo: "/apprenticenation.webp",
   },
   {
     company: "BCS",
