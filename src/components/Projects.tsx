@@ -209,6 +209,7 @@ export default function Projects() {
         size="icon"
         className="absolute -left-4 top-1/2 -translate-y-1/2 z-10 h-8 w-8 rounded-full bg-black text-white backdrop-blur-sm border shadow-md"
         onClick={scrollPrev}
+        aria-label="Previous Project"
       >
         <ChevronLeft className="h-4 w-4" />
       </Button>
@@ -218,6 +219,7 @@ export default function Projects() {
         size="icon"
         className="absolute -right-4 top-1/2 -translate-y-1/2 z-10 h-8 w-8 rounded-full bg-black text-white backdrop-blur-sm border shadow-md"
         onClick={scrollNext}
+        aria-label="Next project"
       >
         <ChevronRight className="h-4 w-4" />
       </Button>

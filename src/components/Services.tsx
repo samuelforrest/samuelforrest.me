@@ -58,7 +58,7 @@ export default function Service() {
         >
           <div className="flex items-start space-x-4">
             <Avatar className="w-12 h-12 flex-shrink-0">
-              <AvatarImage src={service.logo}/>
+              <AvatarImage src={service.logo} alt={service.type}/>
             </Avatar>
 
             <div className="flex-1 min-w-0">

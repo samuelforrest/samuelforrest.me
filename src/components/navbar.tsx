@@ -83,8 +83,8 @@ export default function Navbar() {
               <TooltipTrigger asChild>
                 <Link
                   href={item.href}
+                  aria-label={item.label}
                   onClick={(e) => {
-                    // Handle smooth scrolling for anchor links
                     if (item.href.startsWith('#')) {
                       e.preventDefault();
                       const element = document.querySelector(item.href);
