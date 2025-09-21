@@ -130,6 +130,17 @@ export const projects: Project[] = [
       image: "/screenfine.webp",
       featured: false,
     },
+    {
+      name: "The Revision Podcast",
+      dates: "Summer 2025",
+      skills: ["NotebookLM", "Spotify Creators"],
+      description:
+        "Podcast with two AI hosts, give it a listen - it's surprisingly good!",
+      github_docs_link: "https://open.spotify.com/show/568FPtKmIlTgWgaDAfap03",
+      open_link: ["hhttps://open.spotify.com/show/568FPtKmIlTgWgaDAfap03"],     
+      image: "/screenfine.webp",
+      featured: false,
+    },
 ];
 
 export const getFeaturedProjects = (): Project[] => {
