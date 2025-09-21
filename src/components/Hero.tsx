@@ -12,6 +12,7 @@ export default function Hero() {
                     alt="Samuel Forrest"
                     width={100}
                     height={100}
+                    priority
                     className="rounded-full object-cover sm:w-[120px] sm:h-[120px] flex-shrink-0"
                 />
             </div>
