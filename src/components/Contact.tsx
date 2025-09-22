@@ -10,7 +10,7 @@ export default function Contact() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me a dm{" "}
                 <Link
-                  href="https://www.google.com"
+                  href="https://www.linkedin.com/in/samueljforrest"
                   className="text-blue-500 hover:underline"
                 >
                   on LinkedIn
