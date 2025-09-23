@@ -7,6 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Navbar from "@/components/navbar";
 import TimedBanner from "@/components/Banner";
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 
 const inter = Inter({
@@ -142,6 +143,7 @@ export default function RootLayout({
             <TimedBanner />
           </TooltipProvider>
         </ThemeProvider>
+        <SpeedInsights />
         <Analytics />
       </body>
     </html>
