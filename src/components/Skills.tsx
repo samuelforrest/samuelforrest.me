@@ -39,7 +39,7 @@ export default function Skills() {
               </div>
               
               <h3 className="font-semibold text-gray-900 dark:text-white">
-                Team player
+                Collaboration
               </h3>
             </div>
             <div className="flex flex-col items-center text-center space-y-3">
