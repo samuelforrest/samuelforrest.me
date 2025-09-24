@@ -28,7 +28,7 @@ export const projects: Project[] = [
     description:
       "I built a website for a client needing a site to display biology news. The website included AI article summaries, an admin CMS system and user accessibility features.",
     github_docs_link: "https://github.com/samuelforrest/bionewsweekly.com",
-    open_link: ["https://bionewsweekly"],     
+    open_link: ["https://bionewsweekly.com"],     
     image: "/bionewsweekly.webp",
     featured: true,
   },
