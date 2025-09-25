@@ -132,7 +132,7 @@ const experiences: Experience[] = [
     duration: "Present",
     description:
       "I'm a member of the Royal Aeronautical Society, demonstrating commitment to professional development and engagement with the wider aerospace community",
-    logo: "",
+    logo: "/raes.webp",
   },
 ];
 
