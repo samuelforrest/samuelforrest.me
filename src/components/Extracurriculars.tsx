@@ -119,12 +119,20 @@ const experiences: Experience[] = [
     logo: "/apprenticenation.webp",
   },
   {
-    company: "BCS",
+    company: "British Computing Society",
     role: "British Computing Society Member",
     duration: "Present",
     description:
-      "I'm a student member of the British Computer Society (BCS), demonstrating commitment to professional development and engagement with the wider computing community",
+      "I'm a member of the British Computer Society (BCS), demonstrating commitment to professional development and engagement with the wider computing community",
     logo: "/bcs.webp",
+  },
+ {
+    company: "Royal Aeronautical Society",
+    role: "Royal Aeronautical Society Member",
+    duration: "Present",
+    description:
+      "I'm a member of the Royal Aeronautical Society, demonstrating commitment to professional development and engagement with the wider aerospace community",
+    logo: "",
   },
 ];
 
