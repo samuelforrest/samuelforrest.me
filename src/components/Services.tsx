@@ -2,7 +2,7 @@
 
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { motion } from "framer-motion";
-import { CirclePoundSterling } from "lucide-react";
+import { CirclePoundSterling, ExternalLink } from "lucide-react";
 import { useState } from "react";
 
 interface Service {
@@ -10,6 +10,8 @@ interface Service {
   price: string;
   description: string;
   logo?: string;
+  link: string,
+  linkName: string,
 }
 
 const services: Service[] = [
@@ -19,6 +21,8 @@ const services: Service[] = [
     description:
       "3 paid projects completed. My tech stack includes: HTML, CSS, JavaScript, TypeScript, Nativewind, TailwindCSS, React, React Native, Next.js, React+vite, Google Analytics, Google Search Console, SEO optimisation, AI APIs, Financial APIs, Python 3, Supabase, SQL, Databases, Figma",
     logo: "/webdeveloper.webp",
+    link: "https://form.typeform.com/to/yihbaIu7",
+    linkName: "Request web development form",
   },
   {
     type: "Computer Science Tutoring (GCSE & below)",
@@ -26,6 +30,8 @@ const services: Service[] = [
     description:
       "I'm a passionate Computer Science tutor, with over 45 hours of experience. Experience with multiple different pupils, with varying levels of ability, learning styles and additional needs.",
     logo: "/cs.webp",
+    link: "https://www.superprof.co.uk/gcse-igcse-computer-science-and-programming-tutor-taught-sixth-form-student-with-tutoring-experience-all-abilities-welcome.html",
+    linkName: "Get your first lesson free",
   },
 ];
 
@@ -109,6 +115,18 @@ export default function Service() {
               <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
                 {service.description}
               </p>
+              {service.link && (
+                <a
+                  href={service.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-1 text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 mb-4 text-sm font-medium transition-colors"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  <span>{service.linkName}</span>
+                </a>
+              )}
             </div>
           </motion.div>
         </motion.div>
