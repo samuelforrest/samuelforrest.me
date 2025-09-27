@@ -99,15 +99,14 @@ export const projects: Project[] = [
       featured: false,
     },
     {
-        name: "How can we make the aviation industry more sustainable?",
-        dates: "Summer 2023",
-        skills: ["Research Skills", "Writing Skills"],
-        description:
-        "I created a mini-dissertation with my research into SAFs (Sustainable Aviation Fuels) and Hydrogen as sustainable fuel alternatives for modern aircraft.",
-        github_docs_link: "/assets/how-can-we-make-the-aviation-industry-more-sustainable.pdf",
-        open_link: ["/assets/how-can-we-make-the-aviation-industry-more-sustainable.pdf"],     
-        image: "/saf.webp",
-        featured: false,
+      name: "How can we make the aviation industry more sustainable?",
+      dates: "Summer 2023",
+      skills: ["Research Skills", "Writing Skills"],
+      description:
+        "I created a mini-dissertation with my research into SAFs (Sustainable Aviation Fuels) and Hydrogen as sustainable fuel alternatives for modern aircraft.",        github_docs_link: "/assets/how-can-we-make-the-aviation-industry-more-sustainable.pdf",
+      open_link: ["/assets/how-can-we-make-the-aviation-industry-more-sustainable.pdf"],     
+      image: "/saf.webp",
+      featured: false,
     },
     {
       name: "Tech, AI and aviation blog",
@@ -125,8 +124,8 @@ export const projects: Project[] = [
       skills: ["React", "Framer Motion", "Swift", "IOS Development"],
       description:
         "ScreenFine is a conceptual app idea, where the user has to pay to extend their screen time limits. I will likely build when I have more time on my hands.",
-      github_docs_link: "https://github.com/samuelforrest/screenfine.netlify.app",
-      open_link: ["https://screenfine.netlify.app"],     
+      github_docs_link: "https://github.com/samuelforrest/screenfine.samuelforrest.me",
+      open_link: ["https://screenfine.samuelforrest.me"],     
       image: "/screenfine.webp",
       featured: false,
     },
