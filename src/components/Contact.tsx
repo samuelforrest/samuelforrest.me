@@ -14,10 +14,10 @@ export default function Contact() {
                   href="https://www.linkedin.com/in/samueljforrest"
                   className="text-blue-500 hover:underline"
                 >
-                  <div className="inline-flex items-center gap-1">
+                  <span className="inline-flex items-center gap-1">
                     <span>on LinkedIn</span>
                     <Linkedin className="w-4 h-4" />
-                  </div>
+                  </span>
                 </Link>{" "}
                 and I&apos;ll respond within 24 hours. Or email me: <Link href="mailto:sam@samuelforrest.me" className="text-blue-500 hover:underline">sam@samuelforrest.me</Link>
               </p>

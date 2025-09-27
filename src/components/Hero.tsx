@@ -1,12 +1,16 @@
 import Image from "next/image";
+import ChristmasCountdown from "./ChristmasCountdown";
 
 export default function Hero() {
     return(
         <div>
             <div className="flex items-center justify-between gap-4">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none flex-1">
-                    Hi, I&apos;m Samuel Forrest
-                </h1>
+                <div className="flex-1">
+                    <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none mb-3">
+                        Hi, I&apos;m Samuel Forrest
+                    </h1>
+                    <ChristmasCountdown />
+                </div>
                 <Image
                     src="/samuel-forrest-april-2025.webp"
                     alt="Samuel Forrest"

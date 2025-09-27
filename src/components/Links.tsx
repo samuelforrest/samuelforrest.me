@@ -38,7 +38,7 @@ export default function Links() {
 
     return(
         <div>
-            <h1 className="text-2xl font-bold pt-10 pb-6">Top Links</h1>
+            <h1 className="text-2xl font-bold pt-7 pb-6">Top Links</h1>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
                 {links.map((link, index) => {
                     const Icon = link.icon;
