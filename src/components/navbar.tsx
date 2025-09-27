@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { HomeIcon, FolderOpen, Mail, Github, Linkedin, Sun, Moon, Instagram, Book } from "lucide-react";
+import { HomeIcon, FolderOpen, Mail, Github, Linkedin, Sun, Moon, Instagram, Book, MessageCircle } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
@@ -25,6 +25,7 @@ const socialLinks = [
   { href: "https://github.com/samuelforrest", icon: Github, label: "GitHub" },
   { href: "https://linkedin.com/in/samueljforrest", icon: Linkedin, label: "LinkedIn" },
   { href: "https://instagram.com/samueljforrest", icon: Instagram, label: "Instagram" },
+  { href: "https://wa.me/447453446391", icon: MessageCircle, label: "WhatsApp" },
   { href: "mailto:sam@samuelforrest.me", icon: Mail, label: "Email" },
 ];
 
