@@ -24,7 +24,7 @@ export default function TimedBanner() {
         </h3>
         <button
           onClick={() => setShowBanner(false)}
-          className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 font-bold text-2xl leading-none"
+          className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 font-bold text-2xl leading-none hover:rotate-25"
           aria-label="Close banner"
         >
           ×
