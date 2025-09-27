@@ -54,7 +54,7 @@ const experiences: Experience[] = [
   },
   {
     company: "Apprentadream",
-    role: "Incoming @ Apprentadream",
+    role: "Incoming Position @ Apprentadream",
     duration: "August 2025 - Present",
     location: "Hybrid",
     description:
