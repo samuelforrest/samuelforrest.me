@@ -32,6 +32,27 @@ const experiences: Experience[] = [
     companyWebsite: "https://www.superprof.co.uk",
   },
   {
+    company: "Apprentadream",
+    role: "CTO (Software) @ Apprentadream",
+    duration: "August 2025 - Present",
+    location: "Hybrid",
+    description:
+      "Leading innovating and developing web applications for Apprentadream, focused on converting 3,000+ community members into active online customers. Collaborating closely with the founder and partners, shaping product direction and rapidly delivering MVPs using modern web technologies such as Next.js, TypeScript, TailwindCSS, and AI APIs.",
+    skills: ["TypeScript", "React", "HTML5", "SEO", "Next.js", "Supabase", "SQL", "Cloudflare", "Vercel"],
+    logo: "/apprentadream.webp",
+    companyWebsite: "https://chat.whatsapp.com/Kek6I8hE2wQBj8Znp97Q2f",
+  },
+  {
+    company: "Freelance Web Developer",
+    role: "Freelance Web Developer",
+    duration: "March 2025 - Present",
+    location: "Hybrid",
+    description:
+    "Designed, coded and deployed responsive websites for 3 paying clients, using TailwindCSS, React, TypeScript, Next.js, Supabase, Gemini API, Google Analytics, and integrating features such as authentication, admin dashboards, blogs and AI summaries. Most client projects are publicly available here: samuelforrest.me Communicated directly with clients to gather requirements and to provide progress updates throughout the development process and support to maintain the websites, strengthening client communication, active listening, and problem-solving skills.",
+    skills: ["TypeScript", "React", "HTML5", "SEO", "Next.js", "Vite", "Supabase", "SQL", "Cloudflare", "Vercel"],
+    logo: "/webdeveloper.webp",
+  },
+  {
     company: "Tradelingo",
     role: "Founder @ Tradelingo",
     duration: "September 2024 - Present",
@@ -41,26 +62,6 @@ const experiences: Experience[] = [
     skills: ["TypeScript", "iOS Development", "Databases", "Nativewind", "React Native", "SQL", "Finance", "iOS Testing", "Android Development", "Figma"],
     logo: "/tradelingo.webp",
     companyWebsite: "https://tradelingo.app",
-  },
-  {
-    company: "Freelance Web Developer",
-    role: "Freelance Web Developer",
-    duration: "March 2025 - Present",
-    location: "Hybrid",
-    description:
-      "Designed, coded and deployed responsive websites for 3 paying clients, using TailwindCSS, React, TypeScript, Next.js, Supabase, Gemini API, Google Analytics, and integrating features such as authentication, admin dashboards, blogs and AI summaries. Most client projects are publicly available here: samuelforrest.me Communicated directly with clients to gather requirements and to provide progress updates throughout the development process and support to maintain the websites, strengthening client communication, active listening, and problem-solving skills.",
-    skills: ["TypeScript", "React", "HTML5", "SEO", "Next.js", "Vite", "Supabase", "SQL"],
-    logo: "/webdeveloper.webp",
-  },
-  {
-    company: "Apprentadream",
-    role: "Incoming Position @ Apprentadream",
-    duration: "August 2025 - Present",
-    location: "Hybrid",
-    description:
-      "Position to be confirmed",
-    skills: [],
-    logo: "/apprentadream.webp",
   },
   {
     company: "Springpod",
