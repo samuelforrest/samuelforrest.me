@@ -17,7 +17,7 @@ interface Experience {
   companyWebsite?: string;
 }
 
-// ALL EXPERIENCES LISTED MUST MIMIC LINKEDIN, INCLUDING SKILLS AND DATES
+// Attempt to mimic LinkedIn in terms of wording, skills and format.
 
 const experiences: Experience[] = [
   {
