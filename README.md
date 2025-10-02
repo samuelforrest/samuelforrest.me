@@ -28,4 +28,5 @@ A modern portfolio website built with Next.js, featuring animated UI components,
 - [TailwindCSS v4](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [Lucide React](https://lucide.dev/)
+- [MagicUI Dock](https://magicui.design/)
 
