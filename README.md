@@ -13,7 +13,7 @@ A modern portfolio website built with Next.js, featuring animated UI components,
 - **Responsive:** Mobile-first design for all devices.
 - **Performance:** Optimized for speed and SEO — all images use `.webp`, reducing load time by 60%. Largest contentful paint takes only 0.4s, score of 99 on PageSpeed Insights
 - **Theme Toggle:** Easily switch between dark and light mode.
-- **Analytics:** Integrated with Google Analytics.
+- **Analytics:** Integrated with Google Analytics for advanced metrics and Vercel analytics for real-time and detailed referral sources.
 
 
 
