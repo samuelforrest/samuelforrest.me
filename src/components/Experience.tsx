@@ -26,7 +26,7 @@ const experiences: Experience[] = [
     duration: "September 2024 - Present",
     location: "Remote",
     description:
-      "Delivering one-to-one computer science tutoring to students from diverse backgrounds, including those with special educational needs (SEND). Over 40 hours of lessons given to date, strengthening my communication, lesson planning, time management skills as well as developing empathy.",
+      "Delivering one-to-one tutoring to 3 computer science students from diverse backgrounds, including those with special educational needs (SEND). Over 45 hours of lessons given to date. Strengthened key interpersonal skills such as clear communication, structured lesson planning, time management and the ability to provide empathetic and tailored constructive feedback.",
     skills: ["Tutoring", "Adaptability", "Homework Help", "Communication", "Organisation", "Empathy", "Python"],
     logo: "/superprof.webp",
     companyWebsite: "https://www.superprof.co.uk",
