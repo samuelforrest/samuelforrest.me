@@ -1,12 +1,6 @@
 "use client";
 
-import { 
-    FolderClock,
-    Grid2X2Check,
-    Lightbulb,
-    Speech,
-    UsersRound, 
-} from "lucide-react";
+import { FolderClock, Grid2X2Check, Lightbulb, Speech, UsersRound, } from "lucide-react";
 
 export default function Skills() {
   return (
