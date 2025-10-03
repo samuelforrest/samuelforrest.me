@@ -34,7 +34,7 @@ const experiences: Experience[] = [
   {
     company: "Apprentadream",
     role: "CTO (Software) @ Apprentadream",
-    duration: "August 2025 - Present",
+    duration: "September 2025 - Present",
     location: "Hybrid",
     description:
       "Leading innovating and developing web applications for Apprentadream, focused on converting 3,000+ community members into active online customers. Collaborating closely with the founder and partners, shaping product direction and rapidly delivering MVPs using modern web technologies such as Next.js, TypeScript, TailwindCSS, and AI APIs.",
@@ -45,7 +45,7 @@ const experiences: Experience[] = [
   {
     company: "Bookmark Charity",
     role: "Volunteer Reading Mentor",
-    duration: "October - Present",
+    duration: "October 2025 - Present",
     location: "In person",
     description:
     "Supporting two primary school children facing barriers to literacy, on a weekly basis. Helping them to grow in confidence, support their literacy learning and being a supportive person they can talk to.",
