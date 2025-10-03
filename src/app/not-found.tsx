@@ -9,7 +9,7 @@ export default function NotFound() {
           Go back home
       </Link>
       <br></br>
-      <p className="text-sm mb-6">If you were attempting to visit a blog article, they are now available on&nbsp;
+      <p className="text-sm mb-6 text-center pl-5 pr-5">If you were attempting to visit a Blog article, they are now available on&nbsp;
         <a
             href="https://samueljforrest.substack.com"
             className="underline text-blue-500"

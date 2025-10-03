@@ -59,7 +59,7 @@ export const projects: Project[] = [
     dates: "September 2024 - June 2025",
     skills: ["Researching", "Presentation Skills", "Microsoft Word"],
     description:
-      "I completed an EPQ with the question, 'To what extent is it feasible to reintroduce commmerical supersonic aviation by the year 2040?'",
+      "I completed an EPQ with the question, 'To what extent is it feasible to reintroduce commmerical supersonic aviation by the year 2040?' My EPQ has been awarded a mark of 51/54 (A*) provisional.",
     github_docs_link: "/assets/epq_abstract.pdf",
     open_link: ["/assets/epq_abstract.pdf"],     
     image: "/boom.webp",

@@ -20,11 +20,11 @@ interface Experience {
 const experiences: Experience[] = [
   {
     company: "St George's College Weybridge",
-    role: "Academic Scholar A*AAA 8x Grade 9s at GCSE",
+    role: "Academic Scholar | A*A*AA | 8x Grade 9s at GCSE",
     duration: "September 2024 - June 2026",
     location: "In-person",
     description:
-      "A Levels: Computing (A*), Physics (A), Mathematics (A), EPQ (A) predicted. Achieved GCSE Grades: 9999999987",
+      "A Levels: Computing (A*), Physics (A), Mathematics (A), EPQ (A*) predicted. Achieved GCSE Grades: 9999999987",
     skills: ["Information Technology", "Music", "AI", "Organisation Skills", "Mathematics", "Collaboration"],
     logo: "/sgc.webp",
     companyWebsite: "https://www.stgeorgesweybridge.com",
