@@ -51,6 +51,7 @@ const experiences: Experience[] = [
     "Supporting two primary school children facing barriers to literacy, on a weekly basis. Helping them to grow in confidence, support their literacy learning and being a supportive person they can talk to.",
     skills: ["Youth Mentoring", "Empathy", "Mentoring", "Teaching"],
     logo: "/bookmark.webp",
+    companyWebsite: "https://www.bookmarkreading.org",
   },
     {
     company: "Freelance Web Developer",
