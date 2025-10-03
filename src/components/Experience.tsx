@@ -43,6 +43,16 @@ const experiences: Experience[] = [
     companyWebsite: "https://chat.whatsapp.com/Kek6I8hE2wQBj8Znp97Q2f",
   },
   {
+    company: "Bookmark Charity",
+    role: "Volunteer Reading Mentor",
+    duration: "October - Present",
+    location: "In person",
+    description:
+    "Supporting two primary school children facing barriers to literacy, on a weekly basis. Helping them to grow in confidence, support their literacy learning and being a supportive person they can talk to.",
+    skills: ["Youth Mentoring", "Empathy", "Mentoring", "Teaching"],
+    logo: "/bookmark.webp",
+  },
+    {
     company: "Freelance Web Developer",
     role: "Freelance Web Developer",
     duration: "March 2025 - Present",
