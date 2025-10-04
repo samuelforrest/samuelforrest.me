@@ -35,7 +35,7 @@ const experiences: Experience[] = [
     duration: "September 2012 - July 2021",
     location: "In-person",
     description:
-      "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain.",
+      "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain. School sound engineer for plays. VEX Robotics Team Member.",
     skills: ["Charity Event Organisation", "Hardworing", "Music", "Fundraising", "Leadership"],
     logo: "/nhs.webp",
     companyWebsite: "https://newlandhouse.net",
