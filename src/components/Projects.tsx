@@ -95,56 +95,40 @@ export default function Projects() {
                   </div>
 
                   <div className="flex gap-2 w-full">
-                    {project.actions.github && (
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        className="flex-1 cursor-pointer"
-                        asChild
-                      >
-                        <a
-                          href={project.actions.github.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
+                    {project.actions.slice(0, 2).map((action, index) => {
+                      const isGithub = action.type === 'github';
+                      const isWebsite = action.type === 'website';
+                      const isDocument = action.type === 'document';
+                      
+                      const defaultLabels = {
+                        github: "GitHub",
+                        website: "Visit",
+                        document: "Download"
+                      };
+                      
+                      const icon = isGithub ? <Github className="w-4 h-4 mr-2" /> :
+                                  isWebsite ? <ExternalLink className="w-4 h-4 mr-2" /> :
+                                  <Download className="w-4 h-4 mr-2" />;
+                      
+                      return (
+                        <Button
+                          key={index}
+                          size="sm"
+                          variant={isGithub || isDocument ? "outline" : "default"}
+                          className="flex-1 cursor-pointer"
+                          asChild
                         >
-                          <Github className="w-4 h-4 mr-2" />
-                          {project.actions.github.label || "GitHub"}
-                        </a>
-                      </Button>
-                    )}
-                    {project.actions.website && (
-                      <Button
-                        size="sm"
-                        className="flex-1 cursor-pointer"
-                        asChild
-                      >
-                        <a
-                          href={project.actions.website.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <ExternalLink className="w-4 h-4 mr-2" />
-                          {project.actions.website.label || "Visit"}
-                        </a>
-                      </Button>
-                    )}
-                    {project.actions.document && (
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        className="flex-1 cursor-pointer"
-                        asChild
-                      >
-                        <a
-                          href={project.actions.document.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Download className="w-4 h-4 mr-2" />
-                          {project.actions.document.label || "Download"}
-                        </a>
-                      </Button>
-                    )}
+                          <a
+                            href={action.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {icon}
+                            {action.label || defaultLabels[action.type]}
+                          </a>
+                        </Button>
+                      );
+                    })}
                   </div>
                 </CardFooter>
               </Card>
