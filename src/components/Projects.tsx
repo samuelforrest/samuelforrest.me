@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { CarouselItem } from "@/components/ui/carousel";
-import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
+import { ExternalLink, Github, ChevronLeft, ChevronRight, Download } from "lucide-react";
 import Image from "next/image";
 import { useRef, useState } from "react";
 import type { UseEmblaCarouselType } from "embla-carousel-react";
@@ -95,7 +95,7 @@ export default function Projects() {
                   </div>
 
                   <div className="flex gap-2 w-full">
-                    {project.github_docs_link && (
+                    {project.actions.github && (
                       <Button
                         size="sm"
                         variant="outline"
@@ -103,28 +103,45 @@ export default function Projects() {
                         asChild
                       >
                         <a
-                          href={project.github_docs_link}
+                          href={project.actions.github.url}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <Github className="w-4 h-4 mr-2" />
-                          Docs
+                          {project.actions.github.label || "GitHub"}
                         </a>
                       </Button>
                     )}
-                    {project.open_link?.[0] && (
+                    {project.actions.website && (
                       <Button
                         size="sm"
                         className="flex-1 cursor-pointer"
                         asChild
                       >
                         <a
-                          href={project.open_link[0]}
+                          href={project.actions.website.url}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <ExternalLink className="w-4 h-4 mr-2" />
-                          View
+                          {project.actions.website.label || "Visit"}
+                        </a>
+                      </Button>
+                    )}
+                    {project.actions.document && (
+                      <Button
+                        size="sm"
+                        variant="outline"
+                        className="flex-1 cursor-pointer"
+                        asChild
+                      >
+                        <a
+                          href={project.actions.document.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Download className="w-4 h-4 mr-2" />
+                          {project.actions.document.label || "Download"}
                         </a>
                       </Button>
                     )}

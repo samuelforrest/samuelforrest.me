@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Download } from "lucide-react";
 import Image from "next/image";
 import { getAllProjects, type Project } from "@/data/projects";
 
@@ -21,7 +21,7 @@ export default function ProjectsGrid({ projects: customProjects }: ProjectsGridP
           key={index}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          whileHover={{ scale: 1.05 }}
+          whileHover={{ scale: 1.03 }}
           whileTap={{ scale: 0.98 }}
           className="h-full"
         >
@@ -58,7 +58,7 @@ export default function ProjectsGrid({ projects: customProjects }: ProjectsGridP
               </div>
 
               <div className="flex gap-2 w-full">
-                {project.github_docs_link && (
+                {project.actions.github && (
                   <Button
                     size="sm"
                     variant="outline"
@@ -66,30 +66,48 @@ export default function ProjectsGrid({ projects: customProjects }: ProjectsGridP
                     asChild
                   >
                     <a
-                      href={project.github_docs_link}
+                      href={project.actions.github.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label={`View ${project.name} documentation or source code`}
+                      aria-label={`View ${project.name} source code on GitHub`}
                     >
                       <Github className="w-4 h-4 mr-2" />
-                      Docs
+                      {project.actions.github.label || "GitHub"}
                     </a>
                   </Button>
                 )}
-                {project.open_link?.[0] && (
+                {project.actions.website && (
                   <Button
                     size="sm"
                     className="flex-1 cursor-pointer"
                     asChild
                   >
                     <a
-                      href={project.open_link[0]}
+                      href={project.actions.website.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label={`View live ${project.name} project`}
+                      aria-label={`Visit live ${project.name} website`}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
-                      View
+                      {project.actions.website.label || "Visit"}
+                    </a>
+                  </Button>
+                )}
+                {project.actions.document && (
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="flex-1 cursor-pointer"
+                    asChild
+                  >
+                    <a
+                      href={project.actions.document.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Download ${project.name} document`}
+                    >
+                      <Download className="w-4 h-4 mr-2" />
+                      {project.actions.document.label || "Download"}
                     </a>
                   </Button>
                 )}
