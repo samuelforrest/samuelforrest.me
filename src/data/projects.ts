@@ -20,8 +20,8 @@ export const projects: Project[] = [
     description:
       "Built a modern, responsive website for a local cat care business. Features clean design, contact forms, and service showcases.",
     actions: [
-      { type: "github", url: "https://github.com/samuelforrest/zoeys-cat-care" },
-      { type: "website", url: "https://zoeyshappycats.co.uk" },
+      { type: "github", url: "https://github.com/samuelforrest/zoecc.co.uk" },
+      { type: "website", url: "https://zoecc.co.uk" },
     ],
     image: "/zoecc.webp",
     featured: true,
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     description:
       "Developed a news aggregation website for biological sciences. Features automated content curation and clean, accessible design.",
     actions: [
-      { type: "github", url: "https://github.com/samuelforrest/bionewsweekly" },
+      { type: "github", url: "https://github.com/samuelforrest/bionewsweekly.com" },
       { type: "website", url: "https://bionewsweekly.com" },
     ],
     image: "/bionewsweekly.webp",
