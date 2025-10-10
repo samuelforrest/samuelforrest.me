@@ -47,7 +47,6 @@ export const projects: Project[] = [
       "Tradelingo is an educational trading app for Gen Z. It is currently in a private Alpha. It is being developed for my Computer Science NEA.",
     actions: [
       { type: "website", url: "https://tradelingo.samuelforrest.me" },
-      { type: "document", url: "https://tradelingo.samuelforrest.me/docs", label: "Documentation" },
     ],
     image: "/tradelingo.webp",
     featured: true,
@@ -73,7 +72,7 @@ export const projects: Project[] = [
       "I completed an EPQ with the question, 'To what extent is it feasible to reintroduce commmerical supersonic aviation by the year 2040?' My EPQ has been awarded a mark of 51/54 (A*) provisional.",
     actions: [
       { type: "document", url: "/assets/epq_abstract.pdf", label: "Abstract" },
-      { type: "website", url: "https://boom.aero", label: "Boom Technology" },
+      { type: "document", url: "/assets/epq-presentation.pdf", label: "Presentation" },
     ],
     image: "/boom.webp",
     featured: false,
