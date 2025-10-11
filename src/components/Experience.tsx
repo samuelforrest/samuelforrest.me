@@ -29,7 +29,7 @@ const experiences: Experience[] = [
       "Delivering one-to-one tutoring to 3 computer science students from diverse backgrounds, including those with special educational needs (SEND). Over 45 hours of lessons given to date. Strengthened key interpersonal skills such as clear communication, structured lesson planning, time management and the ability to provide empathetic and tailored constructive feedback.",
     skills: ["Tutoring", "Adaptability", "Homework Help", "Communication", "Organisation", "Empathy", "Python"],
     logo: "/superprof.webp",
-    companyWebsite: "https://www.superprof.co.uk",
+    companyWebsite: "https://www.superprof.co.uk/gcse-igcse-computer-science-and-programming-tutor-taught-sixth-form-student-with-tutoring-experience-all-abilities-welcome.html",
   },
   {
     company: "Apprentadream",
