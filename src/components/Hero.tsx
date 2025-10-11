@@ -12,12 +12,12 @@ export default function Hero() {
                     <ChristmasCountdown />
                 </div>
                 <Image
-                    src="/samuel-forrest-april-2025.webp"
+                    src="/samuel-forrest-october-2025.webp"
                     alt="Samuel Forrest"
-                    width={100}
-                    height={100}
+                    width={120}
+                    height={120}
                     priority
-                    className="rounded-full object-cover sm:w-[120px] sm:h-[120px] flex-shrink-0"
+                    className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] rounded-full object-cover flex-shrink-0 aspect-square"
                 />
             </div>
         </div>

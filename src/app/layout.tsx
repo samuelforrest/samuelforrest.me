@@ -96,7 +96,7 @@ export default function RootLayout({
               "@type": "Person",
               "name": "Samuel Forrest",
               "url": "https://www.samuelforrest.me",
-              "image": "https://www.samuelforrest.me/samuel-forrest-april-2025.webp",
+              "image": "https://www.samuelforrest.me/samuel-forrest-october-2025.webp",
               "jobTitle": "Software Engineer & A-Level Student",
               "description": "17-year-old aspiring Software Engineer studying Computer Science, Physics & Mathematics A-Levels in London",
               "alumniOf": "St George's College, Weybridge",
