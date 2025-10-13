@@ -64,10 +64,10 @@ const experiences: Experience[] = [
   },
   {
     company: "UKMT (UK Maths Trust)",
-    role: "Senior UKMT - Bronze Award",
+    role: "Senior UK Maths Challenge - Bronze Award",
     duration: "Awarded September 2024",
     description:
-      "I was awarded Bronze in the Senior UKMT in December 2022. I compete in this challenge every year.",
+      "I was awarded Bronze in the Senior UKMT Maths Challenge in December 2022. I compete in this challenge every year.",
     logo: "/ukmt.webp",
   },
   {
