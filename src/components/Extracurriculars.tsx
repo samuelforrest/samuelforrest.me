@@ -67,8 +67,16 @@ const experiences: Experience[] = [
     role: "Senior UK Maths Challenge - Bronze Award",
     duration: "Awarded September 2024",
     description:
-      "I was awarded Bronze in the Senior UKMT Maths Challenge in December 2022. I compete in this challenge every year.",
+      "I was awarded Bronze in the Senior UKMT Maths Challenge in September 2024. I compete in this challenge every year.",
     logo: "/ukmt.webp",
+  },
+  {
+    company: "BPhO",
+    role: "Senior Physics Olympiad - Bronze Award",
+    duration: "Awarded September 2024",
+    description:
+      "I was awarded Bronze in the Senior BPhO Physics Olympiad in September 2024.",
+    logo: "/physicsolympiad.webp",
   },
   {
     company: "DOAC",
