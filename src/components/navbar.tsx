@@ -10,22 +10,43 @@ import {
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { HomeIcon, FolderOpen, Mail, Github, Linkedin, Sun, Moon, Instagram, Book, MessageCircle } from "lucide-react";
+import {
+  HomeIcon,
+  FolderOpen,
+  Mail,
+  Github,
+  Linkedin,
+  Sun,
+  Moon,
+  Book,
+  MessageCircle,
+} from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 
 const navItems = [
   { href: "/", icon: HomeIcon, label: "Home" },
-  { href: "https://samueljforrest.substack.com", icon: Book, label: "Substack Blog" },
+  {
+    href: "https://samueljforrest.substack.com",
+    icon: Book,
+    label: "Substack Blog",
+  },
   { href: "/projects", icon: FolderOpen, label: "Projects" },
 ];
 
 const socialLinks = [
   { href: "https://github.com/samuelforrest", icon: Github, label: "GitHub" },
-  { href: "https://linkedin.com/in/samueljforrest", icon: Linkedin, label: "LinkedIn" },
-  { href: "https://instagram.com/samueljforrest", icon: Instagram, label: "Instagram" },
-  { href: "https://wa.me/447453446391", icon: MessageCircle, label: "WhatsApp" },
+  {
+    href: "https://linkedin.com/in/samueljforrest",
+    icon: Linkedin,
+    label: "LinkedIn",
+  },
+  {
+    href: "https://wa.me/447453446391",
+    icon: MessageCircle,
+    label: "WhatsApp",
+  },
   { href: "mailto:sam@samuelforrest.me", icon: Mail, label: "Email" },
 ];
 
@@ -42,7 +63,6 @@ function ModeToggle() {
       <Button
         variant="ghost"
         size="icon"
-        
         className="size-12 md:size-12 min-w-12 min-h-12 touch-manipulation dock-icon"
       >
         <Sun className="h-[1.2rem] w-[1.2rem]" />
@@ -73,7 +93,8 @@ export default function Navbar() {
   return (
     <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-6 flex origin-bottom h-full max-h-14 safe-area-inset-bottom">
       <div className="fixed bottom-0 inset-x-0 h-16 w-full bg-background to-transparent dark:bg-background"></div>
-      <Dock className="z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-background [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)] transform-gpu dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset] rounded-2xl max-w-fit"
+      <Dock
+        className="z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-background [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)] transform-gpu dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset] rounded-2xl max-w-fit"
         magnification={50}
         distance={120}
       >
@@ -85,13 +106,13 @@ export default function Navbar() {
                   href={item.href}
                   aria-label={item.label}
                   onClick={(e) => {
-                    if (item.href.startsWith('#')) {
+                    if (item.href.startsWith("#")) {
                       e.preventDefault();
                       const element = document.querySelector(item.href);
                       if (element) {
-                        element.scrollIntoView({ 
-                          behavior: 'smooth',
-                          block: 'start'
+                        element.scrollIntoView({
+                          behavior: "smooth",
+                          block: "start",
                         });
                       }
                     }
