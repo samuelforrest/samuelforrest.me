@@ -19,7 +19,13 @@ export const projects: Project[] = [
     skills: ["Next.js", "TailwindCSS", "TypeScript", "MagicUI", "ShadcnUI"],
     description:
       "Built a GDPR-compliant sign-up form, handing over 150 sign-ups per week. Working on a seperate large Apprentadream project coming 2026.",
-    actions: [{ type: "website", url: "https://apprentadream.co.uk" }],
+    actions: [
+      {
+        type: "github",
+        url: "https://github.com/samuelforrest/apprentadream.co.uk",
+      },
+      { type: "website", url: "https://apprentadream.co.uk" },
+    ],
     image: "/apprentadream2.webp",
     featured: true,
   },
