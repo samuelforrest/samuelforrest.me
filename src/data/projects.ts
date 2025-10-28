@@ -6,7 +6,7 @@ export interface Project {
   image: string;
   featured: boolean;
   actions: Array<{
-    type: 'github' | 'website' | 'document';
+    type: "github" | "website" | "document";
     url: string;
     label?: string;
   }>;
@@ -14,9 +14,19 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    name: "Client: Apprentadream",
+    dates: "September 2025 - Present",
+    skills: ["Next.js", "TailwindCSS", "TypeScript", "MagicUI", "ShadcnUI"],
+    description:
+      "Built a GDPR-compliant sign-up form, handing over 150 sign-ups per week. Working on a seperate large Apprentadream project coming 2026.",
+    actions: [{ type: "website", url: "https://apprentadream.co.uk" }],
+    image: "/apprentadream2.webp",
+    featured: true,
+  },
+  {
     name: "Client: Cat Care Website",
     dates: "June 2025 - Present",
-    skills: ["React", "TailwindCSS", "TypeScript", "Nextjs"],
+    skills: ["React + Vite", "TailwindCSS", "TypeScript", "ShadcnUI"],
     description:
       "Built a modern, responsive website for a local cat care business. Features clean design, contact forms, and service showcases.",
     actions: [
@@ -29,11 +39,14 @@ export const projects: Project[] = [
   {
     name: "Client: BioNewsWeekly",
     dates: "April 2025 - Present",
-    skills: ["React", "TailwindCSS", "TypeScript", "Nextjs"],
+    skills: ["React+Vite", "TailwindCSS", "TypeScript", "ShadcnUI"],
     description:
       "Developed a news aggregation website for biological sciences. Features automated content curation and clean, accessible design.",
     actions: [
-      { type: "github", url: "https://github.com/samuelforrest/bionewsweekly.com" },
+      {
+        type: "github",
+        url: "https://github.com/samuelforrest/bionewsweekly.com",
+      },
       { type: "website", url: "https://bionewsweekly.com" },
     ],
     image: "/bionewsweekly.webp",
@@ -42,24 +55,38 @@ export const projects: Project[] = [
   {
     name: "Tradelingo: Trading App",
     dates: "September 2024 - Present",
-    skills: ["React Native", "Figma", "Documentation", "Nativewind", "Polygon.io (Financial APIs)"],
+    skills: [
+      "React Native",
+      "Figma",
+      "Documentation",
+      "Nativewind",
+      "Polygon.io (Financial APIs)",
+    ],
     description:
       "Tradelingo is an educational trading app for Gen Z. It is currently in a private Alpha. It is being developed for my Computer Science NEA.",
-    actions: [
-      { type: "website", url: "https://tradelingo.samuelforrest.me" },
-    ],
+    actions: [{ type: "website", url: "https://tradelingo.samuelforrest.me" }],
     image: "/tradelingo.webp",
     featured: true,
   },
   {
     name: "Hackathon Winner: Verda",
     dates: "May 2025",
-    skills: ["Nextjs", "TypeScript", "TailwindCSS", "Gemini API", "Presentation Skills"],
+    skills: [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Gemini API",
+      "Presentation Skills",
+    ],
     description:
       "My teammate and I won a £300 environmental prize at KTHack25, a 30-hour hackathon.",
     actions: [
       { type: "github", url: "https://github.com/samuelforrest/verdapp.xyz" },
-      { type: "website", url: "https://devpost.com/software/verda-edo7uq", label: "Devpost" },
+      {
+        type: "website",
+        url: "https://devpost.com/software/verda-edo7uq",
+        label: "Devpost",
+      },
     ],
     image: "/verda.webp",
     featured: true,
@@ -72,7 +99,11 @@ export const projects: Project[] = [
       "I completed an EPQ with the question, 'To what extent is it feasible to reintroduce commmerical supersonic aviation by the year 2040?' My EPQ has been awarded a mark of 51/54 (A*) provisional.",
     actions: [
       { type: "document", url: "/assets/epq_abstract.pdf", label: "Abstract" },
-      { type: "document", url: "/assets/epq-presentation.pdf", label: "Presentation" },
+      {
+        type: "document",
+        url: "/assets/epq-presentation.pdf",
+        label: "Presentation",
+      },
     ],
     image: "/boom.webp",
     featured: false,
@@ -80,23 +111,30 @@ export const projects: Project[] = [
   {
     name: "Sitro.io",
     dates: "Summer 2025 - Present",
-    skills: ["Nextjs", "Openai API", "Inngest", "Prisma", "Sandboxes", "Clerk"],
-    description:
-      "An AI Landing Page generator, to be released.",
-    actions: [
-      { type: "website", url: "https://sitro.io" },
+    skills: [
+      "Next.js",
+      "Openai API",
+      "Inngest",
+      "Prisma",
+      "Sandboxes",
+      "Clerk",
     ],
+    description: "An AI Landing Page generator, to be released.",
+    actions: [{ type: "website", url: "https://sitro.io" }],
     image: "/sitro.webp",
     featured: true,
   },
   {
     name: "Personal Website: v5",
     dates: "September 2025",
-    skills: ["React", "TailwindCSS", "Framer Motion", "Nextjs"],
+    skills: ["React", "TailwindCSS", "Framer Motion", "Next.js"],
     description:
       "Fifth edition of my personal website. It's a modern portfolio website built with Next.js, featuring animated UI components, and a clean, professional design.",
     actions: [
-      { type: "github", url: "https://github.com/samuelforrest/samuelforrest.me" },
+      {
+        type: "github",
+        url: "https://github.com/samuelforrest/samuelforrest.me",
+      },
       { type: "website", url: "https://samuelforrest.me" },
     ],
     image: "/sf.webp",
@@ -109,7 +147,11 @@ export const projects: Project[] = [
     description:
       "Researched options for a new aircraft type for airline shorthaul fleets based in the UK, including presenting to a member of the British Airways fleet team, developing my analytical and presentation skills.",
     actions: [
-      { type: "document", url: "/assets/ba-fleet-optimisation-wex.pdf", label: "Presentation Report" },
+      {
+        type: "document",
+        url: "/assets/ba-fleet-optimisation-wex.pdf",
+        label: "Presentation Report",
+      },
     ],
     image: "/e190.webp",
     featured: false,
@@ -121,7 +163,11 @@ export const projects: Project[] = [
     description:
       "I created a mini-dissertation with my research into SAFs (Sustainable Aviation Fuels) and Hydrogen as sustainable fuel alternatives for modern aircraft.",
     actions: [
-      { type: "document", url: "/assets/how-can-we-make-the-aviation-industry-more-sustainable.pdf", label: "Research Paper" },
+      {
+        type: "document",
+        url: "/assets/how-can-we-make-the-aviation-industry-more-sustainable.pdf",
+        label: "Research Paper",
+      },
     ],
     image: "/saf.webp",
     featured: false,
@@ -130,9 +176,14 @@ export const projects: Project[] = [
     name: "Tech, AI and aviation blog",
     dates: "September 2024 - Present",
     skills: ["Research Skills", "Writing Skills", "Blogging"],
-    description: "I've been maintaining a blog on Substack for the past year, posting once a fortnight.",
+    description:
+      "I've been maintaining a blog on Substack for the past year, posting once a fortnight.",
     actions: [
-      { type: "website", url: "https://samueljforrest.substack.com", label: "Substack" },
+      {
+        type: "website",
+        url: "https://samueljforrest.substack.com",
+        label: "Substack",
+      },
     ],
     image: "/blog.webp",
     featured: false,
@@ -144,7 +195,10 @@ export const projects: Project[] = [
     description:
       "ScreenFine is a conceptual app idea, where the user has to pay to extend their screen time limits. I will likely build when I have more time on my hands.",
     actions: [
-      { type: "github", url: "https://github.com/samuelforrest/screenfine.samuelforrest.me" },
+      {
+        type: "github",
+        url: "https://github.com/samuelforrest/screenfine.samuelforrest.me",
+      },
       { type: "website", url: "https://screenfine.samuelforrest.me" },
     ],
     image: "/screenfine.webp",
@@ -157,7 +211,11 @@ export const projects: Project[] = [
     description:
       "Podcast with two AI hosts, give it a listen - it's surprisingly good!",
     actions: [
-      { type: "website", url: "https://open.spotify.com/show/568FPtKmIlTgWgaDAfap03", label: "Spotify" },
+      {
+        type: "website",
+        url: "https://open.spotify.com/show/568FPtKmIlTgWgaDAfap03",
+        label: "Spotify",
+      },
     ],
     image: "/therevisionpodcast.webp",
     featured: false,
@@ -165,7 +223,7 @@ export const projects: Project[] = [
 ];
 
 export const getFeaturedProjects = (): Project[] => {
-  return projects.filter(project => project.featured !== false);
+  return projects.filter((project) => project.featured !== false);
 };
 
 export const getAllProjects = (): Project[] => {
