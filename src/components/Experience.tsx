@@ -50,7 +50,6 @@ const experiences: Experience[] = [
     skills: [
       "TypeScript",
       "React",
-      "HTML5",
       "SEO",
       "Next.js",
       "Supabase",
