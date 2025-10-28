@@ -59,7 +59,7 @@ const experiences: Experience[] = [
       "Vercel",
     ],
     logo: "/apprentadream.webp",
-    companyWebsite: "https://chat.whatsapp.com/Kek6I8hE2wQBj8Znp97Q2f",
+    companyWebsite: "https://apprentadream.co.uk",
   },
   {
     company: "Bookmark Charity",
