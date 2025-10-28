@@ -2,7 +2,14 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { ExternalLink, Github, Download } from "lucide-react";
 import Image from "next/image";
 import { getAllProjects, type Project } from "@/data/projects";
@@ -11,7 +18,9 @@ interface ProjectsGridProps {
   projects?: Project[];
 }
 
-export default function ProjectsGrid({ projects: customProjects }: ProjectsGridProps = {}) {
+export default function ProjectsGrid({
+  projects: customProjects,
+}: ProjectsGridProps = {}) {
   const displayProjects = customProjects || getAllProjects();
 
   return (
@@ -59,24 +68,30 @@ export default function ProjectsGrid({ projects: customProjects }: ProjectsGridP
 
               <div className="flex gap-2 w-full">
                 {project.actions.slice(0, 2).map((action, index) => {
-                  const isGithub = action.type === 'github';
-                  const isWebsite = action.type === 'website';
-                  const isDocument = action.type === 'document';
-                  
+                  const isGithub = action.type === "github";
+                  const isWebsite = action.type === "website";
+                  const isDocument = action.type === "document";
+
                   const defaultLabels = {
                     github: "GitHub",
                     website: "Visit",
-                    document: "Download"
+                    document: "Download",
                   };
-                  
-                  const icon = isGithub ? <Github className="w-4 h-4 mr-2" /> :
-                              isWebsite ? <ExternalLink className="w-4 h-4 mr-2" /> :
-                              <Download className="w-4 h-4 mr-2" />;
-                  
-                  const ariaLabel = isGithub ? `View ${project.name} source code on GitHub` :
-                                  isWebsite ? `Visit live ${project.name} website` :
-                                  `Download ${project.name} document`;
-                  
+
+                  const icon = isGithub ? (
+                    <Github className="w-4 h-4 mr-2" />
+                  ) : isWebsite ? (
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                  ) : (
+                    <Download className="w-4 h-4 mr-2" />
+                  );
+
+                  const ariaLabel = isGithub
+                    ? `View ${project.name} source code on GitHub`
+                    : isWebsite
+                      ? `Visit live ${project.name} website`
+                      : `Download ${project.name} document`;
+
                   return (
                     <Button
                       key={index}

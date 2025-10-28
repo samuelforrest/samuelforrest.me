@@ -119,7 +119,7 @@ export default function Navbar() {
                   }}
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
-                    "size-12 md:size-12 min-w-12 min-h-12 touch-manipulation dock-icon"
+                    "size-12 md:size-12 min-w-12 min-h-12 touch-manipulation dock-icon",
                   )}
                 >
                   <item.icon className="size-4 md:size-4" />
@@ -142,7 +142,7 @@ export default function Navbar() {
                   rel="noopener noreferrer"
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
-                    "size-12 md:size-12 min-w-12 min-h-12 touch-manipulation dock-icon"
+                    "size-12 md:size-12 min-w-12 min-h-12 touch-manipulation dock-icon",
                   )}
                 >
                   <social.icon className="size-4 md:size-4" />

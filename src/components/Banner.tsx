@@ -30,11 +30,11 @@ export default function TimedBanner() {
           ×
         </button>
       </div>
-      
+
       <p className="text-gray-700 dark:text-gray-300 mb-4 text-sm">
         Check out my thoughts and insights on coding, AI and aerospace.
       </p>
-      
+
       <a
         href="https://samueljforrest.substack.com"
         target="_blank"

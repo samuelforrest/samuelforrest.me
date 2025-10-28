@@ -27,9 +27,18 @@ const experiences: Experience[] = [
     location: "Remote",
     description:
       "Delivering one-to-one tutoring to 3 computer science students from diverse backgrounds, including those with special educational needs (SEND). Over 45 hours of lessons given to date. Strengthened key interpersonal skills such as clear communication, structured lesson planning, time management and the ability to provide empathetic and tailored constructive feedback.",
-    skills: ["Tutoring", "Adaptability", "Homework Help", "Communication", "Organisation", "Empathy", "Python"],
+    skills: [
+      "Tutoring",
+      "Adaptability",
+      "Homework Help",
+      "Communication",
+      "Organisation",
+      "Empathy",
+      "Python",
+    ],
     logo: "/superprof.webp",
-    companyWebsite: "https://www.superprof.co.uk/gcse-igcse-computer-science-and-programming-tutor-taught-sixth-form-student-with-tutoring-experience-all-abilities-welcome.html",
+    companyWebsite:
+      "https://www.superprof.co.uk/gcse-igcse-computer-science-and-programming-tutor-taught-sixth-form-student-with-tutoring-experience-all-abilities-welcome.html",
   },
   {
     company: "Apprentadream",
@@ -38,7 +47,17 @@ const experiences: Experience[] = [
     location: "Hybrid",
     description:
       "Leading innovating and developing web applications for Apprentadream, focused on converting 3,000+ community members into active online customers. Collaborating closely with the founder and partners, shaping product direction and rapidly delivering MVPs using modern web technologies such as Next.js, TypeScript, TailwindCSS, and AI APIs.",
-    skills: ["TypeScript", "React", "HTML5", "SEO", "Next.js", "Supabase", "SQL", "Cloudflare", "Vercel"],
+    skills: [
+      "TypeScript",
+      "React",
+      "HTML5",
+      "SEO",
+      "Next.js",
+      "Supabase",
+      "SQL",
+      "Cloudflare",
+      "Vercel",
+    ],
     logo: "/apprentadream.webp",
     companyWebsite: "https://chat.whatsapp.com/Kek6I8hE2wQBj8Znp97Q2f",
   },
@@ -48,19 +67,30 @@ const experiences: Experience[] = [
     duration: "October 2025 - Present",
     location: "In person",
     description:
-    "Supporting two primary school children facing barriers to literacy, on a weekly basis. Helping them to grow in confidence, support their literacy learning and being a supportive person they can talk to.",
+      "Supporting two primary school children facing barriers to literacy, on a weekly basis. Helping them to grow in confidence, support their literacy learning and being a supportive person they can talk to.",
     skills: ["Youth Mentoring", "Empathy", "Mentoring", "Teaching"],
     logo: "/bookmark.webp",
     companyWebsite: "https://www.bookmarkreading.org",
   },
-    {
+  {
     company: "Freelance Web Developer",
     role: "Freelance Web Developer",
     duration: "March 2025 - Present",
     location: "Hybrid",
     description:
-    "Designed, coded and deployed responsive websites for 3 paying clients, using TailwindCSS, React, TypeScript, Next.js, Supabase, Gemini API, Google Analytics, and integrating features such as authentication, admin dashboards, blogs and AI summaries. Most client projects are publicly available here: samuelforrest.me Communicated directly with clients to gather requirements and to provide progress updates throughout the development process and support to maintain the websites, strengthening client communication, active listening, and problem-solving skills.",
-    skills: ["TypeScript", "React", "HTML5", "SEO", "Next.js", "Vite", "Supabase", "SQL", "Cloudflare", "Vercel"],
+      "Designed, coded and deployed responsive websites for 3 paying clients, using TailwindCSS, React, TypeScript, Next.js, Supabase, Gemini API, Google Analytics, and integrating features such as authentication, admin dashboards, blogs and AI summaries. Most client projects are publicly available here: samuelforrest.me Communicated directly with clients to gather requirements and to provide progress updates throughout the development process and support to maintain the websites, strengthening client communication, active listening, and problem-solving skills.",
+    skills: [
+      "TypeScript",
+      "React",
+      "HTML5",
+      "SEO",
+      "Next.js",
+      "Vite",
+      "Supabase",
+      "SQL",
+      "Cloudflare",
+      "Vercel",
+    ],
     logo: "/webdeveloper.webp",
   },
   {
@@ -70,7 +100,18 @@ const experiences: Experience[] = [
     location: "Remote",
     description:
       "Duolingo, but for trading. Designed and in the process of coding a cross-platform trading app for my Computer Science NEA, using: React Native, Expo, TypeScript, Nativewind, Polygon.io (financial API), Supabase Functions, Auth & DB, React Native Wagmi Charts and TradingView.",
-    skills: ["TypeScript", "iOS Development", "Databases", "Nativewind", "React Native", "SQL", "Finance", "iOS Testing", "Android Development", "Figma"],
+    skills: [
+      "TypeScript",
+      "iOS Development",
+      "Databases",
+      "Nativewind",
+      "React Native",
+      "SQL",
+      "Finance",
+      "iOS Testing",
+      "Android Development",
+      "Figma",
+    ],
     logo: "/tradelingo.webp",
     companyWebsite: "https://tradelingo.app",
   },
@@ -125,7 +166,13 @@ const experiences: Experience[] = [
     location: "Remote",
     description:
       "Created Verda - an AI CO2 emission calculator and ML waste identifier. Environmental Prize £300 winner 🏅 Collaborated effectively with a teammate over the 30-hour hackathon, and an 8+ hour time zone difference. Utilised GitHub and produced thorough project documentation.",
-    skills: ["Next.js", "TypeScript", "TailwindCSS", "Gemini API", "Presentation Skills"],
+    skills: [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Gemini API",
+      "Presentation Skills",
+    ],
     logo: "/kthack.webp",
     companyWebsite: "https://www.ktbyte.com",
   },
@@ -138,7 +185,8 @@ const experiences: Experience[] = [
       "Gained first-hand insight into how air crashes are investigated in the UK, by examining black box data, aircraft systems data and inspecting recovered aircraft in the AAIB hangar. Strengthened attention to detail, technical observation, and professional communication skills in such a serious and sensitive safety-critical work environment.",
     skills: ["Attention to detail"],
     logo: "/aaib.webp",
-    companyWebsite: "https://www.gov.uk/government/organisations/air-accidents-investigation-branch",
+    companyWebsite:
+      "https://www.gov.uk/government/organisations/air-accidents-investigation-branch",
   },
   {
     company: "HUDJO",
@@ -158,7 +206,12 @@ const experiences: Experience[] = [
     location: "Remote",
     description:
       "Gained practical and theoretical insight into aerodynamics and aerospace engineering, with hands-on experience with flight simulators and wind tunnel experiments at Kingston University, London. Part of a 4-person team designing and presenting a glider to an audience of 100+ students; won the final competition, showcasing teamwork, leadership, problem-solving and perseverance.",
-    skills: ["Multitasking", "Decision-Making", "Stress Management", "Self Learning"],
+    skills: [
+      "Multitasking",
+      "Decision-Making",
+      "Stress Management",
+      "Self Learning",
+    ],
     logo: "/vatsim.webp",
     companyWebsite: "https://www.vatsim.net",
   },
@@ -169,7 +222,13 @@ const experiences: Experience[] = [
     location: "Kingston University",
     description:
       "Gained practical and theoretical insight into aerodynamics and aerospace engineering, with hands-on experience with flight simulators and wind tunnel experiments at Kingston University, London. Part of a 4-person team designing and presenting a glider to an audience of 100+ students; won the final competition, showcasing teamwork, leadership, problem-solving and perseverance.",
-    skills: ["Teamwork", "Presentation Skills", "Problem Solving", "Perseverant", "Leadership"],
+    skills: [
+      "Teamwork",
+      "Presentation Skills",
+      "Problem Solving",
+      "Perseverant",
+      "Leadership",
+    ],
     logo: "/virgin.webp",
     companyWebsite: "https://www.virginatlantic.com",
   },
@@ -180,7 +239,12 @@ const experiences: Experience[] = [
     location: "St Michaels Fulwell",
     description:
       "Volunteered 2 hours every Sunday, managing the audio and visuals at the church, displaying song lyrics in sync with the band and ensuring balanced and clear sound levels of microphones and instruments. Developed technical sound skills in sound mixing, equipment setup, and YouTube live-streaming, alongside developing critical thinking skills and remaining calm under pressure, over 6 years.",
-    skills: ["Calm Under Pressure", "Multitasking", "Teamwork", "Critical Thinking"],
+    skills: [
+      "Calm Under Pressure",
+      "Multitasking",
+      "Teamwork",
+      "Critical Thinking",
+    ],
     logo: "/stmichaels.webp",
     companyWebsite: "https://www.stmichaelsfulwell.co.uk",
   },
@@ -201,9 +265,8 @@ export default function Experience() {
 
   return (
     <div className="w-full space-y-3">
-
       <h1 className="text-2xl font-bold pt-10 pb-6">Experience</h1>
-      
+
       {experiences.map((experience, index) => (
         <motion.div
           key={index}

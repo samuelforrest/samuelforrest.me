@@ -10,8 +10,8 @@ interface Service {
   price: string;
   description: string;
   logo?: string;
-  link: string,
-  linkName: string,
+  link: string;
+  linkName: string;
 }
 
 const services: Service[] = [
@@ -50,7 +50,6 @@ export default function Service() {
 
   return (
     <div className="w-full space-y-3">
-
       <h1 className="text-2xl font-bold pt-10 pb-10">Services</h1>
 
       {services.map((service, index) => (
@@ -64,7 +63,7 @@ export default function Service() {
         >
           <div className="flex items-start space-x-4">
             <Avatar className="w-12 h-12 flex-shrink-0">
-              <AvatarImage src={service.logo} alt={service.type}/>
+              <AvatarImage src={service.logo} alt={service.type} />
             </Avatar>
 
             <div className="flex-1 min-w-0">

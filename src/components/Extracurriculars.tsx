@@ -26,16 +26,14 @@ const experiences: Experience[] = [
     company: "MTB (Music Teachers Board)",
     role: "Grade 7 Saxophone",
     duration: "Awarded April 2024",
-    description:
-      "I was awarded Grade 7 Saxophone by MTB in April 2024.",
+    description: "I was awarded Grade 7 Saxophone by MTB in April 2024.",
     logo: "/mtb.webp",
   },
   {
     company: "ABRSM",
     role: "Grade 4 Piano",
     duration: "Awarded March 2020",
-    description:
-      "I was awarded Grade 4 Piano by ABRSM, in March 2020.",
+    description: "I was awarded Grade 4 Piano by ABRSM, in March 2020.",
     logo: "/abrsm.webp",
   },
   {
@@ -98,8 +96,7 @@ const experiences: Experience[] = [
     company: "Samuel Forrest",
     role: "Custom PC Building",
     duration: "Present",
-    description:
-      "I've built PCs for myself, friends and family from scratch.",
+    description: "I've built PCs for myself, friends and family from scratch.",
     logo: "/pc.webp",
   },
   {
@@ -134,7 +131,7 @@ const experiences: Experience[] = [
       "I'm a member of the British Computer Society (BCS), demonstrating commitment to professional development and engagement with the wider computing community",
     logo: "/bcs.webp",
   },
- {
+  {
     company: "Royal Aeronautical Society",
     role: "Royal Aeronautical Society Member",
     duration: "Present",
@@ -159,9 +156,11 @@ export default function Extracurriculars() {
 
   return (
     <div className="w-full space-y-3">
-
       <h1 className="text-2xl font-bold pt-10 pb-2">Extracurriculars</h1>
-      <p className="pb-10">I&apos;m always learning new skills and exploring new hobbies. Certificates for certain activities can be found on my LinkedIn.</p>
+      <p className="pb-10">
+        I&apos;m always learning new skills and exploring new hobbies.
+        Certificates for certain activities can be found on my LinkedIn.
+      </p>
 
       {experiences.map((experience, index) => (
         <motion.div
@@ -233,7 +232,6 @@ export default function Extracurriculars() {
               <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
                 {experience.description}
               </p>
-              
             </div>
           </motion.div>
         </motion.div>

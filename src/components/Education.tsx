@@ -25,7 +25,14 @@ const experiences: Experience[] = [
     location: "In-person",
     description:
       "A Levels: Computing (A*), Physics (A), Mathematics (A), EPQ (A*) predicted. Achieved GCSE Grades: 9999999987",
-    skills: ["Information Technology", "Music", "AI", "Organisation Skills", "Mathematics", "Collaboration"],
+    skills: [
+      "Information Technology",
+      "Music",
+      "AI",
+      "Organisation Skills",
+      "Mathematics",
+      "Collaboration",
+    ],
     logo: "/sgc.webp",
     companyWebsite: "https://www.stgeorgesweybridge.com",
   },
@@ -36,7 +43,13 @@ const experiences: Experience[] = [
     location: "In-person",
     description:
       "KS1-3, Awards in Achievement, Mathematics, Geography, Computer Science, French. Displayed leadership as a Prefect, charity events organiser, music captain and vice form captain. School sound engineer for plays. VEX Robotics Team Member.",
-    skills: ["Charity Event Organisation", "Hardworing", "Music", "Fundraising", "Leadership"],
+    skills: [
+      "Charity Event Organisation",
+      "Hardworing",
+      "Music",
+      "Fundraising",
+      "Leadership",
+    ],
     logo: "/nhs.webp",
     companyWebsite: "https://newlandhouse.net",
   },
@@ -57,7 +70,6 @@ export default function Education() {
 
   return (
     <div className="w-full space-y-3">
-
       <h1 className="text-2xl font-bold pt-10 pb-10">Education</h1>
 
       {experiences.map((experience, index) => (

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Hero from "@/components/Hero";
 
@@ -24,13 +24,11 @@ import Contact from "@/components/Contact";
 
 import Footer from "@/components/Footer";
 
-
 export default function Home() {
   return (
     <main className="m-8 md:mt-20 sm:ml-12 md:ml-25 lg:ml-45 xl:ml-60 2xl:ml-100 sm:mr-12 md:mr-25 lg:mr-45 xl:mr-60 2xl:mr-100">
-
       <section id="hero">
-        <Hero/>
+        <Hero />
       </section>
 
       <section id="links">
@@ -40,7 +38,7 @@ export default function Home() {
       <section id="about">
         <About />
       </section>
-        
+
       <section className="mb-8" id="experience">
         <Experience />
       </section>
@@ -50,7 +48,7 @@ export default function Home() {
       </section>
 
       <section className="mb-8" id="projects">
-        <Projects/>
+        <Projects />
       </section>
 
       <section id="skills" className="mb-8">
@@ -76,7 +74,6 @@ export default function Home() {
       <section id="footer">
         <Footer />
       </section>
-
     </main>
   );
 }

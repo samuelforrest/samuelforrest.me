@@ -4,9 +4,7 @@
 
 A modern portfolio website built with Next.js, featuring animated UI components, and a clean, professional design.
 
-
-
-##  Features
+## Features
 
 - **Modern Design:** Clean, responsive UI with dark/light theme support, thanks to TailwindCSS.
 - **Animations:** Smooth transitions powered by Framer Motion.
@@ -15,18 +13,17 @@ A modern portfolio website built with Next.js, featuring animated UI components,
 - **Theme Toggle:** Easily switch between dark and light mode.
 - **Analytics:** Integrated with Google Analytics for advanced metrics and Vercel analytics for real-time and detailed referral sources.
 
-
-
-##  Tech Stack
+## Tech Stack
 
 **Frontend Framework**
+
 - [Next.js](https://nextjs.org/)
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 **Styling & UI**
+
 - [TailwindCSS v4](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [Lucide React](https://lucide.dev/)
 - [MagicUI Dock](https://magicui.design/)
-
