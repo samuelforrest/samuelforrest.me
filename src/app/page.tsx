@@ -23,10 +23,15 @@ import References from "@/components/References";
 import Contact from "@/components/Contact";
 
 import Footer from "@/components/Footer";
+import TimedBanner from "@/components/Banner";
 
 export default function Home() {
   return (
-    <main className="m-8 md:mt-20 sm:ml-12 md:ml-25 lg:ml-45 xl:ml-60 2xl:ml-100 sm:mr-12 md:mr-25 lg:mr-45 xl:mr-60 2xl:mr-100">
+    <main className="ml-12 mr-12 mt-14 md:mt-20 sm:ml-12 md:ml-25 lg:ml-44 xl:ml-60 2xl:ml-120 sm:mr-12 md:mr-25 lg:mr-45 xl:mr-60 2xl:mr-120">
+      <section id="banner">
+        <TimedBanner />
+      </section>
+
       <section id="hero">
         <Hero />
       </section>
