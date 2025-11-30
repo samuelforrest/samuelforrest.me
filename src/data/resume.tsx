@@ -106,7 +106,7 @@ export const DATA = {
     {
       company: "Apprentadream",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://apprentadream.co.uk",
       location: "Remote",
       title: "Chief Technological Officer",
       logoUrl: "/assets/apprentadream.webp",
@@ -117,7 +117,7 @@ export const DATA = {
     },
     {
       company: "Superprof",
-      href: "https://atomic.finance",
+      href: "https://www.superprof.co.uk/trusted-computer-science-tutor-with-hours-experience-taught-grade-sixth-form-student-software-engineer.html",
       badges: [],
       location: "Remote",
       title: "Private Tutor",
@@ -129,7 +129,7 @@ export const DATA = {
     },
     {
       company: "Bookmark Reading Charity",
-      href: "https://nvidia.com/",
+      href: "https://www.bookmarkreading.org/volunteer",
       badges: [],
       location: "In-person",
       title: "Volunteer Reading Mentor",
@@ -141,7 +141,7 @@ export const DATA = {
     },
     {
       company: "Freelance Developer",
-      href: "https://splunk.com",
+      href: "https://form.typeform.com/to/yihbaIu7",
       badges: [],
       location: "Remote",
       title: "Freelance Web Developer",
@@ -153,7 +153,7 @@ export const DATA = {
     },
     {
       company: "Tradelingo",
-      href: "https://li.me/",
+      href: "https://tradelingo.samuelforrest.me/",
       badges: [],
       location: "Remote",
       title: "Founder",
@@ -165,7 +165,7 @@ export const DATA = {
     },
     {
       company: "Springpod",
-      href: "https://mitremedia.com/",
+      href: "https://www.springpod.com/",
       badges: [],
       location: "Toronto, ON",
       title: "Work Experience",
@@ -177,7 +177,7 @@ export const DATA = {
     },
     {
       company: "British Airways",
-      href: "https://mitremedia.com/",
+      href: "https://careers.ba.com/work-experience",
       badges: [],
       location: "Waterside Office",
       title: "Work Experience",
@@ -189,7 +189,7 @@ export const DATA = {
     },
     {
       company: "Bath University",
-      href: "https://mitremedia.com/",
+      href: "https://www.bath.ac.uk/",
       badges: [],
       location: "Bath University",
       title: "Step into Bath Summer Course",
@@ -213,7 +213,7 @@ export const DATA = {
     },
     {
       company: "AAIB",
-      href: "https://mitremedia.com/",
+      href: "https://www.gov.uk/government/organisations/air-accidents-investigation-branch",
       badges: [],
       location: "In-person",
       title: "Work Experience",
@@ -225,7 +225,7 @@ export const DATA = {
     },
     {
       company: "HUDJO",
-      href: "https://mitremedia.com/",
+      href: "https://www.hudjo.com/",
       badges: [],
       location: "In-person",
       title: "Work Experience",
@@ -237,7 +237,7 @@ export const DATA = {
     },
     {
       company: "VATSIM",
-      href: "https://mitremedia.com/",
+      href: "https://vatsim.net/",
       badges: [],
       location: "Remote",
       title: "Trainee Virtual ATC & Pilot",
@@ -248,7 +248,7 @@ export const DATA = {
     },
     {
       company: "Virgin Atlantic",
-      href: "https://mitremedia.com/",
+      href: "https://www.virginatlantic.com/",
       badges: [],
       location: "In-person",
       title: "Kingston University Summer Course",
@@ -260,7 +260,7 @@ export const DATA = {
     },
     {
       company: "St Michael's Church",
-      href: "https://mitremedia.com/",
+      href: "https://www.stmichaelsfulwell.co.uk/",
       badges: [],
       location: "In-person",
       title: "Volunteer Sound Engineer",
