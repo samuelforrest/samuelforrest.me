@@ -66,7 +66,7 @@ export default function Page() {
                 subtitle={work.title}
                 href={work.href}
                 badges={work.badges}
-                period={`${work.start} - ${work.end ?? "Present"}`}
+                period={`${work.start} ${work.end ?? "Present"}`}
                 description={work.description}
               />
             </BlurFade>
@@ -212,7 +212,7 @@ export default function Page() {
                 subtitle={services.title}
                 href={services.href}
                 badges={services.badges}
-                period={`${services.start} - ${services.end ?? "Present"}`}
+                period={`${services.start} ${services.end ?? "Present"}`}
                 description={services.description}
               />
             </BlurFade>

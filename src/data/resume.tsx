@@ -110,7 +110,7 @@ export const DATA = {
       location: "Remote",
       title: "Chief Technological Officer",
       logoUrl: "/assets/apprentadream.webp",
-      start: "Sept 2024",
+      start: "Sept 2024 -",
       end: "Present",
       description:
         "Leading innovating and developing web applications for Apprentadream, focused on converting 3,000+ community members into active online customers. Collaborating closely with the founder and partners, shaping product direction and rapidly delivering MVPs using modern web technologies such as Next.js, TypeScript, TailwindCSS, and AI APIs.",
@@ -122,7 +122,7 @@ export const DATA = {
       location: "Remote",
       title: "Private Tutor",
       logoUrl: "/assets/superprof.webp",
-      start: "Sept 2024",
+      start: "Sept 2024 -",
       end: "Present",
       description:
         "Delivering one-to-one tutoring to 3 computer science students from diverse backgrounds, including those with special educational needs (SEND). Over 45 hours of lessons given to date. Strengthened key interpersonal skills such as clear communication, structured lesson planning, time management and the ability to provide empathetic and tailored constructive feedback.",
@@ -134,7 +134,7 @@ export const DATA = {
       location: "In-person",
       title: "Volunteer Reading Mentor",
       logoUrl: "/assets/bookmark.webp",
-      start: "Sept 2025",
+      start: "Sept 2025 -",
       end: "Present",
       description:
         "Supporting two primary school children facing barriers to literacy, on a weekly basis. Helping them to grow in confidence, support their literacy learning and being a supportive person they can talk to.",
@@ -146,7 +146,7 @@ export const DATA = {
       location: "Remote",
       title: "Freelance Web Developer",
       logoUrl: "/assets/webdeveloper.webp",
-      start: "Jul 2025",
+      start: "Jul 2025 -",
       end: "Present",
       description:
         "Designed, coded and deployed responsive websites for 3 paying clients, using TailwindCSS, React, TypeScript, Next.js, ShadcnUI, MagicUI, Vercel, Supabase, Gemini API, Google Analytics, and integrating features such as authentication, admin dashboards, blogs and AI summaries. Communicated directly with clients to gather requirements and to provide progress updates throughout the development process and support to maintain the websites, strengthening client communication, active listening, and problem-solving skills.",
@@ -158,7 +158,7 @@ export const DATA = {
       location: "Remote",
       title: "Work Experience",
       logoUrl: "/assets/springpod.webp",
-      start: "Jul 2025",
+      start: "Jul 2025 -",
       end: "Present",
       description:
         "Completed 13 Springpod work experiences with: Amazon & AWS, JLR, Siemens, Ideagen, Fujitsu and Barclays. Produced projects varying from sustainability ideas for JLR to database design for Barclays, learning about the essential soft & technical skills required in a software engineering career.",
@@ -170,7 +170,7 @@ export const DATA = {
       location: "Waterside Office",
       title: "Work Experience",
       logoUrl: "/assets/ba.webp",
-      start: "Jul 2025",
+      start: "Jul 2025 -",
       end: "Sept 2025",
       description:
         "Completed an insight day, for engineering degree apprenticeships. Researched and presented a proposal for a new aircraft type for the short-haul fleet to a member of the fleet operations team, developing my analytical and presentation skills.",
@@ -183,7 +183,7 @@ export const DATA = {
       title: "Step into Bath Summer Course",
       logoUrl: "/assets/bath.webp",
       start: "Jul 2025",
-      end: "Jul 2025",
+      end: "",
       description:
         "Selected to attend the competitive Step Into Bath residential summer school for Year 12 students, living in undergraduate accommodation and participating in social and networking events with current students and fellow applicants. Engaged in science-specific taster lectures and received tailored advice from admissions tutors on personal statements and competitive university applications.",
     },
@@ -195,7 +195,7 @@ export const DATA = {
       title: "Hackathon Winner",
       logoUrl: "/assets/kthack.webp",
       start: "May 2025",
-      end: "May 2025",
+      end: "",
       description:
         "Created Verda - an AI CO2 emission calculator and ML waste identifier. Environmental Prize £300 winner 🏅 Collaborated effectively with a teammate over the 30-hour hackathon, and an 8+ hour time zone difference. Utilised GitHub and produced thorough project documentation.",
     },
@@ -207,7 +207,7 @@ export const DATA = {
       title: "Work Experience",
       logoUrl: "/assets/aaib.webp",
       start: "Apr 2025",
-      end: "Apr 2025",
+      end: "",
       description:
         "Gained first-hand insight into how air crashes are investigated in the UK, by examining black box data, aircraft systems data and inspecting recovered aircraft in the AAIB hangar. Strengthened attention to detail, technical observation, and professional communication skills in such a serious and sensitive safety-critical work environment.",
     },
@@ -218,7 +218,7 @@ export const DATA = {
       location: "Remote",
       title: "Founder",
       logoUrl: "/assets/tradelingo.webp",
-      start: "Sept 2024",
+      start: "Sept 2024 -",
       end: "Present",
       description:
         "Duolingo, but for trading. Designed and in the process of coding a cross-platform trading app for my Computer Science NEA, using: React Native, Expo, TypeScript, Nativewind, Polygon.io (financial API), Supabase Functions, Auth & DB, React Native Wagmi Charts and TradingView.",
@@ -230,7 +230,7 @@ export const DATA = {
       location: "In-person",
       title: "Work Experience",
       logoUrl: "/assets/hudjo.webp",
-      start: "Aug 2024",
+      start: "Aug 2024 -",
       end: "Oct 2024",
       description:
         "Explored cross-platform mobile development by shadowing a startup developer at HUDJO, an app focused on bike parking solutions at local businesses in London, which recently received funding from Deliveroo. Introduced to Javascript, Typescript and the Expo framework, learning how cross-platform apps are built, from a former Google & Yandex software engineer.",
@@ -243,7 +243,7 @@ export const DATA = {
       title: "Kingston University Summer Course",
       logoUrl: "/assets/virgin.webp",
       start: "Aug 2024",
-      end: "Aug 2024",
+      end: "",
       description:
         "Gained practical and theoretical insight into aerodynamics and aerospace engineering, with hands-on experience with flight simulators and wind tunnel experiments at Kingston University, London. Part of a 4-person team designing and presenting a glider to an audience of 100+ students; won the final competition, showcasing teamwork, leadership, problem-solving and perseverance.",
     },
@@ -254,7 +254,7 @@ export const DATA = {
       location: "Remote",
       title: "Trainee Virtual ATC & Pilot",
       logoUrl: "/assets/vatsim.webp",
-      start: "Jul 2023",
+      start: "Jul 2023 -",
       end: "Present",
       description: "Empty.",
     },
@@ -265,7 +265,7 @@ export const DATA = {
       location: "In-person",
       title: "Volunteer Sound Engineer",
       logoUrl: "/assets/stmichaels.webp",
-      start: "Dec 2017",
+      start: "Dec 2017 -",
       end: "Jun 2023",
       description:
         "Gained practical and theoretical insight into aerodynamics and aerospace engineering, with hands-on experience with flight simulators and wind tunnel experiments at Kingston University, London. Part of a 4-person team designing and presenting a glider to an audience of 100+ students; won the final competition, showcasing teamwork, leadership, problem-solving and perseverance.",
@@ -781,8 +781,8 @@ export const DATA = {
       location: "Remote",
       title: "£ Available Upon Request",
       logoUrl: "/assets/webdeveloper.webp",
-      start: "Available Now",
-      end: "Weekends",
+      start: "Currently Available",
+      end: "",
       description:
         "3 paid projects completed. My tech stack includes: HTML, CSS, JavaScript, TypeScript, Nativewind, TailwindCSS, React, React Native, Next.js, React+vite, Google Analytics, Google Search Console, SEO optimisation, AI APIs, Financial APIs, Python 3, Supabase, SQL, Databases, Figma",
     },
@@ -793,8 +793,8 @@ export const DATA = {
       location: "Remote",
       title: "£20 / hour",
       logoUrl: "/assets/cs.webp",
-      start: "Available Now",
-      end: "Weekends",
+      start: "Currently Available",
+      end: "",
       description:
         "I'm a passionate Computer Science tutor, with over 45 hours of experience. Experience with multiple different pupils, with varying levels of ability, learning styles and additional needs.",
     },
