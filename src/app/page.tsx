@@ -297,7 +297,10 @@ export default function Page() {
 
       <section>
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-0 pb-10">
-          <p>&copy; Samuel Forrest 2025</p>
+          <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            &copy; Samuel Forrest 2025<br></br>
+            <br></br>Accurate to best of knowledge at time of publication
+          </p>
         </div>
       </section>
     </main>
