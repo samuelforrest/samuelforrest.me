@@ -45,6 +45,7 @@ export const DATA = {
     "Gitlab",
     "LinkedIn Optimisation",
     "CV Optimisation",
+    "100 WPM Typing",
   ],
 
   softskills: [
@@ -52,18 +53,22 @@ export const DATA = {
     "Collaboration",
     "Innovative",
     "Mentoring",
+    "Creative",
     "Inclusiveness",
     "Written Communication",
     "Adaptable",
     "Organised",
     "Problem-solving",
+    "Critical Thinking",
     "Puntual",
     "Adaptable",
     "Ambitious",
     "Goal-orientated",
+    "Presentations",
     "Empathetic",
     "Fast learner",
     "Disciplined",
+    "Analytical",
   ],
 
   navbar: [
