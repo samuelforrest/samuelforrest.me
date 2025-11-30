@@ -815,12 +815,12 @@ export const DATA = {
       badges: [],
       href: "",
       location: "Remote",
-      title: "£ Available Upon Request",
+      title: "Price available upon request",
       logoUrl: "/assets/webdeveloper.webp",
-      start: "Currently Available",
+      start: "Available Now",
       end: "",
       description:
-        "3 paid projects completed. My tech stack includes: HTML, CSS, JavaScript, TypeScript, Nativewind, TailwindCSS, React, React Native, Next.js, React+vite, Google Analytics, Google Search Console, SEO optimisation, AI APIs, Financial APIs, Python 3, Supabase, SQL, Databases, Figma",
+        "3 paid projects completed. My tech stack includes: HTML, CSS, JavaScript, TypeScript, Nativewind, TailwindCSS, React, React Native, Next.js, React+vite, Google Analytics, Google Search Console, SEO optimisation, AI APIs, Financial APIs, Python 3, Supabase, SQL, Databases, Figma. Budgets under £100 will not be accepted.",
     },
     {
       company: "Computer Science Tutoring - KS3, GCSE, A-level",
@@ -829,7 +829,7 @@ export const DATA = {
       location: "Remote",
       title: "£20 / hour",
       logoUrl: "/assets/cs.webp",
-      start: "Currently Available",
+      start: "Available Now",
       end: "",
       description:
         "I'm a passionate Computer Science tutor, with over 45 hours of experience. Experience with multiple different pupils, with varying levels of ability, learning styles and additional needs.",
