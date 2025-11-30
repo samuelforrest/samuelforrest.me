@@ -113,7 +113,7 @@ export default function Page() {
       <section id="interpersonal_skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Interpersonal Skills</h2>
+            <h2 className="text-xl font-bold">Soft Skills</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.interpersonalskills.map((interpersonalskill, id) => (

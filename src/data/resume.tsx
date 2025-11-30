@@ -276,6 +276,18 @@ export const DATA = {
       description:
         "Volunteered 2 hours weekly for over 6 years, managing audio, cameras and screens as part of a team, developing composure under pressure and mentoring new volunteers to maintain high technical standards.",
     },
+    {
+      company: "Vex Robotics",
+      href: "https://www.vexrobotics.com/",
+      badges: [],
+      location: "In-person",
+      title: "Team Member",
+      logoUrl: "/assets/vex.webp",
+      start: "Sept 2018 -",
+      end: "Jul 2019",
+      description:
+        "Team member in a school VEX robotics team, winning 2nd place in the inter-schools competition.",
+    },
   ],
 
   education: [
