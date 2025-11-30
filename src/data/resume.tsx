@@ -32,7 +32,6 @@ export const DATA = {
     "Supabase Auth",
     "Clerk",
     "SQL",
-    "RLS",
     "Financial APIs",
     "LLM APIs",
     "ChatGPT",
