@@ -1,20 +1,42 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/not-found": [
+      "static/chunks/webpack-84e22f2fde6e0e20.js",
+      "static/chunks/fd9d1056-31cd4e5e32ed9a2a.js",
+      "static/chunks/117-918a9d830c79b36a.js",
+      "static/chunks/main-app-2c5eb15619381c58.js",
+      "static/chunks/972-158b8656f1e9e7fa.js",
+      "static/chunks/878-8c7d36f49c0e4794.js",
+      "static/chunks/app/not-found-7268779bcb836019.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack-84e22f2fde6e0e20.js",
+      "static/chunks/fd9d1056-31cd4e5e32ed9a2a.js",
+      "static/chunks/117-918a9d830c79b36a.js",
+      "static/chunks/main-app-2c5eb15619381c58.js",
+      "static/chunks/app/_not-found/page-c1bbe1b4bc8170a6.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-84e22f2fde6e0e20.js",
+      "static/chunks/fd9d1056-31cd4e5e32ed9a2a.js",
+      "static/chunks/117-918a9d830c79b36a.js",
+      "static/chunks/main-app-2c5eb15619381c58.js",
+      "static/css/9042a7ba07605965.css",
+      "static/chunks/0e5ce63c-fa0159a32ed53865.js",
+      "static/chunks/972-158b8656f1e9e7fa.js",
+      "static/chunks/841-869aa420fcfdfd16.js",
+      "static/chunks/939-aaafb6b3a9a6b5dd.js",
+      "static/chunks/app/layout-e86daef3d29700ee.js"
     ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+    "/page": [
+      "static/chunks/webpack-84e22f2fde6e0e20.js",
+      "static/chunks/fd9d1056-31cd4e5e32ed9a2a.js",
+      "static/chunks/117-918a9d830c79b36a.js",
+      "static/chunks/main-app-2c5eb15619381c58.js",
+      "static/chunks/972-158b8656f1e9e7fa.js",
+      "static/chunks/841-869aa420fcfdfd16.js",
+      "static/chunks/878-8c7d36f49c0e4794.js",
+      "static/chunks/app/page-f0de274d76811dae.js"
     ]
   }
 }
