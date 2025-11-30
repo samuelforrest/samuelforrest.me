@@ -689,7 +689,7 @@ export const DATA = {
         "I listen to podcasts daily, my favourites including the Diary of a CEO, Lightcone Podcast (Y-Combinator) and Mentour Pilot.",
     },
     {
-      company: "Samuel Forrest",
+      company: "Fundraising",
       badges: [],
       href: "",
       location: "Various",
