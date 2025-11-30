@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon, Paperclip } from "lucide-react";
+import { Code, HomeIcon, NotebookIcon, Paperclip, School } from "lucide-react";
 
 export const DATA = {
   name: "Samuel Forrest",
@@ -8,7 +8,7 @@ export const DATA = {
   location: "Teddington, United Kingdom",
   locationLink: "https://www.google.com/maps/place/teddington",
   description:
-    "Academic and friendly software developer interested in AI, Fintech, Startups and modern full-stack development. London-based.",
+    "Friendly and innovative software developer interested in AI, Fintech, Startups and modern full-stack development. London-based.",
   summary:
     "I started coding when I was 10, adventuring into HTML, CSS and JavaScript. Fast forward to now I'm 17, studying A Levels at St George's College, Weybridge, while building Tradelingo, an educational trading app for Gen Z. Along the way, I've completed work experience with British Airways, the AAIB, Amazon, HUDJO and Virgin Atlantic, while building my skills in teaching and communication as a tutor, developer and volunteer mentor. I have also participated in an international Hackathon, worked on projects and enjoyed my extracurriculars. I'm currently applying for Degree Apprenticeships in Technology & Software Engineering.",
   avatarUrl: "/assets/samuel-forrest-october-2025.webp",
@@ -64,6 +64,16 @@ export const DATA = {
       href: "/assets/cv.pdf",
       icon: Paperclip,
       label: "CV",
+    },
+    {
+      href: "https://form.typeform.com/to/yihbaIu7",
+      icon: Code,
+      label: "Request App/Web Development",
+    },
+    {
+      href: "https://www.superprof.co.uk/trusted-computer-science-tutor-with-hours-experience-taught-grade-sixth-form-student-software-engineer.html",
+      icon: School,
+      label: "Request Tutoring",
     },
   ],
 
