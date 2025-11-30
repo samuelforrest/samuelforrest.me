@@ -270,7 +270,8 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 If you would like references from previous employers or
                 teachers, please get in touch and I will be happy to provide
-                them. Note: Evidence of awards and most experiences can be found{" "}
+                them. <br></br>Note: Evidence of awards, experiences, some
+                endorsements and references can be found{" "}
                 <Link
                   href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
