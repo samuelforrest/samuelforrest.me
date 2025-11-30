@@ -96,32 +96,35 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="skills">
+      <section id="technical_skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Technical Skills</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
+            {DATA.technicalskills.map((technicalskill, id) => (
+              <BlurFade
+                key={technicalskill}
+                delay={BLUR_FADE_DELAY * 10 + id * 0.05}
+              >
+                <Badge key={technicalskill}>{technicalskill}</Badge>
               </BlurFade>
             ))}
           </div>
         </div>
       </section>
-      <section id="interpersonal_skills">
+      <section id="soft_skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Soft Skills</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
-            {DATA.interpersonalskills.map((interpersonalskill, id) => (
+            {DATA.softskills.map((softskill, id) => (
               <BlurFade
-                key={interpersonalskill}
+                key={softskill}
                 delay={BLUR_FADE_DELAY * 10 + id * 0.05}
               >
-                <Badge key={interpersonalskill}>{interpersonalskill}</Badge>
+                <Badge key={softskill}>{softskill}</Badge>
               </BlurFade>
             ))}
           </div>
