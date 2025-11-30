@@ -277,15 +277,16 @@ export default function Page() {
                 >
                   on Linkedin.
                 </Link>{" "}
-              </p>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Form Tutor
-              </p>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Clients / Tutees
-              </p>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Computer Science Tutor
+                <br></br>
+                <br></br>
+                <br></br>Work Experience Organisers
+                <br></br>Computer Science Teacher
+                <br></br>Tutees & Tutees' Parents
+                <br></br>Saxophone Teacher
+                <br></br>Business Partners
+                <br></br>Form Tutor
+                <br></br>Teamates
+                <br></br>Clients
               </p>
             </div>
           </BlurFade>
