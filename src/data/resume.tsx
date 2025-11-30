@@ -70,11 +70,6 @@ export const DATA = {
       icon: Code,
       label: "Request App/Web Development",
     },
-    {
-      href: "https://www.superprof.co.uk/trusted-computer-science-tutor-with-hours-experience-taught-grade-sixth-form-student-software-engineer.html",
-      icon: School,
-      label: "Request Tutoring",
-    },
   ],
 
   contact: {
