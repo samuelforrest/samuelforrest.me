@@ -5,13 +5,14 @@ export const DATA = {
   name: "Samuel Forrest",
   initials: "SF",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  location: "Teddington, United Kingdom",
+  locationLink: "https://www.google.com/maps/place/teddington",
   description:
     "Academic and friendly software developer interested in AI, Fintech, Startups and modern full-stack development. London-based.",
   summary:
     "I started coding when I was 10, adventuring into HTML, CSS and JavaScript. Fast forward to now I'm 17, studying A Levels at St George's College, Weybridge, while building Tradelingo, an educational trading app for Gen Z. Along the way, I've completed work experience with British Airways, the AAIB, Amazon, HUDJO and Virgin Atlantic, while building my skills in teaching and communication as a tutor, developer and volunteer mentor. I have also participated in an international Hackathon, worked on projects and enjoyed my extracurriculars. I'm currently applying for Degree Apprenticeships in Technology & Software Engineering.",
   avatarUrl: "/assets/samuel-forrest-october-2025.webp",
+
   skills: [
     "Python",
     "HTML",
@@ -38,6 +39,7 @@ export const DATA = {
     "Github",
     "Gitlab",
   ],
+
   interpersonalskills: [
     "Communication",
     "Collaboration",
@@ -50,6 +52,7 @@ export const DATA = {
     "Goal-orientated",
     "Empathetic",
   ],
+
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     {
@@ -63,6 +66,7 @@ export const DATA = {
       label: "CV",
     },
   ],
+
   contact: {
     email: "sam@samuelforrest.me",
     tel: "+447453446391",
@@ -164,7 +168,7 @@ export const DATA = {
       href: "https://mitremedia.com/",
       badges: [],
       location: "Toronto, ON",
-      title: "Virtual Work Experience",
+      title: "Work Experience",
       logoUrl: "/assets/springpod.webp",
       start: "June 2025",
       end: "Present",
@@ -267,6 +271,7 @@ export const DATA = {
         "Gained practical and theoretical insight into aerodynamics and aerospace engineering, with hands-on experience with flight simulators and wind tunnel experiments at Kingston University, London. Part of a 4-person team designing and presenting a glider to an audience of 100+ students; won the final competition, showcasing teamwork, leadership, problem-solving and perseverance.",
     },
   ],
+
   education: [
     {
       school: "St George's Weybridge",
@@ -285,6 +290,7 @@ export const DATA = {
       end: "2021",
     },
   ],
+
   projects: [
     {
       title: "Client - Cat Care Website",
@@ -589,7 +595,7 @@ export const DATA = {
         "I was awarded an honorary academic scholarship from my school. As part of the program, we went to lecturers, went on scholars trips and complete various extracurricular projects, including a mini EPQ.",
     },
     {
-      company: "MTB (Music Teachers Board)",
+      company: "MTB Saxophone",
       badges: [],
       href: "",
       location: "In-person",
@@ -600,7 +606,7 @@ export const DATA = {
       description: "I was awarded Grade 7 Saxophone by MTB in April 2024.",
     },
     {
-      company: "ABRSM",
+      company: "ABRSM Piano",
       badges: [],
       href: "",
       location: "In-person",
@@ -647,7 +653,7 @@ export const DATA = {
         "I was awarded Gold Award in the Bebras Challenge (by Cambridge / RaspberryPi) in December 2022.",
     },
     {
-      company: "UKMT (UK Maths Trust)",
+      company: "Senior UKMT",
       badges: [],
       href: "",
       location: "In-person",
