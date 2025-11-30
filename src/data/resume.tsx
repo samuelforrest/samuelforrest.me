@@ -112,13 +112,13 @@ export const DATA = {
       company: "Apprentadream",
       badges: [],
       href: "https://apprentadream.co.uk",
-      location: "Remote",
-      title: "Chief Technological Officer",
+      location: "Hybrid",
+      title: "CTO",
       logoUrl: "/assets/apprentadream.webp",
       start: "Sept 2024 -",
       end: "Present",
       description:
-        "Leading innovating and developing web applications for Apprentadream, focused on converting 3,000+ community members into active online customers. Collaborating closely with the founder and partners, shaping product direction and rapidly delivering MVPs using modern web technologies such as Next.js, TypeScript, TailwindCSS, and AI APIs.",
+        "Leading the development of web applications for Apprentadream, focused on converting 3,000+ community members into active online customers. Collaborating closely with the founder and partners, shaping product direction and rapidly delivering MVPs using modern web technologies such as Next.js, TypeScript, TailwindCSS and AI APIs. Led the design and implementation of GDPR-compliant data workflows, securely processing and managing personal data for 150+ new Apprentadream users weekly.",
     },
     {
       company: "Superprof",
@@ -130,7 +130,7 @@ export const DATA = {
       start: "Sept 2024 -",
       end: "Present",
       description:
-        "Delivering one-to-one tutoring to 3 computer science students from diverse backgrounds, including those with special educational needs (SEND). Over 45 hours of lessons given to date. Strengthened key interpersonal skills such as clear communication, structured lesson planning, time management and the ability to provide empathetic and tailored constructive feedback.",
+        "Delivering over 45 hours of one-to-one GCSE computing tutoring to a diverse range of students, helping them build confidence and improve grades, while developing my communication, organisation and teaching skills.",
     },
     {
       company: "Bookmark Reading Charity",
@@ -142,7 +142,7 @@ export const DATA = {
       start: "Sept 2025 -",
       end: "Present",
       description:
-        "Supporting two primary school children facing barriers to literacy, on a weekly basis. Helping them to grow in confidence, support their literacy learning and being a supportive person they can talk to.",
+        "Supporting two primary school children facing barriers to literacy on a weekly basis, helping them to grow in confidence, support their literacy learning and be able to have a supportive person to talk to.",
     },
     {
       company: "Freelance Developer",
@@ -154,7 +154,7 @@ export const DATA = {
       start: "Jul 2025 -",
       end: "Present",
       description:
-        "Designed, coded and deployed responsive websites for 3 paying clients, using TailwindCSS, React, TypeScript, Next.js, ShadcnUI, MagicUI, Vercel, Supabase, Gemini API, Google Analytics, and integrating features such as authentication, admin dashboards, blogs and AI summaries. Communicated directly with clients to gather requirements and to provide progress updates throughout the development process and support to maintain the websites, strengthening client communication, active listening, and problem-solving skills.",
+        "Developing websites for 3 paying clients, using Next.js and TailwindCSS, integrating CMS systems and AI features. Received 100% positive feedback, demonstrating reliable project delivery and client relations.",
     },
     {
       company: "Springpod",
@@ -166,7 +166,7 @@ export const DATA = {
       start: "Jul 2025 -",
       end: "Present",
       description:
-        "Completed 13 Springpod work experiences with: Amazon & AWS, JLR, Siemens, Ideagen, Fujitsu and Barclays. Produced projects varying from sustainability ideas for JLR to database design for Barclays, learning about the essential soft & technical skills required in a software engineering career.",
+        "Completed 18 Springpod work experiences with: Amazon & AWS, JLR, Siemens, Ideagen, Fujitsu, Airbus, BBC, Barclays, Autotrader and Thales. I produced projects varying from sustainability ideas for JLR to database designs for Barclays, learning about the essential soft & technical skills required in a software engineering career.",
     },
     {
       company: "British Airways",
@@ -178,7 +178,7 @@ export const DATA = {
       start: "Jul 2025 -",
       end: "Sept 2025",
       description:
-        "Completed an insight day, for engineering degree apprenticeships. Researched and presented a proposal for a new aircraft type for the short-haul fleet to a member of the fleet operations team, developing my analytical and presentation skills.",
+        "Researched and presented a proposal for the acquisition of a new aircraft type to a member of the fleet strategy team, developing my analytical and presentation skills through my in-depth technical evaluation. Also attended a hands-on apprenticeship insight day and completed British Airways' virtual work experience modules on the Connectr platform.",
     },
     {
       company: "Bath University",
@@ -202,7 +202,7 @@ export const DATA = {
       start: "May 2025",
       end: "",
       description:
-        "Created Verda - an AI CO2 emission calculator and ML waste identifier. Environmental Prize £300 winner 🏅 Collaborated effectively with a teammate over the 30-hour hackathon, and an 8+ hour time zone difference. Utilised GitHub and produced thorough project documentation.",
+        "Created Verda - an AI CO2 emission calculator and ML waste identifier, taking home the environmental prize of £300 from HTHack25. Collaborated effectively with a teammate over the 30-hour hackathon, and an 8+ hour time zone difference. Utilised GitHub and produced thorough project documentation.",
     },
     {
       company: "AAIB",
@@ -226,7 +226,7 @@ export const DATA = {
       start: "Sept 2024 -",
       end: "Present",
       description:
-        "Duolingo, but for trading. Designed and in the process of coding a cross-platform trading app for my Computer Science NEA, using: React Native, Expo, TypeScript, Nativewind, Polygon.io (financial API), Supabase Functions, Auth & DB, React Native Wagmi Charts and TradingView.",
+        "Designed and in the process of coding a cross-platform trading app for my Computer Science NEA, using: Next.js, React Native, Expo, TypeScript, TailwindCSS, Nativewind, Polygon.io, Supabase Functions, Auth & DB, TradingView graphs.",
     },
     {
       company: "HUDJO",
@@ -238,7 +238,7 @@ export const DATA = {
       start: "Aug 2024 -",
       end: "Oct 2024",
       description:
-        "Explored cross-platform mobile development by shadowing a startup developer at HUDJO, an app focused on bike parking solutions at local businesses in London, which recently received funding from Deliveroo. Introduced to Javascript, Typescript and the Expo framework, learning how cross-platform apps are built, from a former Google & Yandex software engineer.",
+        "Shadowed a startup developer at HUDJO, observing how cross-platform apps are engineered using the React Native framework, gaining exposure to agile practices and the end-to-end product development lifecycle.",
     },
     {
       company: "Virgin Atlantic",
@@ -261,7 +261,8 @@ export const DATA = {
       logoUrl: "/assets/vatsim.webp",
       start: "Jul 2023 -",
       end: "Present",
-      description: "Empty.",
+      description:
+        "Flight simulation enthusiast, an active member of VATSIM as a pilot and air traffic controller, developing strong multitasking, quick decision-making and stress management skills as I work towards becoming an S1 controller at vACC Switzerland (part of VATSIM Europe).",
     },
     {
       company: "St Michael's Church",
@@ -270,10 +271,10 @@ export const DATA = {
       location: "In-person",
       title: "Volunteer Sound Engineer",
       logoUrl: "/assets/stmichaels.webp",
-      start: "Dec 2017 -",
-      end: "Jun 2023",
+      start: "Jan 2017 -",
+      end: "Jan 2023",
       description:
-        "Gained practical and theoretical insight into aerodynamics and aerospace engineering, with hands-on experience with flight simulators and wind tunnel experiments at Kingston University, London. Part of a 4-person team designing and presenting a glider to an audience of 100+ students; won the final competition, showcasing teamwork, leadership, problem-solving and perseverance.",
+        "Volunteered 2 hours weekly for over 6 years, managing audio, cameras and screens as part of a team, developing composure under pressure and mentoring new volunteers to maintain high technical standards.",
     },
   ],
 
