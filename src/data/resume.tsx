@@ -116,7 +116,7 @@ export const DATA = {
         navbar: true,
       },
 
-      email: {
+      Email: {
         name: "Send Email",
         url: "mailto:sam@samuelforrest.me",
         icon: Icons.email,

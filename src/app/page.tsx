@@ -246,7 +246,7 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Alternatively, pop an email over to{" "}
                 <Link
-                  href={DATA.contact.social.email.url}
+                  href={DATA.contact.social.Email.url}
                   className="text-blue-500 hover:underline"
                 >
                   sam@samuelforrest.me
@@ -295,7 +295,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section>
+      <section id="footer">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-0 pb-10">
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             &copy; Samuel Forrest 2025<br></br>
