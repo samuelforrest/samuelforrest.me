@@ -140,16 +140,16 @@ export const DATA = {
         "Supporting two primary school children facing barriers to literacy, on a weekly basis. Helping them to grow in confidence, support their literacy learning and being a supportive person they can talk to.",
     },
     {
-      company: "Self-Employed",
+      company: "Freelance Developer",
       href: "https://splunk.com",
       badges: [],
       location: "Remote",
       title: "Freelance Web Developer",
       logoUrl: "/assets/webdeveloper.webp",
-      start: "January 2019",
-      end: "April 2019",
+      start: "March 2025",
+      end: "Present",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "Designed, coded and deployed responsive websites for 3 paying clients, using TailwindCSS, React, TypeScript, Next.js, ShadcnUI, MagicUI, Vercel, Supabase, Gemini API, Google Analytics, and integrating features such as authentication, admin dashboards, blogs and AI summaries. Communicated directly with clients to gather requirements and to provide progress updates throughout the development process and support to maintain the websites, strengthening client communication, active listening, and problem-solving skills.",
     },
     {
       company: "Tradelingo",
@@ -200,8 +200,8 @@ export const DATA = {
         "Selected to attend the competitive Step Into Bath residential summer school for Year 12 students, living in undergraduate accommodation and participating in social and networking events with current students and fellow applicants. Engaged in science-specific taster lectures and received tailored advice from admissions tutors on personal statements and competitive university applications.",
     },
     {
-      company: "KTByte",
-      href: "https://mitremedia.com/",
+      company: "KTBYTE",
+      href: "https://www.ktbyte.com/",
       badges: [],
       location: "Remote",
       title: "Hackathon Winner",
