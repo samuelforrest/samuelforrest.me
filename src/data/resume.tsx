@@ -662,7 +662,7 @@ export const DATA = {
       start: "Sept 2024",
       end: "",
       description:
-        "I was awarded Bronze in the Senior UKMT Maths Challenge in September 2024. I compete in this challenge every year.",
+        "I was awarded Bronze in the Senior UKMT Maths Challenge in September 2024.",
     },
     {
       company: "BPhO",
