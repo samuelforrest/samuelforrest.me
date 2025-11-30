@@ -184,7 +184,7 @@ export default function Page() {
                 subtitle={extracurricular.title}
                 href={extracurricular.href}
                 badges={extracurricular.badges}
-                period={`${extracurricular.start} - ${
+                period={`${extracurricular.start} ${
                   extracurricular.end ?? "Present"
                 }`}
                 description={extracurricular.description}

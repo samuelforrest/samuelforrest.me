@@ -589,7 +589,7 @@ export const DATA = {
       location: "In-person",
       title: "Academic Scholarship Program",
       logoUrl: "/assets/sgc.webp",
-      start: "2022",
+      start: "2022 -",
       end: "Present",
       description:
         "I was awarded an honorary academic scholarship from my school. As part of the program, we went to lecturers, went on scholars trips and complete various extracurricular projects, including a mini EPQ.",
@@ -601,8 +601,8 @@ export const DATA = {
       location: "In-person",
       title: "Grade 7 Saxophone",
       logoUrl: "/assets/mtb.webp",
-      start: "April 2024",
-      end: "April 2024",
+      start: "Apr 2024",
+      end: "",
       description: "I was awarded Grade 7 Saxophone by MTB in April 2024.",
     },
     {
@@ -612,8 +612,8 @@ export const DATA = {
       location: "In-person",
       title: "Grade 4 Piano",
       logoUrl: "/assets/abrsm.webp",
-      start: "March 2020",
-      end: "March 2020",
+      start: "Mar 2020",
+      end: "",
       description: "I was awarded Grade 4 Piano by ABRSM, in March 2020.",
     },
     {
@@ -623,8 +623,8 @@ export const DATA = {
       location: "In-person",
       title: "DofE Silver & Bronze",
       logoUrl: "/assets/dofe.webp",
-      start: "2020",
-      end: "September 2021",
+      start: "2020 -",
+      end: "2021",
       description:
         "Completed 40 hours of volunteering and around 40 hours of skills (coding).",
     },
@@ -635,8 +635,8 @@ export const DATA = {
       location: "Online",
       title: "Touch typing 100WPM + 95% accuracy",
       logoUrl: "/assets/monkeytype.webp",
-      start: "September 2025",
-      end: "September 2025",
+      start: "Sept 2025 -",
+      end: "Present",
       description:
         "After touch typing courses, I can type at a speed of 100 WPM (Words per minute), with 95% accuracy.",
     },
@@ -647,8 +647,8 @@ export const DATA = {
       location: "Online",
       title: "Bebras Challenge - Gold Award",
       logoUrl: "/assets/bebras.webp",
-      start: "December 2022",
-      end: "December 2022",
+      start: "Dec 2022",
+      end: "",
       description:
         "I was awarded Gold Award in the Bebras Challenge (by Cambridge / RaspberryPi) in December 2022.",
     },
@@ -659,8 +659,8 @@ export const DATA = {
       location: "In-person",
       title: "Senior UK Maths Challenge - Bronze Award",
       logoUrl: "/assets/ukmt.webp",
-      start: "September 2024",
-      end: "September 2024",
+      start: "Sept 2024",
+      end: "",
       description:
         "I was awarded Bronze in the Senior UKMT Maths Challenge in September 2024. I compete in this challenge every year.",
     },
@@ -671,8 +671,8 @@ export const DATA = {
       location: "In-person",
       title: "Senior Physics Olympiad - Bronze Award",
       logoUrl: "/assets/physicsolympiad.webp",
-      start: "September 2024",
-      end: "September 2024",
+      start: "Sept 2024",
+      end: "",
       description:
         "I was awarded Bronze in the Senior BPhO Physics Olympiad in September 2024.",
     },
@@ -683,7 +683,7 @@ export const DATA = {
       location: "Remote",
       title: "Listening to podcasts",
       logoUrl: "/assets/doac.webp",
-      start: "2019",
+      start: "2019 -",
       end: "Present",
       description:
         "I listen to podcasts daily, my favourites including the Diary of a CEO, Lightcone Podcast (Y-Combinator) and Mentour Pilot.",
@@ -695,7 +695,7 @@ export const DATA = {
       location: "Various",
       title: "Bike Rides & Fundraising",
       logoUrl: "/assets/bikeride.webp",
-      start: "2018",
+      start: "2018 -",
       end: "Present",
       description:
         "I cycled London to Brighton (£500 raised), London to Paris (£500 raised), London to Bath, and Vienna to Budapest via Bratislava (Danube River).",
@@ -707,7 +707,7 @@ export const DATA = {
       location: "Home",
       title: "Custom PC Building",
       logoUrl: "/assets/pc.webp",
-      start: "2020",
+      start: "2020 -",
       end: "Present",
       description:
         "I've built PCs for myself, friends and family from scratch.",
@@ -719,10 +719,10 @@ export const DATA = {
       location: "In-person",
       title: "Rowing Club Member",
       logoUrl: "/assets/sgc.webp",
-      start: "2021",
-      end: "Early 2025",
+      start: "2021 -",
+      end: "2024",
       description:
-        "Dedicated 8 hours a week to the Rowing Club from 2021-Early2025.",
+        "Dedicated 8 hours a week to the Rowing Club from 2021 to 2024.",
     },
     {
       company: "Samuel Forrest",
@@ -731,7 +731,7 @@ export const DATA = {
       location: "Remote",
       title: "Computer Science, AI & Aviation Blog",
       logoUrl: "/assets/sf.webp",
-      start: "2023",
+      start: "2023 -",
       end: "Present",
       description:
         "Writing my opinions on the latest news in these fields of my interest. Now hosted on Substack.",
@@ -743,7 +743,7 @@ export const DATA = {
       location: "Remote",
       title: "Apprentice Nation Mentee",
       logoUrl: "/assets/apprenticenation.webp",
-      start: "2024",
+      start: "2024 -",
       end: "Present",
       description:
         "Apprentice Nation is an award-winning platform that unites major brands, top UK talent and the power of music to inspire and engage youth into careers they love.",
@@ -755,7 +755,7 @@ export const DATA = {
       location: "Remote",
       title: "British Computing Society Member",
       logoUrl: "/assets/bcs.webp",
-      start: "2024",
+      start: "2024 -",
       end: "Present",
       description:
         "I'm a member of the British Computer Society (BCS), demonstrating commitment to professional development and engagement with the wider computing community.",
@@ -767,7 +767,7 @@ export const DATA = {
       location: "Remote",
       title: "Royal Aeronautical Society Member",
       logoUrl: "/assets/raes.webp",
-      start: "2024",
+      start: "2024 -",
       end: "Present",
       description:
         "I'm a member of the Royal Aeronautical Society, demonstrating commitment to professional development and engagement with the wider aerospace community.",
