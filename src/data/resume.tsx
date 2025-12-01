@@ -378,7 +378,6 @@ export const DATA = {
         },
       ],
       image: "/assets/zoecc.webp",
-      video: "",
     },
     {
       title: "Client - Apprentadream",
@@ -431,8 +430,8 @@ export const DATA = {
         },
         {
           type: "Documentation",
-          href: "",
-          icon: <Icons.notion className="size-3" />,
+          href: "/assets/nea-snippet.pdf",
+          icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/assets/tradelingo.webp",
@@ -476,12 +475,16 @@ export const DATA = {
       links: [
         {
           type: "Abstract",
-          href: "/assets/epq_abstract.pdf",
+          href: "/assets/epq-abstract.pdf",
+          icon: <Icons.googleDrive className="size-3" />,
+        },
+        {
+          type: "Presentation",
+          href: "/assets/epq-presentation.pdf",
           icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/assets/boom.webp",
-      video: "",
     },
     {
       title: "Sitro.io",
@@ -523,14 +526,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "assets/epq_abstract.pdf",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/samuelforrest/verdapp.xyz",
-          icon: <Icons.github className="size-3" />,
+          type: "Presentation",
+          href: "assets/ba-fleet-optimisation-wex.pdf",
+          icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/assets/e190.webp",
@@ -547,18 +545,12 @@ export const DATA = {
       technologies: ["Research Skills", "Presentation Skills"],
       links: [
         {
-          type: "Website",
-          href: "assets/epq_abstract.pdf",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/samuelforrest/verdapp.xyz",
-          icon: <Icons.github className="size-3" />,
+          type: "Dissertation",
+          href: "assets/how-can-we-make-the-aviation-industry-more-sustainable.pdf",
+          icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/assets/saf.webp",
-      video: "",
     },
     {
       title: "Tech, AI and Aviation Blog",
@@ -580,7 +572,7 @@ export const DATA = {
     },
     {
       title: "The Revision Podcast",
-      href: "https://samueljforrest.substack.com/",
+      href: "https://open.spotify.com/show/568FPtKmIlTgWgaDAfap03",
       dates: "September 2024 - Present",
       active: true,
       description:
@@ -594,7 +586,6 @@ export const DATA = {
         },
       ],
       image: "/assets/therevisionpodcast.webp",
-      video: "",
     },
     {
       title: "Screenfine - Conceptual App Idea",
@@ -606,13 +597,12 @@ export const DATA = {
       technologies: ["React", "iOS Development", "Swift"],
       links: [
         {
-          type: "Website",
+          type: "Promo Website",
           href: "https://screenfine.samuelforrest.me/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/assets/screenfine.webp",
-      video: "",
     },
   ],
   extracurricular: [
