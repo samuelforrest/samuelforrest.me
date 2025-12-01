@@ -336,35 +336,6 @@ export const DATA = {
 
   projects: [
     {
-      title: "Client - Cat Care Website",
-      href: "https://zoecc.co.uk",
-      dates: "June 2025 - Present",
-      active: true,
-      description:
-        "Built a modern, responsive website for a local cat care business. Features clean design, contact forms, and service showcases.",
-      technologies: [
-        "React + Vite",
-        "TailwindCSS",
-        "TypeScript",
-        "ShadcnUI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://zoecc.co.uk",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/samuelforrest/zoecc.co.uk",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/assets/zoecc.webp",
-      video: "",
-    },
-    {
       title: "Client - BioNewsWeekly",
       href: "https://bionewsweekly.com",
       dates: "April 2025 - Present",
@@ -379,17 +350,39 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
+          type: "Source Code",
           href: "https://github.com/samuelforrest/bionewsweekly.com",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/assets/bionewsweekly.webp",
+    },
+    {
+      title: "Client - Cat Care Website",
+      href: "https://zoecc.co.uk",
+      dates: "June 2025 - Present",
+      active: true,
+      description:
+        "Built a modern, responsive website for a local cat care business. Features clean design, contact forms, and service showcases.",
+      technologies: ["React + Vite", "TailwindCSS", "TypeScript", "ShadcnUI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://zoecc.co.uk",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source Code",
+          href: "https://github.com/samuelforrest/zoecc.co.uk",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/assets/zoecc.webp",
       video: "",
     },
     {
       title: "Client - Apprentadream",
-      href: "https://tradelingo.samuelforrest.me/",
+      href: "https://apprentadream.co.uk/",
       dates: "September 2024 - Present",
       active: true,
       description:
@@ -405,8 +398,13 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://tradelingo.samuelforrest.me/",
+          href: "https://apprentadream.co.uk/",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source Code",
+          href: "https://github.com/samuelforrest/apprentadream.co.uk",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/assets/apprentadream2.webp",
@@ -427,9 +425,14 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
+          type: "Promo Website",
           href: "https://tradelingo.samuelforrest.me/",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Documentation",
+          href: "",
+          icon: <Icons.notion className="size-3" />,
         },
       ],
       image: "/assets/tradelingo.webp",
@@ -450,18 +453,17 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
+          type: "Devpost",
           href: "https://devpost.com/software/verda-edo7uq",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
+          type: "Source Code",
           href: "https://github.com/samuelforrest/verdapp.xyz",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/assets/verda2.webp",
-      video: "",
     },
     {
       title: "EPQ - Supersonic Aviation",
@@ -473,14 +475,9 @@ export const DATA = {
       technologies: ["Researching", "Presentation Skills", "Microsoft Word"],
       links: [
         {
-          type: "Website",
-          href: "assets/epq_abstract.pdf",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/samuelforrest/verdapp.xyz",
-          icon: <Icons.github className="size-3" />,
+          type: "Abstract",
+          href: "/assets/epq_abstract.pdf",
+          icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/assets/boom.webp",
@@ -488,7 +485,7 @@ export const DATA = {
     },
     {
       title: "Sitro.io",
-      href: "",
+      href: "https://sitro.io",
       dates: "Summer 2025",
       active: true,
       description: "An AI Landing Page generator, to be released.",
@@ -503,17 +500,11 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "assets/epq_abstract.pdf",
+          href: "https://sitro.io",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/samuelforrest/verdapp.xyz",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/assets/sitro.webp",
-      video: "",
     },
     {
       title: "BA Fleet Optimisation Work Experience",
