@@ -140,7 +140,7 @@ export const DATA = {
       location: "Hybrid",
       title: "CTO",
       logoUrl: "/assets/apprentadream.webp",
-      start: "Sept 2024 -",
+      start: "Sept 2025 -",
       end: "Present",
       description:
         "Leading the development of web applications for Apprentadream, focused on converting 3,000+ community members into active online customers. Collaborating closely with the founder and partners, shaping product direction and rapidly delivering MVPs using modern web technologies such as Next.js, TypeScript, TailwindCSS and AI APIs. Led the design and implementation of GDPR-compliant data workflows, securely processing and managing personal data for 150+ new Apprentadream users weekly.",
@@ -302,7 +302,7 @@ export const DATA = {
         "Volunteered 2 hours weekly for over 6 years, managing audio, cameras and screens as part of a team, developing composure under pressure and mentoring new volunteers to maintain high technical standards.",
     },
     {
-      company: "Vex Robotics",
+      company: "VEX Robotics",
       href: "https://www.vexrobotics.com/",
       badges: [],
       location: "In-person",
