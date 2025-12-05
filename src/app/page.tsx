@@ -12,7 +12,12 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
+    <main className="flex flex-col min-h-[100dvh] space-y-8">
+      <Link href="https://www.superprof.co.uk/trusted-computer-science-tutor-with-hours-experience-taught-grade-sixth-form-student-software-engineer.html">
+        <div className="w-full bg-black dark:bg-white text-white dark:text-black py-1 text-center font-medium">
+          1 space left for computer science tutoring
+        </div>
+      </Link>
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
