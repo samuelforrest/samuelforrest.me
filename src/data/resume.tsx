@@ -8,7 +8,7 @@ export const DATA = {
   location: "Teddington, United Kingdom",
   locationLink: "https://www.google.com/maps/place/teddington",
   description:
-    "Friendly and innovative software developer interested in AI, Fintech, Startups and modern full-stack development. London-based.",
+    "Entrepreneurial-minded software engineer and student interested in Fintech and AI. Building Tradelingo & Apprentadream.",
   summary:
     "I started coding when I was 10, adventuring into HTML, CSS and JavaScript. Fast forward to now I'm 17, studying A Levels at St George's College, Weybridge, while building Tradelingo, an educational trading app for Gen Z. Along the way, I've completed work experience with British Airways, the AAIB, HUDJO and Virgin Atlantic, while building my skills in teaching and communication as a tutor, freelance developer and volunteer reading mentor. I have also participated in an international Hackathon, worked on projects and enjoyed my extracurriculars. I'm currently applying for Degree Apprenticeships in Technology & Software Engineering.",
   avatarUrl: "/assets/samuel-forrest-october-2025.webp",
