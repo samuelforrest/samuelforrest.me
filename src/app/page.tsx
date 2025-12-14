@@ -14,9 +14,11 @@ export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-8">
       <Link href="https://app.cal.eu/samuelforrest">
-        <div className="w-full bg-black dark:bg-white text-white dark:text-black py-1 text-center font-medium">
-          Schedule a call with me
-        </div>
+        <BlurFade delay={BLUR_FADE_DELAY * 0.2}>
+          <div className="w-full bg-black dark:bg-white text-white dark:text-black py-1 text-center font-medium">
+            Schedule a call with me
+          </div>
+        </BlurFade>
       </Link>
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
