@@ -228,6 +228,85 @@ export default function Page() {
         </div>
       </section>
 
+      <section id="tech-stack">
+        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+          <div className="space-y-3">
+            <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+              Tech Stack
+            </div>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+              Tech Focus
+            </h2>
+            <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Here is the tech stack I'm focusing on mastering for 2026, to
+              build scalable web and mobile applications.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {[
+                {
+                  name: "React",
+                  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                },
+                {
+                  name: "Next.js",
+                  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+                  invert: true,
+                },
+                {
+                  name: "TypeScript",
+                  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+                },
+                {
+                  name: "React Native",
+                  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                },
+                {
+                  name: "Node.js",
+                  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+                },
+                {
+                  name: "Supabase",
+                  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg",
+                },
+                {
+                  name: "PostgreSQL",
+                  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+                },
+                {
+                  name: "TailwindCSS",
+                  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+                },
+                {
+                  name: "Python",
+                  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                },
+              ].map((tech, id) => (
+                <BlurFade
+                  key={tech.name}
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                >
+                  <div className="flex items-center gap-2 px-3 py-2 rounded-lg bg-card">
+                    <Avatar className="size-10">
+                      <AvatarImage
+                        src={tech.icon}
+                        alt={tech.name}
+                        className={`object-contain p-1 ${
+                          tech.invert ? "dark:invert" : ""
+                        }`}
+                      />
+                      <AvatarFallback className="text-xs">
+                        {tech.name.slice(0, 2)}
+                      </AvatarFallback>
+                    </Avatar>
+                    <span className="text-sm font-medium">{tech.name}</span>
+                  </div>
+                </BlurFade>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
