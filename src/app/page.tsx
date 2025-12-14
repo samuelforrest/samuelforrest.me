@@ -253,6 +253,10 @@ export default function Page() {
                   invert: true,
                 },
                 {
+                  name: "Vercel AI SDK",
+                  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+                },
+                {
                   name: "TypeScript",
                   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
                 },
