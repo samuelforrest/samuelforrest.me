@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { Code, HomeIcon, NotebookIcon, Paperclip, School } from "lucide-react";
+import { HomeIcon, NotebookIcon, Video } from "lucide-react";
 
 export const DATA = {
   name: "Samuel Forrest",
@@ -9,7 +9,8 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/teddington",
   description:
     "Incoming Software Developer Degree Apprentice @ Barclays (2026) • Apprentadream CTO • Freelance Developer • Private Tutor",
-  summary: "Sections of this website are synced with my LinkedIn profile.",
+  summary:
+    "Various sections of this website are synced with my LinkedIn profile.",
   avatarUrl: "/assets/samuel-forrest-october-2025.webp",
   technicalskills: [
     "Python",
@@ -18,6 +19,7 @@ export const DATA = {
     "JavaScript",
     "TypeScript",
     "Node.js",
+    "LaTeX",
     "React",
     "React Native",
     "Expo",
@@ -85,9 +87,9 @@ export const DATA = {
       label: "Blog",
     },
     {
-      href: "https://form.typeform.com/to/yihbaIu7",
-      icon: Code,
-      label: "Request App/Web Development",
+      href: "https://app.cal.eu/samuelforrest",
+      icon: Video,
+      label: "Schedule a call",
     },
   ],
 
