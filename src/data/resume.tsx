@@ -85,11 +85,6 @@ export const DATA = {
       label: "Blog",
     },
     {
-      href: "/assets/cv.pdf",
-      icon: Paperclip,
-      label: "CV",
-    },
-    {
       href: "https://form.typeform.com/to/yihbaIu7",
       icon: Code,
       label: "Request App/Web Development",
