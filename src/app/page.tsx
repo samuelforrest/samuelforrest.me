@@ -71,10 +71,7 @@ export default function Page() {
                 altText={work.company}
                 title={work.title}
                 subtitle={work.company}
-                href={work.href}
-                badges={work.badges}
                 period={`${work.start} ${work.end ?? "Present"}`}
-                description={work.description}
               />
             </BlurFade>
           ))}
@@ -92,7 +89,6 @@ export default function Page() {
             >
               <ResumeCard
                 key={education.school}
-                href={education.href}
                 logoUrl={education.logoUrl}
                 altText={education.school}
                 title={education.school}
@@ -192,12 +188,9 @@ export default function Page() {
                 altText={extracurricular.company}
                 title={extracurricular.company}
                 subtitle={extracurricular.title}
-                href={extracurricular.href}
-                badges={extracurricular.badges}
                 period={`${extracurricular.start} ${
                   extracurricular.end ?? "Present"
                 }`}
-                description={extracurricular.description}
               />
             </BlurFade>
           ))}
@@ -220,10 +213,7 @@ export default function Page() {
                 altText={services.company}
                 title={services.company}
                 subtitle={services.title}
-                href={services.href}
-                badges={services.badges}
                 period={`${services.start} ${services.end ?? "Present"}`}
-                description={services.description}
               />
             </BlurFade>
           ))}
