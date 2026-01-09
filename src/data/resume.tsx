@@ -9,8 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/teddington",
   description:
     "Incoming Software Developer Degree Apprentice @ Barclays (2026) • Apprentadream CTO • Freelance Developer • Private Tutor",
-  summary:
-    "I started coding when I was 10, adventuring into HTML, CSS and JavaScript. Fast forward to now I'm 17, studying A Levels at St George's College, Weybridge, while building Tradelingo, an educational trading app for Gen Z. Along the way, I've completed work experience with British Airways, the AAIB, HUDJO and Virgin Atlantic, while building my skills in teaching and communication as a tutor, freelance developer and volunteer reading mentor. I have also participated in an international Hackathon, worked on projects and enjoyed my extracurriculars. I'm currently applying for Degree Apprenticeships in Technology & Software Engineering.",
+  summary: "Sections of this website are synced with my LinkedIn profile.",
   avatarUrl: "/assets/samuel-forrest-october-2025.webp",
   technicalskills: [
     "Python",
@@ -252,7 +251,7 @@ export const DATA = {
   education: [
     {
       school: "St George's Weybridge",
-      href: "https://www.stgeorgesweybridge.com/",
+      href: "",
       degree: "Academic Scholar - GCSE: 9999999987 - A-Level Predicted: A*A*AA",
       logoUrl: "/assets/sgc.webp",
       start: "2021",
@@ -260,7 +259,7 @@ export const DATA = {
     },
     {
       school: "Newland House School",
-      href: "https://newlandhouse.net/",
+      href: "",
       degree: "KS1-3, Awards in 4 subjects, Various leadership positions",
       logoUrl: "/assets/nhs.webp",
       start: "2012",
@@ -504,23 +503,7 @@ export const DATA = {
       image: "/assets/blog.webp",
       video: "",
     },
-    {
-      title: "The Revision Podcast",
-      href: "https://open.spotify.com/show/568FPtKmIlTgWgaDAfap03",
-      dates: "September 2024 - Present",
-      active: true,
-      description:
-        "Podcast with two AI hosts, give it a listen - it's surprisingly good!",
-      technologies: ["NotebookLM", "Spotify Creators"],
-      links: [
-        {
-          type: "Website",
-          href: "https://open.spotify.com/show/568FPtKmIlTgWgaDAfap03",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/assets/therevisionpodcast.webp",
-    },
+
     {
       title: "Screenfine - Conceptual App Idea",
       href: "https://screenfine.samuelforrest.me/",
