@@ -16,7 +16,7 @@ export default function Page() {
       <Link href="https://app.cal.eu/samuelforrest">
         <BlurFade delay={BLUR_FADE_DELAY * 0.2}>
           <div className="w-full bg-black dark:bg-white text-white dark:text-black py-1 text-center font-medium">
-            Schedule a call with me
+            Schedule a call with me - Tutoring / Web Development
           </div>
         </BlurFade>
       </Link>
@@ -47,7 +47,7 @@ export default function Page() {
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-xl font-bold">Info</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
