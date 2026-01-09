@@ -1,6 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon, Video } from "lucide-react";
-
+import { HomeIcon, NotebookIcon, PhoneCallIcon, Video } from "lucide-react";
 export const DATA = {
   name: "Samuel Forrest",
   initials: "SF",
@@ -115,7 +114,7 @@ export const DATA = {
       WhatsApp: {
         name: "WhatsApp",
         url: "https://wa.me/447453446391",
-        icon: Icons.whatsapp,
+        icon: PhoneCallIcon,
         navbar: true,
       },
 
