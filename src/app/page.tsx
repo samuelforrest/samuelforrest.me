@@ -69,8 +69,8 @@ export default function Page() {
                 key={work.company}
                 logoUrl={work.logoUrl}
                 altText={work.company}
-                title={work.company}
-                subtitle={work.title}
+                title={work.title}
+                subtitle={work.company}
                 href={work.href}
                 badges={work.badges}
                 period={`${work.start} ${work.end ?? "Present"}`}
