@@ -142,7 +142,7 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest projects
+                  Recent Projects
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve worked on a variety of projects, from simple
@@ -172,53 +172,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="extracurriculars">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Extracurricular Journey</h2>
-          </BlurFade>
-          {DATA.extracurricular.map((extracurricular, id) => (
-            <BlurFade
-              key={extracurricular.company}
-              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
-            >
-              <ResumeCard
-                key={extracurricular.company}
-                logoUrl={extracurricular.logoUrl}
-                altText={extracurricular.company}
-                title={extracurricular.company}
-                subtitle={extracurricular.title}
-                period={`${extracurricular.start} ${
-                  extracurricular.end ?? "Present"
-                }`}
-              />
-            </BlurFade>
-          ))}
-        </div>
-      </section>
-
-      <section id="services">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Services</h2>
-          </BlurFade>
-          {DATA.services.map((services, id) => (
-            <BlurFade
-              key={services.company}
-              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
-            >
-              <ResumeCard
-                key={services.company}
-                logoUrl={services.logoUrl}
-                altText={services.company}
-                title={services.company}
-                subtitle={services.title}
-                period={`${services.start} ${services.end ?? "Present"}`}
-              />
-            </BlurFade>
-          ))}
-        </div>
-      </section>
 
       <section id="tech-stack">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
@@ -230,8 +183,7 @@ export default function Page() {
               Tech Focus
             </h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Here is the tech stack I'm focusing on mastering for 2026, to
-              build scalable web and mobile applications.
+              Here is the tech stack I'm focusing on mastering for 2026.
             </p>
             <div className="flex flex-wrap gap-2">
               {[
@@ -245,7 +197,7 @@ export default function Page() {
                   invert: true,
                 },
                 {
-                  name: "Vercel AI SDK",
+                  name: "Vercel",
                   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
                 },
                 {
@@ -358,17 +310,6 @@ export default function Page() {
                 >
                   on Linkedin.
                 </Link>{" "}
-                <br></br>
-                <br></br>
-                <br></br>Work Experience Organisers
-                <br></br>Computer Science Teacher
-                <br></br>Tutees & Tutees' Parents
-                <br></br>Saxophone Teacher
-                <br></br>Business Partners
-                <br></br>Head of year
-                <br></br>Form Tutor
-                <br></br>Teamates
-                <br></br>Clients
               </p>
             </div>
           </BlurFade>
@@ -378,8 +319,7 @@ export default function Page() {
       <section id="footer">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-0 pb-10">
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            &copy; Samuel Forrest 2025<br></br>
-            <br></br>Accurate to best of knowledge at time of publication
+            &copy; Samuel Forrest 2026<br></br>
           </p>
         </div>
       </section>
