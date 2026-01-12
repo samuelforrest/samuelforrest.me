@@ -109,7 +109,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
   {
     company: "Bookmark Reading Charity",
-    title: "Volunteer Reading Mentor",
+    title: "Volunteer Mentor",
     start: "Sep 2025",
     end: "Present",
     link: "",
