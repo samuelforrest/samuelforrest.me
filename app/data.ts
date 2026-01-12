@@ -40,6 +40,8 @@ type TechStack = {
   id: string;
 };
 
+//PROJECTS
+
 export const PROJECTS: Project[] = [
   {
     name: "Apprentadream",
@@ -125,6 +127,8 @@ export const PROJECTS: Project[] = [
     },
   },
 ];
+
+// EXPERIENCE
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
@@ -244,6 +248,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 ];
 
+// Social Links
+
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: "Github",
@@ -258,10 +264,12 @@ export const SOCIAL_LINKS: SocialLink[] = [
     link: "https://samueljforrest.substack.com/",
   },
   {
-    label: "Devpost",
-    link: "https://devpost.com/samueljforrest",
+    label: "Book a call",
+    link: "https://app.cal.eu/samueljforrest",
   },
 ];
+
+// Tech Stack
 
 export const TECH_STACK: TechStack[] = [
   {
