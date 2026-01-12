@@ -1,18 +1,18 @@
-'use client'
-import { useState } from 'react'
-import { motion } from 'motion/react'
-import { XIcon, ChevronDown } from 'lucide-react'
-import { Spotlight } from '@/components/ui/spotlight'
-import { Magnetic } from '@/components/ui/magnetic'
+"use client";
+import { useState } from "react";
+import { motion } from "motion/react";
+import { XIcon, ChevronDown } from "lucide-react";
+import { Spotlight } from "@/components/ui/spotlight";
+import { Magnetic } from "@/components/ui/magnetic";
 import {
   MorphingDialog,
   MorphingDialogTrigger,
   MorphingDialogContent,
   MorphingDialogClose,
   MorphingDialogContainer,
-} from '@/components/ui/morphing-dialog'
-import Link from 'next/link'
-import { AnimatedBackground } from '@/components/ui/animated-background'
+} from "@/components/ui/morphing-dialog";
+import Link from "next/link";
+import { AnimatedBackground } from "@/components/ui/animated-background";
 import {
   PROJECTS,
   WORK_EXPERIENCE,
@@ -22,7 +22,7 @@ import {
   PHONE,
   PHONE_URL,
   TECH_STACK,
-} from './data'
+} from "./data";
 
 const VARIANTS_CONTAINER = {
   hidden: { opacity: 0 },
@@ -32,23 +32,23 @@ const VARIANTS_CONTAINER = {
       staggerChildren: 0.15,
     },
   },
-}
+};
 
 const VARIANTS_SECTION = {
-  hidden: { opacity: 0, y: 20, filter: 'blur(8px)' },
-  visible: { opacity: 1, y: 0, filter: 'blur(0px)' },
-}
+  hidden: { opacity: 0, y: 20, filter: "blur(8px)" },
+  visible: { opacity: 1, y: 0, filter: "blur(0px)" },
+};
 
 const TRANSITION_SECTION = {
   duration: 0.3,
-}
+};
 
 function MagneticSocialLink({
   children,
   link,
 }: {
-  children: React.ReactNode
-  link: string
+  children: React.ReactNode;
+  link: string;
 }) {
   return (
     <Magnetic springOptions={{ bounce: 0 }} intensity={0.3}>
@@ -74,17 +74,17 @@ function MagneticSocialLink({
         </svg>
       </a>
     </Magnetic>
-  )
+  );
 }
 
 export default function Personal() {
-  const [showMoreWork, setShowMoreWork] = useState(false)
-  const [showMoreProjects, setShowMoreProjects] = useState(false)
+  const [showMoreWork, setShowMoreWork] = useState(false);
+  const [showMoreProjects, setShowMoreProjects] = useState(false);
 
   const displayedWorkExperience = showMoreWork
     ? WORK_EXPERIENCE
-    : WORK_EXPERIENCE.slice(0, 3)
-  const displayedProjects = showMoreProjects ? PROJECTS : PROJECTS.slice(0, 3)
+    : WORK_EXPERIENCE.slice(0, 3);
+  const displayedProjects = showMoreProjects ? PROJECTS : PROJECTS.slice(0, 3);
 
   return (
     <motion.main
@@ -165,9 +165,9 @@ export default function Personal() {
               onClick={() => setShowMoreWork(!showMoreWork)}
               className="flex cursor-pointer items-center gap-2 text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
             >
-              {showMoreWork ? 'Show Less' : 'Show More'}
+              {showMoreWork ? "Show Less" : "Show More"}
               <ChevronDown
-                className={`h-4 w-4 transition-transform ${showMoreWork ? 'rotate-180' : ''}`}
+                className={`h-4 w-4 transition-transform ${showMoreWork ? "rotate-180" : ""}`}
               />
             </button>
           </div>
@@ -225,9 +225,9 @@ export default function Personal() {
               onClick={() => setShowMoreProjects(!showMoreProjects)}
               className="flex cursor-pointer items-center gap-2 text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
             >
-              {showMoreProjects ? 'Show Less' : 'Show More'}
+              {showMoreProjects ? "Show Less" : "Show More"}
               <ChevronDown
-                className={`h-4 w-4 transition-transform ${showMoreProjects ? 'rotate-180' : ''}`}
+                className={`h-4 w-4 transition-transform ${showMoreProjects ? "rotate-180" : ""}`}
               />
             </button>
           </div>
@@ -264,7 +264,7 @@ export default function Personal() {
             enableHover
             className="h-full w-full rounded-lg bg-zinc-100 dark:bg-zinc-900/80"
             transition={{
-              type: 'spring',
+              type: "spring",
               bounce: 0,
               duration: 0.2,
             }}
@@ -296,7 +296,7 @@ export default function Personal() {
       >
         <h3 className="mb-5 text-lg font-medium">Connect</h3>
         <p className="mb-5 text-zinc-600 dark:text-zinc-400">
-          Feel free to contact me at{' '}
+          Feel free to contact me at{" "}
           <a
             className="underline underline-offset-3 dark:text-zinc-300"
             href={`mailto:${EMAIL}`}
@@ -305,7 +305,7 @@ export default function Personal() {
           </a>
         </p>
         <p className="mb-5 text-zinc-600 dark:text-zinc-400">
-          Feel free to message me at{' '}
+          Feel free to message me at{" "}
           <a
             className="underline underline-offset-3 dark:text-zinc-300"
             href={`mailto:${PHONE_URL}`}
@@ -322,5 +322,5 @@ export default function Personal() {
         </div>
       </motion.section>
     </motion.main>
-  )
+  );
 }
