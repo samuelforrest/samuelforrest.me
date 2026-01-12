@@ -83,7 +83,7 @@ export default function Personal() {
 
   const displayedWorkExperience = showMoreWork
     ? WORK_EXPERIENCE
-    : WORK_EXPERIENCE.slice(0, 4)
+    : WORK_EXPERIENCE.slice(0, 3)
   const displayedProjects = showMoreProjects ? PROJECTS : PROJECTS.slice(0, 3)
 
   return (
