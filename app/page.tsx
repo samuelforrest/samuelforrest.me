@@ -205,7 +205,7 @@ export default function Personal() {
                         className="h-full w-full object-cover"
                       />
                     </div>
-                    
+
                     {/* Content */}
                     <div className="flex flex-col gap-4 p-6">
                       <div className="flex items-start justify-between">
@@ -216,11 +216,11 @@ export default function Personal() {
                           <XIcon size={24} />
                         </MorphingDialogClose>
                       </div>
-                      
+
                       <p className="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed">
                         {project.longDescription}
                       </p>
-                      
+
                       {/* Action buttons */}
                       {project.links && (
                         <div className="flex flex-wrap gap-3 mt-2">
