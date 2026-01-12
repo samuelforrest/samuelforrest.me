@@ -204,7 +204,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     id: "work8",
   },
   {
-    company: "Virgin Atlantic / Kingston University",
+    company: "Virgin Atlantic",
     title: "Summer Course",
     start: "Aug 2024",
     end: "Aug 2024",
