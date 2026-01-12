@@ -227,10 +227,10 @@ export default function Personal() {
           {TECH_STACK.map((tech) => (
             <div
               key={tech.id}
-              className="group relative inline-flex items-center gap-2 rounded-full bg-zinc-100 px-4 py-2 text-sm text-zinc-900 transition-all duration-200 hover:bg-zinc-900 hover:text-zinc-50 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
+              className="group relative inline-flex items-center gap-2 rounded-full bg-zinc-100 px-4 py-2 text-sm text-zinc-900 transition-all duration-200 hover:bg-zinc-200 hover:text-black dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
             >
               <span className="font-medium">{tech.name}</span>
-              <span className="text-xs text-zinc-500 transition-colors group-hover:text-zinc-400 dark:text-zinc-400 dark:group-hover:text-zinc-300">
+              <span className="text-xs text-zinc-500 transition-colors group-hover:text-zinc-600 dark:text-zinc-400 dark:group-hover:text-zinc-300">
                 {tech.category}
               </span>
             </div>
