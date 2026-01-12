@@ -1,9 +1,15 @@
 type Project = {
   name: string;
   description: string;
+  longDescription: string;
   link: string;
   image?: string;
   id: string;
+  links?: {
+    website?: string;
+    download?: string;
+    sourceCode?: string;
+  };
 };
 
 type WorkExperience = {
@@ -39,52 +45,84 @@ export const PROJECTS: Project[] = [
     name: "Apprentadream",
     description:
       "Built a GDPR-compliant sign-up form, handing over 150 sign-ups per week.",
+    longDescription:
+      "Built a GDPR-compliant sign-up form, handing over 150 sign-ups per week.",
     link: "",
     image: "/apprentadream2.webp",
     id: "project1",
+    links: {
+      website: "https://apprentadream.co.uk",
+      sourceCode: "https://github.com/samuelforrest/apprentadream.co.uk",
+    },
   },
   {
     name: "Bio News Weekly",
     description: "Developed a news website for a biology newspaper.",
+    longDescription: "Developed a news website for a biology newspaper.",
     link: "",
     image: "/bionewsweekly.webp",
     id: "project2",
+    links: {
+      website: "https://bionewsweekly.com",
+    },
   },
   {
     name: "Zoe Cat Care",
     description: "Built a clean website for a local cat care business.",
+    longDescription: "Built a clean website for a local cat care business.",
     link: "",
     image: "/zoecc.webp",
     id: "project3",
+    links: {
+      website: "https://zoecc.co.uk",
+    },
   },
   {
     name: "EPQ Dissertation",
     description: "I produced an EPQ on Supersonic aviation",
+    longDescription: "I produced an EPQ on Supersonic aviation",
     link: "",
     image: "/boom.webp",
     id: "project4",
+    links: {
+      download: "/",
+    },
   },
   {
     name: "Verda",
     description: "My teammate and I won a £300 prize at the KTHack Hackathon",
+    longDescription:
+      "My teammate and I won a £300 prize at the KTHack Hackathon",
     link: "",
     image: "/verda2.webp",
     id: "project5",
+    links: {
+      sourceCode: "https://github.com/samuelforrest/verdapp.xyz",
+    },
   },
   {
     name: "Sitro.io",
     description: "An AI Landing Page generator, to be released.",
+    longDescription: "An AI Landing Page generator, to be released.",
     link: "",
     image: "/sitro.webp",
     id: "project6",
+    links: {
+      website: "https://sitro.io",
+    },
   },
   {
     name: "British Airways Work Experience",
     description:
       "Researched options for a new aircraft type for airline shorthaul fleets based in the UK",
+    longDescription:
+      "Researched options for a new aircraft type for airline shorthaul fleets based in the UK",
     link: "",
     image: "/e190.webp",
     id: "project7",
+    links: {
+      download: "/",
+    },
   },
 ];
 
