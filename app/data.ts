@@ -104,14 +104,25 @@ export const PROJECTS: Project[] = [
   },
   {
     name: "Sitro.io",
-    description: "An AI Landing Page generator, to be released.",
-    longDescription: "An AI Landing Page generator, to be released.",
+    description: "An AI Landing Page generator, to be released soon.",
+    longDescription: "An AI Landing Page generator, to be released soon.",
     link: "",
     image: "/sitro.webp",
     id: "project6",
     links: {
       website: "https://sitro.io",
     },
+  },
+  {
+    name: "Tradelingo",
+    description:
+      "A cross-platform stock market simulator to help teach Gen Z investing.",
+    longDescription:
+      "A cross-platform stock market simulator to help teach Gen Z investing.",
+    link: "",
+    image: "/tradelingo.webp",
+    id: "project7",
+    links: {},
   },
   {
     name: "British Airways Work Experience",
@@ -121,7 +132,7 @@ export const PROJECTS: Project[] = [
       "Researched options for a new aircraft type for airline shorthaul fleets based in the UK",
     link: "",
     image: "/e190.webp",
-    id: "project7",
+    id: "project8",
     links: {
       download: "/",
     },
