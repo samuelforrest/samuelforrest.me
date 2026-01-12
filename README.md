@@ -1,1 +1,1 @@
-Version 7
+Version 7 of my personal website
