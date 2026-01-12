@@ -75,7 +75,7 @@ export default function Personal() {
               key={link.label}
               href={link.link}
               target="_blank"
-              className="inline-flex items-center gap-1 text-sm text-black dark:hover:text-zinc-200 hover:text-zinc-600 dark:text-white"
+              className="inline-flex items-center gap-1 text-sm text-zinc-600 dark:hover:text-white hover:text-black dark:text-zinc-400"
             >
               {link.label}
               <svg
@@ -405,7 +405,7 @@ export default function Personal() {
               key={link.label}
               href={link.link}
               target="_blank"
-              className="inline-flex items-center gap-1 text-sm text-black dark:hover:text-zinc-200 hover:text-zinc-600 dark:text-white"
+              className="inline-flex items-center gap-1 text-sm text-zinc-600 dark:hover:text-white hover:text-black dark:text-zinc-400"
             >
               {link.label}
               <svg
