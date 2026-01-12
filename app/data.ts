@@ -40,7 +40,7 @@ type TechStack = {
   id: string;
 };
 
-//PROJECTS
+// PROJECTS
 
 export const PROJECTS: Project[] = [
   {
@@ -128,7 +128,7 @@ export const PROJECTS: Project[] = [
   },
 ];
 
-// EXPERIENCE
+// WORK EXPERIENCE
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
@@ -151,7 +151,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
   {
     company: "Forrest Studio",
-    title: "Freelance Web Developer",
+    title: "Freelance Developer",
     start: "Jul 2025",
     end: "Present",
     link: "",
@@ -223,6 +223,8 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
 ];
 
+// BEST BLOG POSTS FROM SUBSTACK
+
 export const BLOG_POSTS: BlogPost[] = [
   {
     title:
@@ -248,7 +250,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 ];
 
-// Social Links
+// SOCIAL LINKS
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
@@ -266,6 +268,10 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: "Book a call",
     link: "https://app.cal.eu/samueljforrest",
+  },
+  {
+    label: "Forrest Studio",
+    link: "https://www.forreststudio.co.uk/",
   },
 ];
 
@@ -318,6 +324,8 @@ export const TECH_STACK: TechStack[] = [
     id: "tech9",
   },
 ];
+
+// CONTACT DETAILS
 
 export const EMAIL = "sam@samuelforrest.me";
 export const PHONE = "+44 7453 446391";

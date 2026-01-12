@@ -64,9 +64,9 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Incoming Software Developer Degree Apprentice @ Barclays (2026). A
-            Level student passionate about modern web and application
-            development.
+            A Level student passionate about modern web and application
+            development. Freelance developer at Forrest Studio, CTO at
+            Apprentadream and Private Tutor on Superprof.
           </p>
         </div>
         <div className="flex items-center justify-start space-x-3 pt-5">
@@ -74,6 +74,7 @@ export default function Personal() {
             <a
               key={link.label}
               href={link.link}
+              target="_blank"
               className="inline-flex items-center gap-1 text-sm text-black dark:hover:text-zinc-200 hover:text-zinc-600 dark:text-white"
             >
               {link.label}
@@ -403,6 +404,7 @@ export default function Personal() {
             <a
               key={link.label}
               href={link.link}
+              target="_blank"
               className="inline-flex items-center gap-1 text-sm text-black dark:hover:text-zinc-200 hover:text-zinc-600 dark:text-white"
             >
               {link.label}
