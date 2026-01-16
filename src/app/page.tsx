@@ -16,10 +16,7 @@ import {
   PROJECTS,
   WORK_EXPERIENCE,
   BLOG_POSTS,
-  EMAIL,
   SOCIAL_LINKS,
-  PHONE,
-  PHONE_URL,
   TECH_STACK,
 } from "./data";
 
@@ -385,18 +382,18 @@ export default function Personal() {
           Feel free to contact me at{" "}
           <a
             className="underline underline-offset-3 dark:text-zinc-300"
-            href={`mailto:${EMAIL}`}
+            href="mailto:sam@samuelforrest.me"
           >
-            {EMAIL}
+            sam@samuelforrest.me
           </a>
         </p>
         <p className="mb-5 text-zinc-600 dark:text-zinc-400">
-          Feel free to message me at{" "}
+          Feel free to message me on&nbsp;
           <a
             className="underline underline-offset-3 dark:text-zinc-300"
-            href={`mailto:${PHONE_URL}`}
+            href="https://www.linkedin.com/in/samueljforrest"
           >
-            {PHONE}
+            LinkedIn
           </a>
         </p>
         <div className="flex items-center justify-start space-x-3">

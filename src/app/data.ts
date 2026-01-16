@@ -335,9 +335,3 @@ export const TECH_STACK: TechStack[] = [
     id: "tech9",
   },
 ];
-
-// CONTACT DETAILS
-
-export const EMAIL = "sam@samuelforrest.me";
-export const PHONE = "+44 7453 446391";
-export const PHONE_URL = "https://wa.me/7453446391";
