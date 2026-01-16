@@ -277,7 +277,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     link: "https://samueljforrest.substack.com/",
   },
   {
-    label: "Book a call",
+    label: "Book call",
     link: "https://app.cal.eu/samueljforrest",
   },
   {
