@@ -7,7 +7,7 @@ export function Header() {
   return (
     <header className="mb-8 flex items-center justify-between">
       <div className="flex items-center gap-4">
-        <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+        <div className="relative w-16 h-16 rounded-full overflow-hidden shrink-0">
           <Image
             src="/samuelforrest.JPG"
             alt="Samuel Forrest"

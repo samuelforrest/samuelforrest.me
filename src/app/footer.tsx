@@ -1,4 +1,5 @@
 "use client";
+
 import { AnimatedBackground } from "@/components/ui/animated-background";
 import { TextLoop } from "@/components/ui/text-loop";
 import { MonitorIcon, MoonIcon, SunIcon } from "lucide-react";

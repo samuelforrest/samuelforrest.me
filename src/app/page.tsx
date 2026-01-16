@@ -102,7 +102,7 @@ export default function Personal() {
         <div className="flex flex-col space-y-2">
           {displayedWorkExperience.map((job) => (
             <a
-              className="relative overflow-hidden rounded-2xl bg-zinc-300/30 p-[1px] dark:bg-zinc-600/30"
+              className="relative overflow-hidden rounded-2xl bg-zinc-300/3 p-px dark:bg-zinc-600/30"
               href={job.link}
               target="_blank"
               rel="noopener noreferrer"
@@ -115,7 +115,7 @@ export default function Personal() {
               <div className="relative h-full w-full rounded-[15px] bg-white p-3 dark:bg-zinc-950">
                 <div className="relative flex w-full flex-row items-center gap-4">
                   {job.logo && (
-                    <div className="flex-shrink-0">
+                    <div className="shrink-0">
                       <img
                         src={job.logo}
                         alt={`${job.company} logo`}
@@ -165,7 +165,7 @@ export default function Personal() {
           {displayedProjects.map((project) => (
             <MorphingDialog key={project.id}>
               <MorphingDialogTrigger>
-                <div className="relative overflow-hidden rounded-2xl bg-zinc-300/30 p-[1px] dark:bg-zinc-600/30 cursor-pointer">
+                <div className="relative overflow-hidden rounded-2xl bg-zinc-300/30 p-px dark:bg-zinc-600/30 cursor-pointer">
                   <Spotlight
                     className="from-zinc-900 via-zinc-800 to-zinc-700 blur-2xl dark:from-zinc-100 dark:via-zinc-200 dark:to-zinc-50"
                     size={64}
@@ -175,7 +175,7 @@ export default function Personal() {
                       <div>
                         <div className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50">
                           {project.name}
-                          <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-zinc-50"></span>
+                          <span className="absolute bottom-0.5 left-0 block h-px w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-zinc-50"></span>
                         </div>
                         <p className="text-base text-zinc-600 dark:text-zinc-400">
                           {project.description}
