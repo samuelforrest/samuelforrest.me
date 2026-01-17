@@ -43,11 +43,15 @@ const TRANSITION_SECTION = {
 export default function Personal() {
   const [showMoreWork, setShowMoreWork] = useState(false);
   const [showMoreProjects, setShowMoreProjects] = useState(false);
+  const [showMoreEducation, setShowMoreEducation] = useState(false);
 
   const displayedWorkExperience = showMoreWork
     ? WORK_EXPERIENCE
     : WORK_EXPERIENCE.slice(0, 3);
   const displayedProjects = showMoreProjects ? PROJECTS : PROJECTS.slice(0, 3);
+  const displayedEducation = showMoreEducation
+    ? EDUCATION
+    : EDUCATION.slice(0, 2);
 
   return (
     <motion.main
@@ -163,7 +167,7 @@ export default function Personal() {
       >
         <h3 className="mb-5 text-lg font-medium">Education</h3>
         <div className="flex flex-col space-y-2">
-          {EDUCATION.map((edu) => (
+          {displayedEducation.map((edu) => (
             <a
               className="relative overflow-hidden rounded-2xl bg-zinc-300/50 p-px dark:bg-zinc-600/30"
               href={edu.link}
@@ -204,6 +208,19 @@ export default function Personal() {
             </a>
           ))}
         </div>
+        {EDUCATION.length > 2 && (
+          <div className="mt-3 flex justify-center">
+            <button
+              onClick={() => setShowMoreEducation(!showMoreEducation)}
+              className="flex cursor-pointer items-center gap-2 text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
+            >
+              {showMoreEducation ? "Show Less" : "Show More"}
+              <ChevronDown
+                className={`h-4 w-4 transition-transform ${showMoreEducation ? "rotate-180" : ""}`}
+              />
+            </button>
+          </div>
+        )}
       </motion.section>
 
       <motion.section
