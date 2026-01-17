@@ -4,7 +4,7 @@ import "./globals.css";
 import { Header } from "./header";
 import { Footer } from "./footer";
 import { ThemeProvider } from "next-themes";
-import Script from "next/script";
+
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -152,18 +152,6 @@ export default function RootLayout({
       <body
         className={`${geist.variable} ${geistMono.variable} bg-white tracking-tight antialiased dark:bg-zinc-950`}
       >
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-TBLC7B9NCC"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-TBLC7B9NCC');
-          `}
-        </Script>
         <ThemeProvider
           enableSystem={true}
           attribute="class"
