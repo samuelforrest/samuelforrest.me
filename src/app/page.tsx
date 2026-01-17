@@ -15,6 +15,7 @@ import { AnimatedBackground } from "@/components/ui/animated-background";
 import {
   PROJECTS,
   WORK_EXPERIENCE,
+  EDUCATION,
   BLOG_POSTS,
   SOCIAL_LINKS,
   TECH_STACK,
@@ -102,7 +103,7 @@ export default function Personal() {
         <div className="flex flex-col space-y-2">
           {displayedWorkExperience.map((job) => (
             <a
-              className="relative overflow-hidden rounded-2xl bg-zinc-300/3 p-px dark:bg-zinc-600/30"
+              className="relative overflow-hidden rounded-2xl bg-zinc-300/50 p-px dark:bg-zinc-600/30"
               href={job.link}
               target="_blank"
               rel="noopener noreferrer"
@@ -160,12 +161,61 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
+        <h3 className="mb-5 text-lg font-medium">Education</h3>
+        <div className="flex flex-col space-y-2">
+          {EDUCATION.map((edu) => (
+            <a
+              className="relative overflow-hidden rounded-2xl bg-zinc-300/50 p-px dark:bg-zinc-600/30"
+              href={edu.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              key={edu.id}
+            >
+              <Spotlight
+                className="from-zinc-900 via-zinc-800 to-zinc-700 blur-2xl dark:from-zinc-100 dark:via-zinc-200 dark:to-zinc-50"
+                size={64}
+              />
+              <div className="relative h-full w-full rounded-[15px] bg-white p-3 dark:bg-zinc-950">
+                <div className="relative flex w-full flex-row items-center gap-4">
+                  {edu.logo && (
+                    <div className="shrink-0">
+                      <img
+                        src={edu.logo}
+                        alt={`${edu.school} logo`}
+                        className="object-fit h-12 w-12 rounded-full"
+                      />
+                    </div>
+                  )}
+                  <div className="flex flex-1 flex-row justify-between">
+                    <div>
+                      <h4 className="font-normal dark:text-zinc-100">
+                        {edu.degree}
+                      </h4>
+                      <p className="text-zinc-500 dark:text-zinc-400 text-sm">
+                        {edu.school}
+                      </p>
+                    </div>
+                    <p className="text-zinc-600 dark:text-zinc-400">
+                      {edu.start} - {edu.end}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </motion.section>
+
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
         <h3 className="mb-5 text-lg font-medium">Selected Projects</h3>
         <div className="flex flex-col space-y-2">
           {displayedProjects.map((project) => (
             <MorphingDialog key={project.id}>
               <MorphingDialogTrigger>
-                <div className="relative overflow-hidden rounded-2xl bg-zinc-300/30 p-px dark:bg-zinc-600/30 cursor-pointer">
+                <div className="relative overflow-hidden rounded-2xl bg-zinc-300/50 p-px dark:bg-zinc-600/30 cursor-pointer">
                   <Spotlight
                     className="from-zinc-900 via-zinc-800 to-zinc-700 blur-2xl dark:from-zinc-100 dark:via-zinc-200 dark:to-zinc-50"
                     size={64}

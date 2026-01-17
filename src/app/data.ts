@@ -22,6 +22,16 @@ type WorkExperience = {
   id: string;
 };
 
+type Education = {
+  school: string;
+  degree: string;
+  start: string;
+  end: string;
+  link: string;
+  logo?: string;
+  id: string;
+};
+
 type BlogPost = {
   title: string;
   description: string;
@@ -231,6 +241,29 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     link: "",
     logo: "/stmichaels.webp",
     id: "work10",
+  },
+];
+
+// EDUCATION
+
+export const EDUCATION: Education[] = [
+  {
+    school: "St George's Weybridge",
+    degree: "A Levels: Computer Science, Maths, Physics",
+    start: "Sep 2023",
+    end: "Present",
+    link: "https://www.tiffin.kingston.sch.uk",
+    logo: "/tiffin.webp",
+    id: "edu1",
+  },
+  {
+    school: "Tiffin School",
+    degree: "GCSEs: 9 Grade 9s, 2 Grade 8s",
+    start: "Sep 2018",
+    end: "Jul 2023",
+    link: "https://www.tiffin.kingston.sch.uk",
+    logo: "/tiffin.webp",
+    id: "edu2",
   },
 ];
 
